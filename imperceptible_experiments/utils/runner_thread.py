@@ -3,10 +3,10 @@ from datetime import datetime
 import textattack
 from textattack.search_methods import ImperceptibleDE
 
-from imperceptible_experiments.utils.run_textattack_pairs import run_textattack_pairs
+from imperceptible_experiments.utils.run_textattack_pairs_thread import run_textattack_pairs_thread
 from imperceptible_experiments.utils.run_baseline_pairs import run_baseline_pairs
 
-def run_experiment(
+def run_experiment_thread(
     model_wrapper,
     pairs,
     start_idx,
@@ -37,10 +37,11 @@ def run_experiment(
                 max_perturbs=max_perturbs,
             )
             attack = textattack.Attack(goal_function, [], transformation, search_method)
-            run_textattack_pairs(
+            run_textattack_pairs_thread(
                 attack=attack,
                 data_pairs=pairs,
                 start_idx=start_idx,
                 end_idx=end_idx,
-                results_path=results_path
+                results_path=results_path,
+                max_workers=4
             )

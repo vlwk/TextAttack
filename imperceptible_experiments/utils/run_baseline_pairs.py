@@ -7,8 +7,10 @@ import sacrebleu
 from textattack.shared import AttackedText
 
 
-def run_baseline_pairs(model_wrapper, score_fn, data_pairs, results_path: str):
+def run_baseline_pairs(model_wrapper, score_fn, data_pairs, start_idx, end_idx, results_path: str):
     os.makedirs(os.path.dirname(results_path), exist_ok=True)
+
+    data_pairs = data_pairs[start_idx:end_idx]
 
     with open(results_path, "a", encoding="utf8") as results:
         for index, (input_text, expected_output) in enumerate(data_pairs):
@@ -22,7 +24,7 @@ def run_baseline_pairs(model_wrapper, score_fn, data_pairs, results_path: str):
 
             elapsed_time = time.time() - start_time
             result_entry = {
-                "index": index,
+                "index": index + start_idx,
                 "elapsed_time": elapsed_time,
                 "input_text": input_text,
                 "correct_output": expected_output,

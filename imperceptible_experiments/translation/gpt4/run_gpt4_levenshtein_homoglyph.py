@@ -28,6 +28,7 @@ model_wrapper = GPT4Wrapper(system_prompt=(
 # Load data
 # -----------------------
 pairs = load_en_fr_data()
+pairs = sorted(pairs, key=lambda x: len(x[0]))
 
 # -----------------------
 # Goal function
@@ -42,6 +43,7 @@ transformation = WordSwapHomoglyphSwap()
 # -----------------------
 # Run experiment
 # -----------------------
+
 run_experiment(
     model_wrapper=model_wrapper,
     pairs=pairs,
@@ -49,6 +51,5 @@ run_experiment(
     goal_function=goal_function,
     transformation=transformation,
     experiment_name="gpt4_translation_homo_lev",
-    num_examples=5,
     perturb_range=range(0, 2)
 )
