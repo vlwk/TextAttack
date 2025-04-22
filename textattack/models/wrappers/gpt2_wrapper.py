@@ -1,7 +1,7 @@
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import torch
 
-class GPT2PromptWrapper:
+class GPT2Wrapper:
     def __init__(self, model_name="gpt2", device=None, max_new_tokens=30):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.tokenizer = GPT2Tokenizer.from_pretrained(model_name)

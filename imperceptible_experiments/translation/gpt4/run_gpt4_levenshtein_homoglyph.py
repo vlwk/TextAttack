@@ -9,17 +9,39 @@ from imperceptible_experiments.utils.scoring import get_lev_score
 from dotenv import load_dotenv
 import os
 
+# -----------------------
+# Setup
+# -----------------------
 load_dotenv()
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(cur_dir)
 
+# -----------------------
+# Load model
+# -----------------------
 model_wrapper = GPT4Wrapper(system_prompt=(
     "You are a French translation assistant. Translate any English sentence into French. "
     "Only respond with the translation. Do not include explanations or extra formatting."
 ))
 
+# -----------------------
+# Load data
+# -----------------------
 pairs = load_en_fr_data()
+
+# -----------------------
+# Goal function
+# -----------------------
 goal_function = MaximizeLevenshtein(model_wrapper)
+
+# -----------------------
+# Transformation
+# -----------------------
 transformation = WordSwapHomoglyphSwap()
 
+# -----------------------
+# Run experiment
+# -----------------------
 run_experiment(
     model_wrapper=model_wrapper,
     pairs=pairs,
