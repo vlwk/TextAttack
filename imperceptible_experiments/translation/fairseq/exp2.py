@@ -30,26 +30,7 @@ model = torch.hub.load(
 
 model_wrapper = FairseqTranslationWrapper(model)
 
-# -----------------------
-# Load source/target data
-# -----------------------
-source_path = "../data/newstest2014-fren-src.en.sgm"
-target_path = "../data/newstest2014-fren-ref.fr.sgm"
-
-source_doc = BeautifulSoup(open(source_path, 'r'), 'html.parser')
-target_doc = BeautifulSoup(open(target_path, 'r'), 'html.parser')
-
-pairs = []
-
-for doc in source_doc.find_all('doc'):
-    docid = str(doc['docid'])
-    for seg in doc.find_all('seg'):
-        segid = str(seg['id'])
-        src = str(seg.string)
-        tgt_node = target_doc.select_one(f'doc[docid="{docid}"] > seg[id="{segid}"]')
-        if tgt_node:
-            tgt = str(tgt_node.string)
-            pairs.append((src, tgt))
+pairs = load_en_fr_data()
 
 # Sort by length and trim to N examples
 pairs.sort(key=lambda x: len(x[0]))
