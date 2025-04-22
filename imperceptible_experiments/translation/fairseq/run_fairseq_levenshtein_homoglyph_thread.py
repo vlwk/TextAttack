@@ -2,7 +2,7 @@ from textattack.goal_functions import MaximizeLevenshtein
 from textattack.transformations import WordSwapHomoglyphSwap
 from textattack.models.wrappers import FairseqTranslationWrapper
 
-from imperceptible_experiments.utils.runner import run_experiment
+from imperceptible_experiments.utils.runner_thread import run_experiment_thread
 from imperceptible_experiments.translation.load_data import load_en_fr_data
 from imperceptible_experiments.utils.scoring import get_lev_score
 import torch
@@ -61,7 +61,7 @@ transformation = WordSwapHomoglyphSwap()
 # -----------------------
 # Run experiment
 # -----------------------
-run_experiment(
+run_experiment_thread(
     model_wrapper=model_wrapper,
     pairs=pairs,
     start_idx=start_idx,
@@ -70,5 +70,5 @@ run_experiment(
     goal_function=goal_function,
     transformation=transformation,
     experiment_name=f"fairseq_translation_homo_lev_{start_idx}_{end_idx - 1}",
-    perturb_range=range(0, 2)
+    perturb_range=range(1, 2)
 )
