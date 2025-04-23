@@ -21,12 +21,17 @@ class MarianWrapper(HuggingFaceModelWrapper):
                 Result of translation. One per element in input_texts.
         """
 
+
+        device = next(self.model.parameters()).device
         ret = []
 
         for article_en in text_input_list:
             # translate English to French
             self.tokenizer.src_lang = "en_XX"
             encoded_en = self.tokenizer(article_en, return_tensors="pt")
+            
+            encoded_en = {k: v.to(device) for k, v in encoded_en.items()}
+            
             generated_tokens = self.model.generate(
                 **encoded_en,
                 forced_bos_token_id=self.tokenizer.lang_code_to_id["fr_XX"]
