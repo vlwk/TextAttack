@@ -75,5 +75,5 @@ run_experiment_thread(
     goal_function=goal_function,
     transformation=transformation,
     experiment_name=f"fairseq_translation_homo_lev_{start_idx}_{end_idx - 1}",
-    perturb_range=range(1, 3)
+    perturb_range=range(3, 4)
 )

@@ -23,9 +23,9 @@ def load_emotion_from_local_cache(model_path, tokenizer_path):
     return pipeline("text-classification", model=model_path, tokenizer=tokenizer_path, return_all_scores=True, device=-1)
     # return pipeline("text-classification", model='./local_emotion_model', tokenizer='./local_emotion_tokenizer', return_all_scores=True, device=-1)
 
-model = load_emotion_from_local_cache('./local_emotion_model', './local_emotion_tokenizer')
+# model = load_emotion_from_local_cache('./local_emotion_model', './local_emotion_tokenizer')
 
-emotion_data_all = load_emotion_data_from_local_cache('emotion_data_all')
+# emotion_data_all = load_emotion_data_from_local_cache('emotion_data_all')
 
 # for idx, row in enumerate(emotion_data_all):
 #     model_input = row['text']

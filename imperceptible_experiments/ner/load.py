@@ -17,6 +17,36 @@ def load_ner():
 def load_ner_from_local_cache(model_path, tokenizer_path):
   return pipeline("ner", model=model_path, tokenizer=tokenizer_path, device=-1)
 
+from datasets import load_dataset
+from helper import detokenize, ner_tags
+
+def load_ner_data_pairs(max_rows=None, target_class='PER'):
+    """
+    Load and format the CONLL2003 test set into (input_text, target_label) pairs.
+
+    Args:
+        max_rows (int, optional): Maximum number of examples to return.
+        target_class (str): One of 'PER', 'ORG', 'LOC', 'MISC'
+
+    Returns:
+        List of (detokenized_text, target_label) pairs.
+    """
+    from helper import ner_tags, detokenize
+    dataset = load_dataset("conll2003", split="test", trust_remote_code=True)
+
+    pairs = []
+    for ex in dataset:
+        tokens = ex["tokens"]
+        text = detokenize(tokens)
+        label = target_class  
+        pairs.append((text, label))
+
+        if max_rows and len(pairs) >= max_rows:
+            break
+
+    return pairs
+
+
 # ner_data = load_ner_data(50)
 
 # print(ner_data[0])

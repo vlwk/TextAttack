@@ -27,13 +27,12 @@ def run_textattack_pairs_thread(
     attack,
     data_pairs,
     start_idx,
-    end_idx,
     results_path,
     max_workers=None
 ):
     os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
-    data_pairs = data_pairs[start_idx:end_idx]
+    # data_pairs = data_pairs[start_idx:end_idx]
     indexed = [(i + start_idx, input_text, output_text) for i, (input_text, output_text) in enumerate(data_pairs)]
 
     if max_workers is None:

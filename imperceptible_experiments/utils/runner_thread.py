@@ -10,7 +10,6 @@ def run_experiment_thread(
     model_wrapper,
     pairs,
     start_idx,
-    end_idx,
     score_fn,
     goal_function,
     transformation,
@@ -28,7 +27,7 @@ def run_experiment_thread(
         results_path = os.path.join(out_dir, f"{experiment_name}_p{max_perturbs}.jsonl")
 
         if max_perturbs == 0:
-            run_baseline_pairs(model_wrapper, score_fn, pairs, start_idx, end_idx, results_path)
+            run_baseline_pairs(model_wrapper, score_fn, pairs, start_idx, results_path)
         else:
             search_method = ImperceptibleDE(
                 popsize=popsize,
@@ -41,7 +40,6 @@ def run_experiment_thread(
                 attack=attack,
                 data_pairs=pairs,
                 start_idx=start_idx,
-                end_idx=end_idx,
                 results_path=results_path,
                 max_workers=4
             )
