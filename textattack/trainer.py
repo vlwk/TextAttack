@@ -360,10 +360,12 @@ class Trainer:
                     "weight_decay": 0.0,
                 },
             ]
-
-            optimizer = transformers.optimization.AdamW(
+            optimizer = torch.optim.AdamW(
                 optimizer_grouped_parameters, lr=self.training_args.learning_rate
             )
+            # optimizer = transformers.optimization.AdamW(
+            #     optimizer_grouped_parameters, lr=self.training_args.learning_rate
+            # )
             if isinstance(self.training_args.num_warmup_steps, float):
                 num_warmup_steps = math.ceil(
                     self.training_args.num_warmup_steps * num_training_steps
