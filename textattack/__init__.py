@@ -18,6 +18,7 @@ from .training_args import TrainingArgs, CommandLineTrainingArgs
 from .attack import Attack
 from .attacker import Attacker
 from .trainer import Trainer
+from .seq2seqtrainer import Seq2SeqTrainer
 from .metrics import Metric
 
 from . import (
