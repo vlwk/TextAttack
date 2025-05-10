@@ -52,6 +52,16 @@ class EmotionDatasetWithIndices(Dataset):
             "word_indices": self.word_indices[i]
         }
 
+def custom_collate_fn(batch):
+    keys = batch[0].keys()
+    collated = {}
+    for key in keys:
+        if isinstance(batch[0][key], torch.Tensor):
+            collated[key] = torch.stack([b[key] for b in batch])
+        else:
+            collated[key] = [b[key] for b in batch]
+    return collated
+
 class WordEncoder(nn.Module):
     def __init__(self, base_model, hidden_size, num_labels):
         super().__init__()
@@ -133,14 +143,14 @@ def main():
     train_ds = EmotionDatasetWithIndices(train_df, tokenizer)
     val_ds = EmotionDatasetWithIndices(val_df, tokenizer)
 
-    train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
-    val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE)
+    train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, collate_fn=custom_collate_fn)
+    val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, collate_fn=custom_collate_fn)
 
     optimizer = AdamW(model.parameters(), lr=LR)
     best_acc = 0
 
     for epoch in range(NUM_EPOCHS):
-        print(f"\n🌀 Epoch {epoch+1}/{NUM_EPOCHS}")
+        print(f"\nEpoch {epoch+1}/{NUM_EPOCHS}")
         model.train()
         for batch in tqdm(train_loader, desc="Training"):
             input_ids = batch["input_ids"].cuda()
