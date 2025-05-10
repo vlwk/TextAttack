@@ -19,7 +19,7 @@ assert args.popsize > 0, f"popsize must be positive"
 assert args.maxiter > 0, f"maxiter must be positive"
 assert args.num_examples > 0, f"num_examples must be positive"
 
-model = pipeline("text-classification", model="models/bhadresh_ft/checkpoints", tokenizer="models/bhadresh_ft/checkpoints", device=-1)
+model = pipeline("text-classification", model="models/bhadresh_ft/checkpoints", tokenizer="models/bhadresh_ft/checkpoints", return_all_scores=True, device=-1)
 model_wrapper = BhadreshDistilbertBaseUncasedEmotionWrapper(model)
 
 for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
