@@ -2,6 +2,7 @@ import textattack
 from imperceptible_experiments.model_wrappers.sentiment_classification.bhadresh_distilbert_base_uncased_emotion import BhadreshDistilbertBaseUncasedEmotionWrapper
 import argparse
 from transformers import pipeline
+import torch
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--perturbs_start_incl", type=int, required=True)
@@ -19,7 +20,8 @@ assert args.popsize > 0, f"popsize must be positive"
 assert args.maxiter > 0, f"maxiter must be positive"
 assert args.num_examples > 0, f"num_examples must be positive"
 
-model = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', return_all_scores=True, device=-1)
+device = 0 if torch.cuda.is_available() else -1
+model = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', return_all_scores=True, device=device)
 model_wrapper = BhadreshDistilbertBaseUncasedEmotionWrapper(model)
 
 for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
