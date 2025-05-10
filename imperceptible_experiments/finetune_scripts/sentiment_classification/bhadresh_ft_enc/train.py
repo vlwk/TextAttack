@@ -22,7 +22,7 @@ ALL_FILES = [
     "datasets/sentiment_classification/dair_ai_emotion/oneshot/reorderings_full_1to5_train_annotated.csv",
 ]
 
-MODEL_DIR = "bhadresh_ft_enc/checkpoints"
+MODEL_DIR = "models/bhadresh_ft_enc/checkpoints"
 VAL_RATIO = 0.1
 NUM_EPOCHS = 3
 BATCH_SIZE = 16
