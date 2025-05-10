@@ -1,5 +1,5 @@
 import textattack
-from imperceptible_experiments.model_wrappers.sentiment_classification.gpt4 import BhadreshDistilbertBaseUncasedEmotionWrapper
+from imperceptible_experiments.model_wrappers.sentiment_classification.bhadresh_distilbert_base_uncased_emotion import BhadreshDistilbertBaseUncasedEmotionWrapper
 import argparse
 from transformers import pipeline
 
