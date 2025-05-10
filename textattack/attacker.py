@@ -183,7 +183,7 @@ class Attacker:
                         sample_exhaustion_warned = True
             else:
                 pbar.update(1)
-
+            print(result)
             self.attack_log_manager.log_result(result)
             if not self.attack_args.disable_stdout and not self.attack_args.silent:
                 print("\n")

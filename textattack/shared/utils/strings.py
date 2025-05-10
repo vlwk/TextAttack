@@ -28,32 +28,39 @@ def add_indent(s_, numSpaces):
     return s
 
 
-def words_from_text(s, words_to_ignore=[]):
-    """Lowercases a string, removes all non-alphanumeric characters, and splits
-    into words."""
-    try:
-        if re.search("[\u4e00-\u9FFF]", s):
-            seg_list = jieba.cut(s, cut_all=False)
-            s = " ".join(seg_list)
-        else:
-            s = " ".join(s.split())
-    except Exception:
-        s = " ".join(s.split())
+# def words_from_text(s, words_to_ignore=[]):
+#     """Lowercases a string, removes all non-alphanumeric characters, and splits
+#     into words."""
+#     try:
+#         if re.search("[\u4e00-\u9FFF]", s):
+#             seg_list = jieba.cut(s, cut_all=False)
+#             s = " ".join(seg_list)
+#         else:
+#             s = " ".join(s.split())
+#     except Exception:
+#         s = " ".join(s.split())
 
-    homos = """˗৭Ȣ𝟕бƼᏎƷᒿlO`ɑЬϲԁе𝚏ɡհіϳ𝒌ⅼｍոорԛⲅѕ𝚝սѵԝ×уᴢ"""
-    exceptions = """'-_*@"""
-    filter_pattern = homos + """'\\-_\\*@"""
-    # TODO: consider whether one should add "." to `exceptions` (and "\." to `filter_pattern`)
-    # example "My email address is xxx@yyy.com"
-    filter_pattern = f"[\\w{filter_pattern}]+"
-    words = []
-    for word in s.split():
-        # Allow apostrophes, hyphens, underscores, asterisks and at signs as long as they don't begin the word.
-        word = word.lstrip(exceptions)
-        filt = [w.lstrip(exceptions) for w in re.findall(filter_pattern, word)]
-        words.extend(filt)
-    words = list(filter(lambda w: w not in words_to_ignore + [""], words))
-    return words
+#     homos = """˗৭Ȣ𝟕бƼᏎƷᒿlO`ɑЬϲԁе𝚏ɡհіϳ𝒌ⅼｍոорԛⲅѕ𝚝սѵԝ×уᴢ"""
+#     exceptions = """'-_*@"""
+#     filter_pattern = homos + """'\\-_\\*@"""
+#     # TODO: consider whether one should add "." to `exceptions` (and "\." to `filter_pattern`)
+#     # example "My email address is xxx@yyy.com"
+#     filter_pattern = f"[\\w{filter_pattern}]+"
+#     words = []
+#     for word in s.split():
+#         # Allow apostrophes, hyphens, underscores, asterisks and at signs as long as they don't begin the word.
+#         word = word.lstrip(exceptions)
+#         filt = [w.lstrip(exceptions) for w in re.findall(filter_pattern, word)]
+#         words.extend(filt)
+#     words = list(filter(lambda w: w not in words_to_ignore + [""], words))
+#     return words
+
+def words_from_text(s: str, words_to_ignore=[]):
+    """
+    Splits the string into words using only spaces. 
+    Keeps homoglyphs, invisible characters, and control codes.
+    """
+    return [w for w in s.strip().split(" ") if w not in words_to_ignore and w != ""]
 
 
 class TextAttackFlairTokenizer(flair.data.Tokenizer):

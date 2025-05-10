@@ -18,11 +18,8 @@ class FailedAttackResult(AttackResult):
 
     def str_lines(self, color_method=None):
         lines = (
-            "[Ground Truth Output] " + self.goal_function_result_str(color_method),
-            "[Original Input] " + self.original_text(color_method),
-            "[Perturbed Input] " + self.perturbed_result.attacked_text.text,
-            "[Perturbed Output] " + self.perturbed_result.output  # 👈 add this line
-            
+            self.goal_function_result_str(color_method),
+            self.original_text(color_method),
         )
         return tuple(map(str, lines))
 
