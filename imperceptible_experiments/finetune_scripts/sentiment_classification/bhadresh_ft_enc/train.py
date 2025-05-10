@@ -49,7 +49,8 @@ class EmotionDatasetWithIndices(Dataset):
             "input_ids": tokens["input_ids"].squeeze(0),
             "attention_mask": tokens["attention_mask"].squeeze(0),
             "label": torch.tensor(self.labels[i]),
-            "word_indices": self.word_indices[i]
+            "word_indices": self.word_indices[i],
+            "raw_input": self.inputs[i]
         }
 
 def custom_collate_fn(batch):
@@ -71,39 +72,46 @@ class WordEncoder(nn.Module):
         )
         self.classifier = nn.Linear(hidden_size, num_labels)
 
-    def forward(self, input_ids, attention_mask, word_indices, verbose=False):
+    def forward(self, input_ids, attention_mask, word_indices, verbose=False, raw_inputs=None, tokenizer=None):
         hidden = self.encoder(input_ids=input_ids, attention_mask=attention_mask).last_hidden_state
-
-        if verbose:
-            print("\n🔍 Hidden token embeddings:")
-            print(hidden[0][:5])
+        batch_size, seq_len, hidden_size = hidden.shape
+        cls_embeddings = hidden[:, 0, :]
 
         word_embeds = []
-        for i in range(len(word_indices)):
+
+        for i in range(batch_size):
             word_vecs = []
             for group in word_indices[i]:
-                tokens = hidden[i, group, :] if all(idx < hidden.size(1) for idx in group) else None
-                if tokens is not None:
+                if all(idx < seq_len for idx in group):
+                    tokens = hidden[i, group, :]
                     word_vecs.append(tokens.mean(dim=0))
             if len(word_vecs) > 0:
                 word_embed = torch.stack(word_vecs)
             else:
-                word_embed = torch.zeros((1, hidden.size(2)), device=hidden.device)
+                word_embed = torch.zeros((1, hidden_size), device=hidden.device)
+            
+            cls = cls_embeddings[i].unsqueeze(0)
+            word_embed = torch.cat([cls, word_embed], dim=0)
+
             word_embeds.append(word_embed)
-            if verbose:
-                print(f"\n🧱 Aggregated word embeddings (example {i}):")
-                print(word_embed[:5])
+
+            if verbose and raw_inputs is not None and tokenizer is not None:
+                print(f"Sentence {i}: {raw_inputs[i]}")
+                print(f"Tokens: {tokenizer.tokenize(raw_inputs[i])}")
+                print(f"Input IDs: {input_ids[i].tolist()}")
+                print(f"Word groups: {word_indices[i]}")
+                print(f"Word embeddings shape (with CLS): {word_embed.shape}")
+                print(f"Word embedding sample:\n{word_embed[:5]}")
 
         padded = nn.utils.rnn.pad_sequence(word_embeds, batch_first=True)
         transformed = self.transformer(padded)
 
         if verbose:
-            print("\n🌀 Final output after transformer layer:")
-            print(transformed[0][:5])
+            print("\nTransformer output sample:\n", transformed[0][:5])
 
-        pooled = transformed[:, 0, :]  # first word representation
+        pooled = transformed[:, 0, :]
         logits = self.classifier(pooled)
-        return logits, pooled  # using pooled as final embedding
+        return logits, pooled
 
 def contrastive_loss(embeddings, labels, temperature=TEMPERATURE):
     embeddings = F.normalize(embeddings, dim=-1)
@@ -152,14 +160,18 @@ def main():
     for epoch in range(NUM_EPOCHS):
         print(f"\nEpoch {epoch+1}/{NUM_EPOCHS}")
         model.train()
-        for batch in tqdm(train_loader, desc="Training"):
+        for step, batch in enumerate(tqdm(train_loader, desc="Training")):
             input_ids = batch["input_ids"].cuda()
             attention_mask = batch["attention_mask"].cuda()
             labels = batch["label"].cuda()
             word_indices = batch["word_indices"]
+            raw_inputs = batch["raw_input"]
 
-            verbose = (random.random() < 0.02)
-            logits, final_embeds = model(input_ids, attention_mask, word_indices, verbose=verbose)
+            verbose = (step % 100 == 0)
+            logits, final_embeds = model(
+                input_ids, attention_mask, word_indices,
+                verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer
+            )
             loss_cls = F.cross_entropy(logits, labels)
             loss_contrast = contrastive_loss(final_embeds, labels)
             loss = loss_cls + LAMBDA_CONTRASTIVE * loss_contrast
