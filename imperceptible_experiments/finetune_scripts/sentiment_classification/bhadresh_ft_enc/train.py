@@ -159,7 +159,7 @@ def main():
             word_indices = batch["word_indices"]
             raw_inputs = batch["raw_input"]
 
-            verbose = (step % 100 == 0)
+            verbose = (step % 1000 == 0)
             logits, emb_perturbed = model(input_ids, attention_mask, word_indices,
                                           verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer)
             _, emb_clean = model(original_input_ids, original_attention_mask,
