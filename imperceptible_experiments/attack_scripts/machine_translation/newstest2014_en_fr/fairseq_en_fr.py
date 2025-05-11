@@ -12,7 +12,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--perturbs_start_incl", type=int, required=True)
 parser.add_argument("--perturbs_end_excl", type=int, required=True)
 parser.add_argument("--perturbation_type", type=str, required=True, choices=["homoglyphs", "invisible", "deletions", "reorderings"])
-parser.add_argument("--target_distance", type=float, default=0.1)
 parser.add_argument("--popsize", type=int, default=5)
 parser.add_argument("--maxiter", type=int, default=3)
 parser.add_argument("--num_examples", type=int, required=True)
@@ -60,7 +59,7 @@ for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
     )
 
     checkpoint_dir = (
-        f"results/machine_translation/newstest2024_en_fr/"
+        f"results/machine_translation/newstest2014_en_fr/"
         f"num{args.num_examples}/fairseq_en_fr/"
         f"pop{args.popsize}_iter{args.maxiter}"
         f"{args.perturbation_type}/pert{pert}/"
