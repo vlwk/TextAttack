@@ -3,7 +3,7 @@ from imperceptible_experiments.model_wrappers.sentiment_classification.bhadresh_
 import argparse
 import torch
 from transformers import DistilBertTokenizerFast, DistilBertModel
-from imperceptible_experiments.model_architectures.encoder_model import WordEncoder
+from imperceptible_experiments.finetune_scripts.sentiment_classification.bhadresh_ft_enc.train import WordEncoder
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--perturbs_start_incl", type=int, required=True)
