@@ -106,6 +106,8 @@ class WordSwapHomoglyphSwap(WordSwapDifferentialEvolution):
         candidate = list(current_text.text)
         for perturb in map(self._natural, perturbation_vector):
             if (perturb >= 0):
+                print("len(glyph_map):", len(glyph_map))
+                print("perturb:", perturb)
                 i, char = glyph_map[perturb]
                 candidate[i] = char
         return AttackedText(''.join(candidate))
