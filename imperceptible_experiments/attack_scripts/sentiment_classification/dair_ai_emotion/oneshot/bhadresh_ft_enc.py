@@ -4,14 +4,12 @@ import torch
 import pandas as pd
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
-from transformers import DistilBertTokenizerFast, DistilBertModel
+from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
 from sklearn.metrics import accuracy_score
 from tqdm import tqdm
-from imperceptible_experiments.finetune_scripts.sentiment_classification.bhadresh_ft_enc.train import WordEncoder 
 
 # === CONFIG ===
 MODEL_DIR = "models/bhadresh_ft_enc/checkpoints"
-MODEL_PATH = os.path.join(MODEL_DIR, "model.pt")
 TEST_FILES = {
     "clean": "datasets/sentiment_classification/dair_ai_emotion/oneshot/clean_full_test_annotated.csv",
     "deletions": "datasets/sentiment_classification/dair_ai_emotion/oneshot/deletions_full_1to10_test_annotated.csv",
@@ -55,7 +53,8 @@ def evaluate(model, loader, device):
             attention_mask = batch["attention_mask"].to(device)
             labels = batch["label"].tolist()
             raw_texts = batch["raw_text"]
-            logits, _ = model(input_ids, attention_mask, word_indices=[[[0]]] * len(input_ids))  # dummy word_indices
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+            logits = outputs.logits
             probs = F.softmax(logits, dim=-1)
             preds = torch.argmax(probs, dim=-1)
 
@@ -76,10 +75,7 @@ def main():
     print(f"Using device: {device}")
 
     tokenizer = DistilBertTokenizerFast.from_pretrained(MODEL_DIR)
-    base_model = DistilBertModel.from_pretrained("bhadresh-savani/distilbert-base-uncased-emotion")
-    model = WordEncoder(base_model).to(device)
-    model.load_state_dict(torch.load(MODEL_PATH))
-    print("Model loaded.")
+    model = DistilBertForSequenceClassification.from_pretrained(MODEL_DIR).to(device)
 
     print("Running one-shot tests...\n")
     for name, path in TEST_FILES.items():
