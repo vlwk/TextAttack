@@ -8,7 +8,7 @@ from imperceptible_experiments.finetune_scripts.sentiment_classification.bhadres
 class BhadreshFtEncWrapper(ModelWrapper):
     def __init__(self, model: WordEncoder, tokenizer: str = "bhadresh-savani/distilbert-base-uncased-emotion"):
         self.model = model.eval().cuda()
-        self.tokenizer = DistilBertTokenizerFast.from_pretrained(tokenizer)
+        self.tokenizer = tokenizer
 
     def _compute_word_indices(self, text: str):
         tokens = self.tokenizer(text, return_offsets_mapping=True, truncation=True, max_length=128)
