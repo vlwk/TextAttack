@@ -21,7 +21,7 @@ ALL_FILES = [
 ]
 MODEL_DIR = "models/bhadresh_ft_enc/checkpoints"
 VAL_RATIO = 0.1
-NUM_EPOCHS = 1
+NUM_EPOCHS = 3
 BATCH_SIZE = 16
 LR = 2e-5
 LAMBDA_CONTRASTIVE = 0.5
@@ -71,7 +71,7 @@ class WordEncoder(nn.Module):
         self.encoder = base_model
         self.transformer = nn.TransformerEncoder(
             nn.TransformerEncoderLayer(d_model=hidden_size, nhead=4),
-            num_layers=2
+            num_layers=6
         )
         self.classifier = nn.Linear(hidden_size, num_labels)
 
