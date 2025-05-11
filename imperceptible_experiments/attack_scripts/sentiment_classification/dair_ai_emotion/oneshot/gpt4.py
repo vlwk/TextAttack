@@ -4,18 +4,18 @@ import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import accuracy_score
 from tqdm import tqdm
-from imperceptible_experiments.model_wrappers.sentiment_classification.gemini2f import GeminiSentimentClassificationWrapper
+from imperceptible_experiments.model_wrappers.sentiment_classification.gpt4 import GPT4SentimentClassificationWrapper
 
 # === CONFIG ===
 TEST_FILES = {
-    "clean": "datasets/sentiment_classification/dair_ai_emotion/oneshot/clean_full_test_annotated.csv",
-    # "deletions": "datasets/sentiment_classification/dair_ai_emotion/oneshot/deletions_full_1to10_test_annotated.csv",
-    # "homoglyphs": "datasets/sentiment_classification/dair_ai_emotion/oneshot/homoglyphs_full_1to10_test_annotated.csv",
-    # "invisible": "datasets/sentiment_classification/dair_ai_emotion/oneshot/invisible_full_1to10_test_annotated.csv",
-    # "reorderings": "datasets/sentiment_classification/dair_ai_emotion/oneshot/reorderings_full_1to10_test_annotated.csv",
+    # "clean": "datasets/sentiment_classification/dair_ai_emotion/oneshot/clean_full_test_annotated.csv",
+    "deletions": "datasets/sentiment_classification/dair_ai_emotion/oneshot/deletions_full_1to10_test_annotated.csv",
+    "homoglyphs": "datasets/sentiment_classification/dair_ai_emotion/oneshot/homoglyphs_full_1to10_test_annotated.csv",
+    "invisible": "datasets/sentiment_classification/dair_ai_emotion/oneshot/invisible_full_1to10_test_annotated.csv",
+    "reorderings": "datasets/sentiment_classification/dair_ai_emotion/oneshot/reorderings_full_1to10_test_annotated.csv",
 }
 BATCH_SIZE = 8
-OUTPUT_DIR = "results/sentiment_classification/dair_ai_emotion/oneshot/gemini2f"
+OUTPUT_DIR = "results/sentiment_classification/dair_ai_emotion/oneshot/gpt4"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 SYSTEM_PROMPT = (
@@ -50,7 +50,7 @@ def evaluate(model_wrapper, loader):
             try:
                 pred_int = int(pred.strip())
             except:
-                pred_int = -1  # fallback if Gemini returns invalid output
+                pred_int = -1  # fallback if GPT4 returns invalid output
             all_results.append({
                 "input": inp,
                 "true_label": true,
@@ -61,7 +61,7 @@ def evaluate(model_wrapper, loader):
 
 # === MAIN ===
 def main():
-    model_wrapper = GeminiSentimentClassificationWrapper(system_prompt=SYSTEM_PROMPT, no_classes=6)
+    model_wrapper = GPT4SentimentClassificationWrapper(system_prompt=SYSTEM_PROMPT, no_classes=6)
 
     for name, path in TEST_FILES.items():
         print(f"\nTesting: {name.upper()}")

@@ -40,7 +40,7 @@ for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
     )
 
     checkpoint_dir = (
-        f"results/machine_translation/newstest2024_en_fr/"
+        f"results/machine_translation/newstest2014_en_fr/"
         f"num{args.num_examples}/gpt4/"
         f"pop{args.popsize}_iter{args.maxiter}"
         f"{args.perturbation_type}/pert{pert}/"
