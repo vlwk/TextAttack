@@ -1,5 +1,5 @@
 import textattack
-from imperceptible_experiments.model_wrappers.sentiment_classification.bhadresh_ft_encoder_wrapper import BhadreshEncoderWrapper
+from imperceptible_experiments.model_wrappers.sentiment_classification.bhadresh_ft_enc import BhadreshFtEncWrapper
 import argparse
 import torch
 from transformers import DistilBertTokenizerFast, DistilBertModel
@@ -32,7 +32,7 @@ model = WordEncoder(base_model).to(device)
 model.load_state_dict(torch.load(MODEL_WEIGHTS, map_location=device))
 model.eval()
 
-model_wrapper = BhadreshEncoderWrapper(model=model, tokenizer=tokenizer, device=device)
+model_wrapper = BhadreshFtEncWrapper(model=model, tokenizer=tokenizer, device=device)
 
 for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
     attack = textattack.attack_recipes.BadCharacters2021.build(
