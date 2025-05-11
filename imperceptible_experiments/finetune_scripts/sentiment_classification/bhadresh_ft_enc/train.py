@@ -95,15 +95,11 @@ class WordEncoder(nn.Module):
                 print(f"Emb shape: {w.shape}")
 
         padded = nn.utils.rnn.pad_sequence(word_embeds, batch_first=True)
-        batch_size, max_len, _ = padded.shape
-        word_mask = torch.ones((batch_size, max_len), dtype=torch.bool, device=hidden.device)
-        for i, w in enumerate(word_embeds):
-            word_mask[i, :w.size(0)] = False
-
-        transformed = self.transformer(padded, src_key_padding_mask=word_mask)
+        transformed = self.transformer(padded) 
         pooled = transformed[:, 0, :]
         logits = self.classifier(pooled)
         return logits, pooled
+
 
 # === LOSS ===
 def cosine_contrastive_loss(a, b):
