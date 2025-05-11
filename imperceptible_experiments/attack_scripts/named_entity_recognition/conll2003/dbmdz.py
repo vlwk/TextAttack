@@ -79,7 +79,8 @@ for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
         checkpoint_interval=10,
         checkpoint_dir=checkpoint_dir,
         log_to_csv=log_to_csv,
-        disable_stdout=True
+        disable_stdout=True,
+        disable_log_color=True
     )
 
     attacker = textattack.Attacker(attack, dataset, attack_args)
