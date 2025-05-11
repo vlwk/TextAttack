@@ -6,9 +6,9 @@ from typing import List
 from imperceptible_experiments.finetune_scripts.sentiment_classification.bhadresh_ft_enc.train import WordEncoder 
 
 class BhadreshFtEncWrapper(ModelWrapper):
-    def __init__(self, model: WordEncoder, tokenizer_name: str = "bhadresh-savani/distilbert-base-uncased-emotion"):
+    def __init__(self, model: WordEncoder, tokenizer: str = "bhadresh-savani/distilbert-base-uncased-emotion"):
         self.model = model.eval().cuda()
-        self.tokenizer = DistilBertTokenizerFast.from_pretrained(tokenizer_name)
+        self.tokenizer = DistilBertTokenizerFast.from_pretrained(tokenizer)
 
     def _compute_word_indices(self, text: str):
         tokens = self.tokenizer(text, return_offsets_mapping=True, truncation=True, max_length=128)
