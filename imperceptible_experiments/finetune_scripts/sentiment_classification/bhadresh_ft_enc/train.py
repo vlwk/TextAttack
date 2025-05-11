@@ -58,6 +58,8 @@ def custom_collate_fn(batch):
     for key in batch[0]:
         if isinstance(batch[0][key], torch.Tensor):
             collated[key] = torch.stack([b[key] for b in batch])
+        elif key in {"word_indices", "word_indices_clean"}:
+            collated[key] = [b[key] for b in batch]  # preserve nested structure
         else:
             collated[key] = [b[key] for b in batch]
     return collated
@@ -93,11 +95,11 @@ class WordEncoder(nn.Module):
                 print(f"Emb shape: {w.shape}")
 
         padded = nn.utils.rnn.pad_sequence(word_embeds, batch_first=True)
-        # Create mask: True where padding, False where real
-        max_len = padded.size(1)
-        word_mask = torch.ones((len(word_embeds), max_len), dtype=torch.bool, device=hidden.device)
+        batch_size, max_len, _ = padded.shape
+        word_mask = torch.ones((batch_size, max_len), dtype=torch.bool, device=hidden.device)
         for i, w in enumerate(word_embeds):
-            word_mask[i, :w.size(0)] = False  # unmask real tokens
+            word_mask[i, :w.size(0)] = False
+
         transformed = self.transformer(padded, src_key_padding_mask=word_mask)
         pooled = transformed[:, 0, :]
         logits = self.classifier(pooled)
@@ -155,9 +157,9 @@ def main():
             raw_inputs = batch["raw_input"]
 
             verbose = (step % 500 == 0)
-            logits, emb_perturbed = model(input_ids, attention_mask, word_indices,
-                                          verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer)
+            logits, emb_perturbed = model(input_ids, attention_mask, word_indices, verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer)
             logits_clean, emb_clean = model(original_ids, original_mask, word_indices_clean)
+
             loss_cls = F.cross_entropy(logits, labels)
             loss_clean_cls = F.cross_entropy(logits_clean, labels)
             loss_ctr = cosine_contrastive_loss(emb_perturbed, emb_clean)
