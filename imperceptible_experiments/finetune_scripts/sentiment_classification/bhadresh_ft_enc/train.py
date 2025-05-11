@@ -1,3 +1,5 @@
+# Full fixed version of your training script using row-wise clean-perturbed contrastive alignment
+
 import os
 import pandas as pd
 import torch
@@ -6,9 +8,7 @@ import torch.nn.functional as F
 from torch.optim import AdamW
 from sklearn.metrics import accuracy_score
 from torch.utils.data import Dataset, DataLoader
-from transformers import (
-    DistilBertTokenizerFast, DistilBertModel
-)
+from transformers import DistilBertTokenizerFast, DistilBertModel
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import ast
@@ -28,29 +28,35 @@ NUM_EPOCHS = 3
 BATCH_SIZE = 16
 LR = 2e-5
 LAMBDA_CONTRASTIVE = 0.5
-TEMPERATURE = 0.07
 
-class EmotionDatasetWithIndices(Dataset):
+class EmotionDatasetWithPairs(Dataset):
     def __init__(self, df, tokenizer):
-        self.inputs = df["input"].tolist()
+        self.perturbed_inputs = df["input"].tolist()
+        self.clean_inputs = df["original_text"].tolist()
         self.labels = df["label"].tolist()
         self.word_indices = [ast.literal_eval(x) for x in df["word_indices_perturbed"]]
         self.tokenizer = tokenizer
 
     def __len__(self):
-        return len(self.inputs)
+        return len(self.perturbed_inputs)
 
     def __getitem__(self, i):
-        tokens = self.tokenizer(
-            self.inputs[i], truncation=True, padding="max_length",
+        perturbed_tokens = self.tokenizer(
+            self.perturbed_inputs[i], truncation=True, padding="max_length",
+            max_length=128, return_tensors="pt"
+        )
+        clean_tokens = self.tokenizer(
+            self.clean_inputs[i], truncation=True, padding="max_length",
             max_length=128, return_tensors="pt"
         )
         return {
-            "input_ids": tokens["input_ids"].squeeze(0),
-            "attention_mask": tokens["attention_mask"].squeeze(0),
+            "input_ids": perturbed_tokens["input_ids"].squeeze(0),
+            "attention_mask": perturbed_tokens["attention_mask"].squeeze(0),
+            "original_input_ids": clean_tokens["input_ids"].squeeze(0),
+            "original_attention_mask": clean_tokens["attention_mask"].squeeze(0),
             "label": torch.tensor(self.labels[i]),
             "word_indices": self.word_indices[i],
-            "raw_input": self.inputs[i]
+            "raw_input": self.perturbed_inputs[i]
         }
 
 def custom_collate_fn(batch):
@@ -78,21 +84,14 @@ class WordEncoder(nn.Module):
         cls_embeddings = hidden[:, 0, :]
 
         word_embeds = []
-
         for i in range(batch_size):
             word_vecs = []
             for group in word_indices[i]:
                 if all(idx < seq_len for idx in group):
                     tokens = hidden[i, group, :]
                     word_vecs.append(tokens.mean(dim=0))
-            if len(word_vecs) > 0:
-                word_embed = torch.stack(word_vecs)
-            else:
-                word_embed = torch.zeros((1, hidden_size), device=hidden.device)
-            
-            cls = cls_embeddings[i].unsqueeze(0)
-            word_embed = torch.cat([cls, word_embed], dim=0)
-
+            word_embed = torch.stack(word_vecs) if word_vecs else torch.zeros((1, hidden_size), device=hidden.device)
+            word_embed = torch.cat([cls_embeddings[i].unsqueeze(0), word_embed], dim=0)
             word_embeds.append(word_embed)
 
             if verbose and raw_inputs is not None and tokenizer is not None:
@@ -105,25 +104,16 @@ class WordEncoder(nn.Module):
 
         padded = nn.utils.rnn.pad_sequence(word_embeds, batch_first=True)
         transformed = self.transformer(padded)
-
         if verbose:
             print("\nTransformer output sample:\n", transformed[0][:5])
-
         pooled = transformed[:, 0, :]
         logits = self.classifier(pooled)
         return logits, pooled
 
-def contrastive_loss(embeddings, labels, temperature=TEMPERATURE):
-    embeddings = F.normalize(embeddings, dim=-1)
-    similarity_matrix = torch.matmul(embeddings, embeddings.T) / temperature
-    labels = labels.view(-1, 1)
-    match_matrix = (labels == labels.T).float()
-    mask = torch.eye(labels.size(0), device=labels.device).bool()
-    match_matrix = match_matrix.masked_fill(mask, 0)
-    similarity_matrix = similarity_matrix.masked_fill(mask, -9e15)
-    log_probs = F.log_softmax(similarity_matrix, dim=-1)
-    loss = -(match_matrix * log_probs).sum(dim=1) / match_matrix.sum(dim=1).clamp(min=1)
-    return loss.mean()
+def cosine_contrastive_loss(emb1, emb2):
+    emb1 = F.normalize(emb1, dim=-1)
+    emb2 = F.normalize(emb2, dim=-1)
+    return 1 - F.cosine_similarity(emb1, emb2, dim=-1).mean()
 
 def evaluate(model, loader, device):
     model.eval()
@@ -148,8 +138,8 @@ def main():
     df_all = pd.concat([pd.read_csv(path) for path in ALL_FILES], ignore_index=True)
     train_df, val_df = train_test_split(df_all, test_size=VAL_RATIO, random_state=42)
 
-    train_ds = EmotionDatasetWithIndices(train_df, tokenizer)
-    val_ds = EmotionDatasetWithIndices(val_df, tokenizer)
+    train_ds = EmotionDatasetWithPairs(train_df, tokenizer)
+    val_ds = EmotionDatasetWithPairs(val_df, tokenizer)
 
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, collate_fn=custom_collate_fn)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, collate_fn=custom_collate_fn)
@@ -163,17 +153,20 @@ def main():
         for step, batch in enumerate(tqdm(train_loader, desc="Training")):
             input_ids = batch["input_ids"].cuda()
             attention_mask = batch["attention_mask"].cuda()
+            original_input_ids = batch["original_input_ids"].cuda()
+            original_attention_mask = batch["original_attention_mask"].cuda()
             labels = batch["label"].cuda()
             word_indices = batch["word_indices"]
             raw_inputs = batch["raw_input"]
 
             verbose = (step % 100 == 0)
-            logits, final_embeds = model(
-                input_ids, attention_mask, word_indices,
-                verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer
-            )
+            logits, emb_perturbed = model(input_ids, attention_mask, word_indices,
+                                          verbose=verbose, raw_inputs=raw_inputs, tokenizer=tokenizer)
+            _, emb_clean = model(original_input_ids, original_attention_mask,
+                                 word_indices=[[[0]]] * len(original_input_ids))  # dummy CLS
+
             loss_cls = F.cross_entropy(logits, labels)
-            loss_contrast = contrastive_loss(final_embeds, labels)
+            loss_contrast = cosine_contrastive_loss(emb_perturbed, emb_clean)
             loss = loss_cls + LAMBDA_CONTRASTIVE * loss_contrast
 
             optimizer.zero_grad()
