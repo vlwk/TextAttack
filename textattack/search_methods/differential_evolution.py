@@ -42,7 +42,7 @@ class DifferentialEvolution(SearchMethod):
         bounds = bounds_and_precomputed[0]
         precomputed = bounds_and_precomputed[1]
 
-        if (len(precomputed) == 0):
+        if (len(precomputed) > 0 and len(precomputed[0]) == 0):
             return initial_result
 
         best_score = np.inf
