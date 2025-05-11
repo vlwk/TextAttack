@@ -46,9 +46,22 @@ def detokenize(tokens: List[str]) -> str:
             output += ' ' + token
     return output
 
+def is_valid_input(text: str) -> bool:
+    stripped = text.strip()
+    return bool(stripped) and not all(c in punctuation for c in stripped)
+
 raw_dataset = load_dataset("conll2003", split="test", trust_remote_code=True)
-examples = [(detokenize(ex["tokens"]), "NER") for ex in raw_dataset]
-dataset = Dataset(examples[:args.num_examples])  # Slice to num_examples early
+
+examples = []
+for ex in raw_dataset:
+    text = detokenize(ex["tokens"])
+    if is_valid_input(text):
+        examples.append((text, "NER"))
+    if len(examples) >= args.num_examples:
+        break
+
+dataset = Dataset(examples)
+print(f"Using {len(dataset)} valid examples.")
 
 # --------------------------
 # Attack Loop
