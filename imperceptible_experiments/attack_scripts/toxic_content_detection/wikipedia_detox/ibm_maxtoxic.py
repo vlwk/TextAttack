@@ -125,6 +125,8 @@ dataset = textattack.datasets.Dataset(pairs)
 # --------------------------
 # Attack Loop
 # --------------------------
+gpu_available = True if torch.cuda.is_available() else False
+
 for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
     print(f"Running attack with perturbs = {pert}")
 
@@ -149,7 +151,8 @@ for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
         num_examples=args.num_examples,
         checkpoint_interval=10,
         checkpoint_dir=checkpoint_dir,
-        log_to_csv=log_to_csv
+        log_to_csv=log_to_csv,
+        parallel=gpu_available
     )
 
     attacker = textattack.Attacker(attack, dataset, attack_args)
