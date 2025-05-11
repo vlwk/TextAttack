@@ -169,7 +169,7 @@ def main():
         print(f"Validation Accuracy: {acc:.4f}")
         if acc > best_acc:
             best_acc = acc
-            torch.save(model.state_dict(), os.path.join(MODEL_DIR, "model.pt"))
+            model.save_pretrained(MODEL_DIR)
             tokenizer.save_pretrained(MODEL_DIR)
             print("Best model saved")
 
