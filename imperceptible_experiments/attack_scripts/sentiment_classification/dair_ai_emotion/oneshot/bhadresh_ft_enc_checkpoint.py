@@ -7,7 +7,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import DistilBertTokenizerFast, DistilBertModel
 from sklearn.metrics import accuracy_score
 from tqdm import tqdm
-from your_model_file import WordEncoder  # make sure this matches your model class
+from finetune_scripts.sentiment_classification.bhadresh_ft_enc.train import WordEncoder 
 
 # === CONFIG ===
 MODEL_DIR = "models/bhadresh_ft_enc/checkpoints"
