@@ -68,7 +68,7 @@ for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
 
     checkpoint_dir = (
         f"results/named_entity_recognition/conll2003/"
-        f"num{args.num_examples}/dbmdz_bert_large_cased_finetuned_conll03_english/"
+        f"num{args.num_examples}/dbmdz/"
         f"pop{args.popsize}_iter{args.maxiter}/"
         f"{args.perturbation_type}/target{args.target_suffix}/pert{pert}"
     )

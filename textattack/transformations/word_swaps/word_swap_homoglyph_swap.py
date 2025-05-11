@@ -103,6 +103,8 @@ class WordSwapHomoglyphSwap(WordSwapDifferentialEvolution):
 
     def apply_perturbation(self, current_text: AttackedText, perturbation_vector: List[float], precomputed: List[List[Tuple[int, str]]]) -> AttackedText: 
         glyph_map = precomputed[0]
+        if (len(glyph_map) == 0):
+            return current_text
         candidate = list(current_text.text)
         for perturb in map(self._natural, perturbation_vector):
             if (perturb >= 0):
