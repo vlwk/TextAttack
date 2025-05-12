@@ -1,15 +1,16 @@
 import os
-import pandas as pd
+import ast
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.optim import AdamW
-from sklearn.metrics import accuracy_score
-from torch.utils.data import Dataset, DataLoader
-from transformers import DistilBertTokenizerFast, DistilBertModel
-from sklearn.model_selection import train_test_split
+import pandas as pd
 from tqdm import tqdm
-import ast
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from transformers import DistilBertTokenizerFast, DistilBertModel
+from torch.utils.data import Dataset, DataLoader
+from torch.optim import AdamW
+from huggingface_hub import create_repo, upload_folder
 
 # === CONFIG ===
 ALL_FILES = [
@@ -20,13 +21,14 @@ ALL_FILES = [
     "datasets/sentiment_classification/dair_ai_emotion/oneshot/reorderings_full_1to5_train_annotated.csv",
 ]
 MODEL_DIR = "models/bhadresh_ft_enc/checkpoints"
+REPO_NAME = "wordencoder-mini"
+USERNAME = "vlwk"
 VAL_RATIO = 0.1
 NUM_EPOCHS = 3
 BATCH_SIZE = 16
 LR = 2e-5
 LAMBDA_CONTRASTIVE = 0.5
 
-# === DATASET ===
 class EmotionDataset(Dataset):
     def __init__(self, df, tokenizer):
         self.input = df["input"].tolist()
@@ -59,12 +61,11 @@ def custom_collate_fn(batch):
         if isinstance(batch[0][key], torch.Tensor):
             collated[key] = torch.stack([b[key] for b in batch])
         elif key in {"word_indices", "word_indices_clean"}:
-            collated[key] = [b[key] for b in batch]  # preserve nested structure
+            collated[key] = [b[key] for b in batch]
         else:
             collated[key] = [b[key] for b in batch]
     return collated
 
-# === MODEL ===
 class WordEncoder(nn.Module):
     def __init__(self, base_model, hidden_size=768, num_labels=6):
         super().__init__()
@@ -100,14 +101,11 @@ class WordEncoder(nn.Module):
         logits = self.classifier(pooled)
         return logits, pooled
 
-
-# === LOSS ===
 def cosine_contrastive_loss(a, b):
     a = F.normalize(a, dim=-1)
     b = F.normalize(b, dim=-1)
     return 1 - F.cosine_similarity(a, b, dim=-1).mean()
 
-# === EVALUATION ===
 def evaluate(model, loader, device):
     model.eval()
     preds, labels = [], []
@@ -121,13 +119,13 @@ def evaluate(model, loader, device):
             labels += batch["label"]
     return accuracy_score(labels, preds)
 
-# === MAIN ===
 def main():
     os.makedirs(MODEL_DIR, exist_ok=True)
     tokenizer = DistilBertTokenizerFast.from_pretrained("bhadresh-savani/distilbert-base-uncased-emotion")
     base_model = DistilBertModel.from_pretrained("bhadresh-savani/distilbert-base-uncased-emotion")
     model = WordEncoder(base_model).cuda()
 
+    # df = pd.concat([pd.read_csv(f).sample(n=4, random_state=42) for f in ALL_FILES], ignore_index=True)
     df = pd.concat([pd.read_csv(f) for f in ALL_FILES], ignore_index=True)
     train_df, val_df = train_test_split(df, test_size=VAL_RATIO, random_state=42)
     train_ds = EmotionDataset(train_df, tokenizer)
@@ -174,6 +172,15 @@ def main():
             print("Best model saved")
 
     print(f"\nTraining complete. Best Accuracy: {best_acc:.4f}")
+
+    # Push to Hugging Face
+    create_repo(f"{USERNAME}/{REPO_NAME}", exist_ok=True)
+    upload_folder(
+        repo_id=f"{USERNAME}/{REPO_NAME}",
+        folder_path=MODEL_DIR,
+        repo_type="model"
+    )
+    print(f"Model pushed to https://huggingface.co/{USERNAME}/{REPO_NAME}")
 
 if __name__ == "__main__":
     main()
