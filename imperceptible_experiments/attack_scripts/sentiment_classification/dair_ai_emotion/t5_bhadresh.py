@@ -24,7 +24,7 @@ device = 0 if torch.cuda.is_available() else -1
 classifier_model = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', return_all_scores=True, device=device)
 model_wrapper = T5BhadreshWrapper(
     classifier_model=classifier_model,
-    t5_model_path=)
+    t5_model_path="vlwk/t5-agnews-imperceptible")
 
 for pert in range(args.perturbs_start_incl, args.perturbs_end_excl):
 
