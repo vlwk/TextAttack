@@ -35,6 +35,7 @@ model = torch.hub.load(
     'transformer.wmt14.en-fr',
     tokenizer='moses',
     bpe='subword_nmt',
+    weights_only=False,
     verbose=False
 ).eval()
 model_wrapper = FairseqEnFrWrapper(model)
