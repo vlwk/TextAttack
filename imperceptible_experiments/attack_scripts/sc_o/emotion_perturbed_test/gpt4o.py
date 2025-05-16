@@ -8,14 +8,14 @@ from imperceptible_experiments.model_wrappers.sc_t.gpt4o import GPT4oWrapperSC
 
 # === CONFIG ===
 TEST_FILES = {
-    "clean": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/clean_full_test_annotated.csv",
-    "deletions": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/deletions_full_1to10_test_annotated.csv",
-    "homoglyphs": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/homoglyphs_full_1to10_test_annotated.csv",
-    "invisible": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/invisible_full_1to10_test_annotated.csv",
-    "reorderings": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/reorderings_full_1to10_test_annotated.csv",
+    "clean": "datasets/sc_o/emotion_perturbed/files/test_annotated/clean_full_test_annotated.csv",
+    "deletions": "datasets/sc_o/emotion_perturbed/files/test_annotated/deletions_full_1to10_test_annotated.csv",
+    "homoglyphs": "datasets/sc_o/emotion_perturbed/files/test_annotated/homoglyphs_full_1to10_test_annotated.csv",
+    "invisible": "datasets/sc_o/emotion_perturbed/files/test_annotated/invisible_full_1to10_test_annotated.csv",
+    "reorderings": "datasets/sc_o/emotion_perturbed/files/test_annotated/reorderings_full_1to10_test_annotated.csv",
 }
 BATCH_SIZE = 8
-OUTPUT_DIR = os.path.join("results/sc_o/emotion_perturbed_test", "gpt4o")
+OUTPUT_DIR = os.path.join("results/sc_o/emotion_perturbed", "gpt4o")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 SYSTEM_PROMPT = (

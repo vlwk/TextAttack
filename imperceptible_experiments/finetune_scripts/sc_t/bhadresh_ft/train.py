@@ -14,11 +14,11 @@ import ast
 from huggingface_hub import create_repo, upload_folder
 
 ALL_FILES = [
-    "datasets/sc_o/emotion_perturbed_test/files/train_annotated/clean_full_train_annotated.csv",
-    "datasets/sc_o/emotion_perturbed_test/files/train_annotated/homoglyphs_full_1to5_train_annotated.csv",
-    "datasets/sc_o/emotion_perturbed_test/files/train_annotated/deletions_full_1to5_train_annotated.csv",
-    "datasets/sc_o/emotion_perturbed_test/files/train_annotated/invisible_full_1to5_train_annotated.csv",
-    "datasets/sc_o/emotion_perturbed_test/files/train_annotated/reorderings_full_1to5_train_annotated.csv",
+    "datasets/sc_o/emotion_perturbed/files/train_annotated/clean_full_train_annotated.csv",
+    "datasets/sc_o/emotion_perturbed/files/train_annotated/homoglyphs_full_1to5_train_annotated.csv",
+    "datasets/sc_o/emotion_perturbed/files/train_annotated/deletions_full_1to5_train_annotated.csv",
+    "datasets/sc_o/emotion_perturbed/files/train_annotated/invisible_full_1to5_train_annotated.csv",
+    "datasets/sc_o/emotion_perturbed/files/train_annotated/reorderings_full_1to5_train_annotated.csv",
 ]
 
 MODEL_DIR = "models/bhadresh_ft/checkpoints"

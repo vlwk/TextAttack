@@ -20,14 +20,14 @@ BATCH_SIZE = 32
 MAX_LEN = 128
 
 TEST_FILES = {
-    "clean": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/clean_full_test_annotated.csv",
-    "deletions": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/deletions_full_1to10_test_annotated.csv",
-    "homoglyphs": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/homoglyphs_full_1to10_test_annotated.csv",
-    "invisible": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/invisible_full_1to10_test_annotated.csv",
-    "reorderings": "datasets/sc_o/emotion_perturbed_test/files/test_annotated/reorderings_full_1to10_test_annotated.csv",
+    "clean": "datasets/sc_o/emotion_perturbed/files/test_annotated/clean_full_test_annotated.csv",
+    "deletions": "datasets/sc_o/emotion_perturbed/files/test_annotated/deletions_full_1to10_test_annotated.csv",
+    "homoglyphs": "datasets/sc_o/emotion_perturbed/files/test_annotated/homoglyphs_full_1to10_test_annotated.csv",
+    "invisible": "datasets/sc_o/emotion_perturbed/files/test_annotated/invisible_full_1to10_test_annotated.csv",
+    "reorderings": "datasets/sc_o/emotion_perturbed/files/test_annotated/reorderings_full_1to10_test_annotated.csv",
 }
 
-OUTPUT_DIR = os.path.join("results/sc_o/emotion_perturbed_test", "t5_bhadresh")
+OUTPUT_DIR = os.path.join("results/sc_o/emotion_perturbed", "t5_bhadresh")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # === DATASET ===

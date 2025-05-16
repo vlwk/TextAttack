@@ -92,7 +92,7 @@ for model in gpt4o gemini2f bhadresh_distilbert bhadresh_ft bhadresh_ft_enc t5_b
   for perturb in homoglyphs deletions invisible reorderings clean; do
     echo "Running: $model on $perturb"
     python analysis/analyse_csv/sc_o/stats.py \
-      --dataset_name "emotion_perturbed_test" \
+      --dataset_name "emotion_perturbed" \
       --model_name "$model" \
       --perturbation_type "$perturb"
   done

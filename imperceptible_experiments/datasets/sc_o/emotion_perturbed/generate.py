@@ -4,7 +4,7 @@ from textattack.transformations import (
     WordSwapInvisibleCharacters,
     WordSwapReorderings
 )
-from imperceptible_experiments.datasets.sc_o.emotion_perturbed_test.perturbation_data_generator import EmotionPerturbationDatasetGenerator
+from imperceptible_experiments.datasets.sc_o.emotion_perturbed.perturbation_data_generator import EmotionPerturbationDatasetGenerator
 from datasets import load_dataset
 
 def index_to_transformation(p):
@@ -27,7 +27,7 @@ def generate_datasets(split: str, perturbation_depth: int, base_pct: float):
     base_texts = [(ex["text"], ex["label"]) for ex in dataset]
     gen = EmotionPerturbationDatasetGenerator(base_texts, index_to_transformation=index_to_transformation)
 
-    gen.generate_control_dataset(f"datasets/sc_o/emotion_perturbed_test/files/{split}/clean_full_{split}.csv")
+    gen.generate_control_dataset(f"datasets/sc_o/emotion_perturbed/files/{split}/clean_full_{split}.csv")
 
     for p in [1, 2, 3, 4]:
         perturbation_allocation = {
@@ -35,7 +35,7 @@ def generate_datasets(split: str, perturbation_depth: int, base_pct: float):
         }
         gen.generate_full_dataset(
             perturbation_allocation,
-            f"datasets/sc_o/emotion_perturbed_test/files/{split}/{PERTURBATION_NAMES[p]}_full_1to{perturbation_depth}_{split}.csv"
+            f"datasets/sc_o/emotion_perturbed/files/{split}/{PERTURBATION_NAMES[p]}_full_1to{perturbation_depth}_{split}.csv"
         )
 
 # Generate TRAIN with 1 to 5 perturbations, 20% each
