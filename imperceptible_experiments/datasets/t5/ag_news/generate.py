@@ -23,7 +23,7 @@ PERTURBATION_NAMES = {
 }
 
 def generate_datasets(split: str, perturbation_depth: int, base_pct: float):
-    dataset = load_dataset("ag_news", split="train[:25%]")
+    dataset = load_dataset("ag_news", split=f"{split}[:25%]")
     print(len(dataset))
     base_texts = [(ex["text"], None) for ex in dataset]
     gen = PerturbationDatasetGenerator(base_texts, index_to_transformation=index_to_transformation)
