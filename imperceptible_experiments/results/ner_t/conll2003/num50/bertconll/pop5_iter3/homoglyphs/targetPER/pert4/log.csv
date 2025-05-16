@@ -1,0 +1,8890 @@
+"original_text","perturbed_text","original_score","perturbed_score","original_output","perturbed_output","ground_truth_output","num_queries","result_type"
+"[[SOCCER-]] [[JAPAN]] [[GET]] [[LUCKY]] WIN, CHINA IN SURPRISE DEFEAT.","[[ЅOCCER-]] [[JAΡAN]] [[GΕT]] [[LUСKY]] WIN, CHINA IN SURPRISE DEFEAT.",0.0,1.136454701423645,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9950999617576599,
+    ""index"": 6,
+    ""word"": ""J"",
+    ""start"": 8,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9684495329856873,
+    ""index"": 7,
+    ""word"": ""##AP"",
+    ""start"": 9,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9932600855827332,
+    ""index"": 8,
+    ""word"": ""##AN"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.5412904620170593,
+    ""index"": 18,
+    ""word"": ""CH"",
+    ""start"": 29,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.5053945183753967,
+    ""index"": 19,
+    ""word"": ""##IN"",
+    ""start"": 31,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.764613926410675,
+    ""index"": 20,
+    ""word"": ""##A"",
+    ""start"": 33,
+    ""end"": 34
+  }
+]","[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.40863579511642456,
+    ""index"": 4,
+    ""word"": ""G"",
+    ""start"": 14,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.33995139598846436,
+    ""index"": 6,
+    ""word"": ""##T"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6082440614700317,
+    ""index"": 7,
+    ""word"": ""L"",
+    ""start"": 18,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.3946498930454254,
+    ""index"": 8,
+    ""word"": ""##U"",
+    ""start"": 19,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.3819553852081299,
+    ""index"": 9,
+    ""word"": ""##С"",
+    ""start"": 20,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.5282106399536133,
+    ""index"": 10,
+    ""word"": ""##K"",
+    ""start"": 21,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.6398559212684631,
+    ""index"": 15,
+    ""word"": ""CH"",
+    ""start"": 29,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.5514852404594421,
+    ""index"": 16,
+    ""word"": ""##IN"",
+    ""start"": 31,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.8140425086021423,
+    ""index"": 17,
+    ""word"": ""##A"",
+    ""start"": 33,
+    ""end"": 34
+  }
+]","NER",86,"Successful"
+"[[Nadim]] [[Ladki]]","[[Νаdіm]] [[Lаdki]]",5.939424991607666,8.314117431640625,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996979236602783,
+    ""index"": 1,
+    ""word"": ""Na"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9929589033126831,
+    ""index"": 2,
+    ""word"": ""##di"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990008473396301,
+    ""index"": 3,
+    ""word"": ""##m"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996190071105957,
+    ""index"": 4,
+    ""word"": ""La"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9780004620552063,
+    ""index"": 5,
+    ""word"": ""##d"",
+    ""start"": 8,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9701476693153381,
+    ""index"": 6,
+    ""word"": ""##ki"",
+    ""start"": 9,
+    ""end"": 11
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9838601350784302,
+    ""index"": 1,
+    ""word"": ""Ν"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8704380989074707,
+    ""index"": 2,
+    ""word"": ""##а"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8902616500854492,
+    ""index"": 3,
+    ""word"": ""##d"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8864262700080872,
+    ""index"": 4,
+    ""word"": ""##і"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9955266118049622,
+    ""index"": 5,
+    ""word"": ""##m"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986289739608765,
+    ""index"": 6,
+    ""word"": ""L"",
+    ""start"": 6,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9193308353424072,
+    ""index"": 7,
+    ""word"": ""##а"",
+    ""start"": 7,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7967064380645752,
+    ""index"": 8,
+    ""word"": ""##d"",
+    ""start"": 8,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9729384183883667,
+    ""index"": 9,
+    ""word"": ""##ki"",
+    ""start"": 9,
+    ""end"": 11
+  }
+]","NER",86,"Successful"
+"[[AL-AIN,]] [[United]] Arab [[Emirates]] 1996-12-06","[[AL-AIΝ,]] [[Uniteԁ]] Arab [[Emіratеs]] 1996-12-06",0.0,0.0,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9984487295150757,
+    ""index"": 1,
+    ""word"": ""AL"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9677125215530396,
+    ""index"": 2,
+    ""word"": ""-"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9955710768699646,
+    ""index"": 3,
+    ""word"": ""AI"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9939817786216736,
+    ""index"": 4,
+    ""word"": ""##N"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997562766075134,
+    ""index"": 6,
+    ""word"": ""United"",
+    ""start"": 8,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997227787971497,
+    ""index"": 7,
+    ""word"": ""Arab"",
+    ""start"": 15,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998668432235718,
+    ""index"": 8,
+    ""word"": ""Emirates"",
+    ""start"": 20,
+    ""end"": 28
+  }
+]","[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9512768983840942,
+    ""index"": 1,
+    ""word"": ""AL"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.42262086272239685,
+    ""index"": 2,
+    ""word"": ""-"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9487424492835999,
+    ""index"": 3,
+    ""word"": ""AI"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9001816511154175,
+    ""index"": 4,
+    ""word"": ""##Ν"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5328359603881836,
+    ""index"": 6,
+    ""word"": ""Uniteԁ"",
+    ""start"": 8,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.623938798904419,
+    ""index"": 7,
+    ""word"": ""Arab"",
+    ""start"": 15,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6655597686767578,
+    ""index"": 8,
+    ""word"": ""Em"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.40346699953079224,
+    ""index"": 9,
+    ""word"": ""##і"",
+    ""start"": 22,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6005411148071289,
+    ""index"": 10,
+    ""word"": ""##rat"",
+    ""start"": 23,
+    ""end"": 26
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.3285163342952728,
+    ""index"": 11,
+    ""word"": ""##е"",
+    ""start"": 26,
+    ""end"": 27
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.6155023574829102,
+    ""index"": 12,
+    ""word"": ""##s"",
+    ""start"": 27,
+    ""end"": 28
+  }
+]","NER",46,"Failed"
+"Japan began the defence of [[their]] Asian Cup title with a lucky 2-1 win [[against]] [[Syria]] in a Group [[C]] championship match on Friday.","Japan began the defence of [[theіr]] Asian Cup title with a lucky 2-1 win [[againѕt]] [[Sуria]] in a Group [[С]] championship match on Friday.",0.0,0.4179050922393799,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998020529747009,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9762684106826782,
+    ""index"": 7,
+    ""word"": ""Asian"",
+    ""start"": 33,
+    ""end"": 38
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9974727034568787,
+    ""index"": 8,
+    ""word"": ""Cup"",
+    ""start"": 39,
+    ""end"": 42
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997666478157043,
+    ""index"": 18,
+    ""word"": ""Syria"",
+    ""start"": 78,
+    ""end"": 83
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997643828392029,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.5476858615875244,
+    ""index"": 7,
+    ""word"": ""##і"",
+    ""start"": 30,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.7917353510856628,
+    ""index"": 8,
+    ""word"": ""##r"",
+    ""start"": 31,
+    ""end"": 32
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9606682658195496,
+    ""index"": 9,
+    ""word"": ""Asian"",
+    ""start"": 33,
+    ""end"": 38
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9976131916046143,
+    ""index"": 10,
+    ""word"": ""Cup"",
+    ""start"": 39,
+    ""end"": 42
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.4179050922393799,
+    ""index"": 20,
+    ""word"": ""S"",
+    ""start"": 78,
+    ""end"": 79
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5204841494560242,
+    ""index"": 21,
+    ""word"": ""##у"",
+    ""start"": 79,
+    ""end"": 80
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.8998066782951355,
+    ""index"": 22,
+    ""word"": ""##ria"",
+    ""start"": 80,
+    ""end"": 83
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.764090359210968,
+    ""index"": 25,
+    ""word"": ""Group"",
+    ""start"": 89,
+    ""end"": 94
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.7800063490867615,
+    ""index"": 26,
+    ""word"": ""С"",
+    ""start"": 95,
+    ""end"": 96
+  }
+]","NER",86,"Successful"
+"But China saw [[their]] luck desert them in the [[second]] match of the group, crashing to a surprise 2-0 defeat to newcomers [[Uzbekistan.]]","But China saw [[tһeir]] luck desert them in the [[seconԁ]] match of the group, crashing to a surprise 2-0 defeat to newcomers [[Uzbekіstan.]]",0.0,0.0,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998183846473694,
+    ""index"": 2,
+    ""word"": ""China"",
+    ""start"": 4,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996594190597534,
+    ""index"": 27,
+    ""word"": ""Uzbekistan"",
+    ""start"": 118,
+    ""end"": 128
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997976422309875,
+    ""index"": 2,
+    ""word"": ""China"",
+    ""start"": 4,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.8111602663993835,
+    ""index"": 27,
+    ""word"": ""U"",
+    ""start"": 118,
+    ""end"": 119
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.935941219329834,
+    ""index"": 28,
+    ""word"": ""##z"",
+    ""start"": 119,
+    ""end"": 120
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.6099876761436462,
+    ""index"": 29,
+    ""word"": ""##bek"",
+    ""start"": 120,
+    ""end"": 123
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5575151443481445,
+    ""index"": 30,
+    ""word"": ""##і"",
+    ""start"": 123,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9672045707702637,
+    ""index"": 31,
+    ""word"": ""##stan"",
+    ""start"": 124,
+    ""end"": 128
+  }
+]","NER",46,"Failed"
+"China controlled most of the match and saw several chances [[missed]] until the 78th minute when Uzbek striker [[Igor]] Shkvyrin took advantage of a misdirected defensive header to lob the ball over the [[advancing]] [[Chinese]] keeper and into an empty net.","China controlled most of the match and saw several chances [[miѕsed]] until the 78th minute when Uzbek striker [[Igοr]] Shkvyrin took advantage of a misdirected defensive header to lob the ball over the [[advanсing]] [[Cһinese]] keeper and into an empty net.",5.492788791656494,8.463067054748535,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997816681861877,
+    ""index"": 1,
+    ""word"": ""China"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9979750514030457,
+    ""index"": 18,
+    ""word"": ""U"",
+    ""start"": 93,
+    ""end"": 94
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9894792437553406,
+    ""index"": 19,
+    ""word"": ""##z"",
+    ""start"": 94,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.996921956539154,
+    ""index"": 20,
+    ""word"": ""##bek"",
+    ""start"": 95,
+    ""end"": 98
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994372725486755,
+    ""index"": 22,
+    ""word"": ""Igor"",
+    ""start"": 107,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995008707046509,
+    ""index"": 23,
+    ""word"": ""S"",
+    ""start"": 112,
+    ""end"": 113
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9525272250175476,
+    ""index"": 24,
+    ""word"": ""##h"",
+    ""start"": 113,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7246336340904236,
+    ""index"": 25,
+    ""word"": ""##k"",
+    ""start"": 114,
+    ""end"": 115
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8198036551475525,
+    ""index"": 26,
+    ""word"": ""##vy"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9968863129615784,
+    ""index"": 27,
+    ""word"": ""##rin"",
+    ""start"": 117,
+    ""end"": 120
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.999038815498352,
+    ""index"": 47,
+    ""word"": ""Chinese"",
+    ""start"": 205,
+    ""end"": 212
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997755885124207,
+    ""index"": 1,
+    ""word"": ""China"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9980928301811218,
+    ""index"": 18,
+    ""word"": ""U"",
+    ""start"": 93,
+    ""end"": 94
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9908133149147034,
+    ""index"": 19,
+    ""word"": ""##z"",
+    ""start"": 94,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9968242645263672,
+    ""index"": 20,
+    ""word"": ""##bek"",
+    ""start"": 95,
+    ""end"": 98
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990847110748291,
+    ""index"": 22,
+    ""word"": ""I"",
+    ""start"": 107,
+    ""end"": 108
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9779189229011536,
+    ""index"": 23,
+    ""word"": ""##g"",
+    ""start"": 108,
+    ""end"": 109
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9349412322044373,
+    ""index"": 24,
+    ""word"": ""##ο"",
+    ""start"": 109,
+    ""end"": 110
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9980320334434509,
+    ""index"": 25,
+    ""word"": ""##r"",
+    ""start"": 110,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997319579124451,
+    ""index"": 26,
+    ""word"": ""S"",
+    ""start"": 112,
+    ""end"": 113
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9639639258384705,
+    ""index"": 27,
+    ""word"": ""##h"",
+    ""start"": 113,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7805978655815125,
+    ""index"": 28,
+    ""word"": ""##k"",
+    ""start"": 114,
+    ""end"": 115
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8213887810707092,
+    ""index"": 29,
+    ""word"": ""##vy"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9874080419540405,
+    ""index"": 30,
+    ""word"": ""##rin"",
+    ""start"": 117,
+    ""end"": 120
+  }
+]","NER",86,"Successful"
+"Oleg [[Shatskiku]] [[made]] sure of the win in injury time, hitting an [[unstoppable]] left foot shot from just [[outside]] the area.","Oleg [[Shаtskiku]] [[mаde]] sure of the win in injury time, hitting an [[unstoрpable]] left foot shot from just [[outѕide]] the area.",5.941165447235107,7.646137714385986,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992066025733948,
+    ""index"": 1,
+    ""word"": ""Ole"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995224475860596,
+    ""index"": 2,
+    ""word"": ""##g"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996681213378906,
+    ""index"": 3,
+    ""word"": ""S"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9951527118682861,
+    ""index"": 4,
+    ""word"": ""##hat"",
+    ""start"": 6,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9679040908813477,
+    ""index"": 5,
+    ""word"": ""##ski"",
+    ""start"": 9,
+    ""end"": 12
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9797117114067078,
+    ""index"": 6,
+    ""word"": ""##ku"",
+    ""start"": 12,
+    ""end"": 14
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987083673477173,
+    ""index"": 1,
+    ""word"": ""Ole"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994066953659058,
+    ""index"": 2,
+    ""word"": ""##g"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999618411064148,
+    ""index"": 3,
+    ""word"": ""S"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9441025257110596,
+    ""index"": 4,
+    ""word"": ""##h"",
+    ""start"": 6,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9772287607192993,
+    ""index"": 5,
+    ""word"": ""##а"",
+    ""start"": 7,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9963375329971313,
+    ""index"": 6,
+    ""word"": ""##tsk"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8374950885772705,
+    ""index"": 7,
+    ""word"": ""##ik"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8932402729988098,
+    ""index"": 8,
+    ""word"": ""##u"",
+    ""start"": 13,
+    ""end"": 14
+  }
+]","NER",86,"Successful"
+"The former [[Soviet]] [[republic]] [[was]] playing in an Asian Cup finals [[tie]] for the first time.","The former [[Ѕoviet]] [[reрublic]] [[wаs]] playing in an Asian Cup finals [[tiе]] for the first time.",0.0,0.0,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9985392093658447,
+    ""index"": 3,
+    ""word"": ""Soviet"",
+    ""start"": 11,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9799860715866089,
+    ""index"": 9,
+    ""word"": ""Asian"",
+    ""start"": 45,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9974246025085449,
+    ""index"": 10,
+    ""word"": ""Cup"",
+    ""start"": 51,
+    ""end"": 54
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9859454035758972,
+    ""index"": 14,
+    ""word"": ""Asian"",
+    ""start"": 45,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9976314306259155,
+    ""index"": 15,
+    ""word"": ""Cup"",
+    ""start"": 51,
+    ""end"": 54
+  }
+]","NER",46,"Failed"
+"[[Despite]] winning the [[Asian]] Games title two years ago, [[Uzbekistan]] [[are]] in the finals as outsiders.","[[Despitе]] winning the [[Asiаn]] Games title two years ago, [[Uzbekistаn]] [[аre]] in the finals as outsiders.",0.0,0.4441823661327362,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9735670685768127,
+    ""index"": 4,
+    ""word"": ""Asian"",
+    ""start"": 20,
+    ""end"": 25
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9971873164176941,
+    ""index"": 5,
+    ""word"": ""Games"",
+    ""start"": 26,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997908473014832,
+    ""index"": 11,
+    ""word"": ""Uzbekistan"",
+    ""start"": 53,
+    ""end"": 63
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.4441823661327362,
+    ""index"": 1,
+    ""word"": ""Des"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9929805397987366,
+    ""index"": 6,
+    ""word"": ""As"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9945744872093201,
+    ""index"": 7,
+    ""word"": ""##i"",
+    ""start"": 22,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.991786539554596,
+    ""index"": 8,
+    ""word"": ""##а"",
+    ""start"": 23,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9927012920379639,
+    ""index"": 9,
+    ""word"": ""##n"",
+    ""start"": 24,
+    ""end"": 25
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9972468614578247,
+    ""index"": 10,
+    ""word"": ""Games"",
+    ""start"": 26,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6375720500946045,
+    ""index"": 16,
+    ""word"": ""U"",
+    ""start"": 53,
+    ""end"": 54
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6099399924278259,
+    ""index"": 17,
+    ""word"": ""##z"",
+    ""start"": 54,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.7507650256156921,
+    ""index"": 18,
+    ""word"": ""##bek"",
+    ""start"": 55,
+    ""end"": 58
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9529070854187012,
+    ""index"": 19,
+    ""word"": ""##ist"",
+    ""start"": 58,
+    ""end"": 61
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.8258607387542725,
+    ""index"": 20,
+    ""word"": ""##а"",
+    ""start"": 61,
+    ""end"": 62
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9605478048324585,
+    ""index"": 21,
+    ""word"": ""##n"",
+    ""start"": 62,
+    ""end"": 63
+  }
+]","NER",86,"Successful"
+"Two goals from defensive errors in the last [[six]] minutes allowed [[Japan]] to come from [[behind]] and collect all three points from their opening meeting against Syria.","Two goals from defensive errors in the last [[ѕіx]] minutes allowed [[Jаpan]] to come from [[beһind]] and collect all three points from their opening meeting against Syria.",0.0,2.3447628021240234,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997974038124084,
+    ""index"": 12,
+    ""word"": ""Japan"",
+    ""start"": 64,
+    ""end"": 69
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998229146003723,
+    ""index"": 27,
+    ""word"": ""Syria"",
+    ""start"": 154,
+    ""end"": 159
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9847450852394104,
+    ""index"": 12,
+    ""word"": ""J"",
+    ""start"": 64,
+    ""end"": 65
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.4253213703632355,
+    ""index"": 13,
+    ""word"": ""##а"",
+    ""start"": 65,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9346963167190552,
+    ""index"": 14,
+    ""word"": ""##pan"",
+    ""start"": 66,
+    ""end"": 69
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996483325958252,
+    ""index"": 29,
+    ""word"": ""Syria"",
+    ""start"": 154,
+    ""end"": 159
+  }
+]","NER",86,"Successful"
+"Takuya Takagi scored the winner in the 88th minute, rising to head a [[Hiroshige]] Yanagimoto cross towards the Syrian goal which goalkeeper Salem [[Bitar]] appeared to have covered but then allowed to slip into the net.","Takuya Takagi scored the winner in the 88th minute, rising to head a [[Hirοshige]] Yanagimoto cross towards the Syrian goal which goalkeeper Salem [[Βіtаr]] appeared to have covered but then allowed to slip into the net.",15.929515838623047,19.520641326904297,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996896982192993,
+    ""index"": 1,
+    ""word"": ""Ta"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989758729934692,
+    ""index"": 2,
+    ""word"": ""##ku"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994668364524841,
+    ""index"": 3,
+    ""word"": ""##ya"",
+    ""start"": 4,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994038343429565,
+    ""index"": 4,
+    ""word"": ""Ta"",
+    ""start"": 7,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9613255858421326,
+    ""index"": 5,
+    ""word"": ""##ka"",
+    ""start"": 9,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9949530363082886,
+    ""index"": 6,
+    ""word"": ""##gi"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995459914207458,
+    ""index"": 20,
+    ""word"": ""Hi"",
+    ""start"": 69,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986799359321594,
+    ""index"": 21,
+    ""word"": ""##ros"",
+    ""start"": 71,
+    ""end"": 74
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9974263310432434,
+    ""index"": 22,
+    ""word"": ""##hi"",
+    ""start"": 74,
+    ""end"": 76
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988678693771362,
+    ""index"": 23,
+    ""word"": ""##ge"",
+    ""start"": 76,
+    ""end"": 78
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990857839584351,
+    ""index"": 24,
+    ""word"": ""Yan"",
+    ""start"": 79,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9960129261016846,
+    ""index"": 25,
+    ""word"": ""##agi"",
+    ""start"": 82,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9877526760101318,
+    ""index"": 26,
+    ""word"": ""##moto"",
+    ""start"": 85,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9988692402839661,
+    ""index"": 30,
+    ""word"": ""Syrian"",
+    ""start"": 108,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995860457420349,
+    ""index"": 34,
+    ""word"": ""Salem"",
+    ""start"": 137,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997879862785339,
+    ""index"": 35,
+    ""word"": ""Bit"",
+    ""start"": 143,
+    ""end"": 146
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989547729492188,
+    ""index"": 36,
+    ""word"": ""##ar"",
+    ""start"": 146,
+    ""end"": 148
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996395111083984,
+    ""index"": 1,
+    ""word"": ""Ta"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9983921647071838,
+    ""index"": 2,
+    ""word"": ""##ku"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993534684181213,
+    ""index"": 3,
+    ""word"": ""##ya"",
+    ""start"": 4,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993398785591125,
+    ""index"": 4,
+    ""word"": ""Ta"",
+    ""start"": 7,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9207761883735657,
+    ""index"": 5,
+    ""word"": ""##ka"",
+    ""start"": 9,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.988037109375,
+    ""index"": 6,
+    ""word"": ""##gi"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991519451141357,
+    ""index"": 20,
+    ""word"": ""Hi"",
+    ""start"": 69,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8941572904586792,
+    ""index"": 21,
+    ""word"": ""##r"",
+    ""start"": 71,
+    ""end"": 72
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.973099946975708,
+    ""index"": 22,
+    ""word"": ""##ο"",
+    ""start"": 72,
+    ""end"": 73
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9824355840682983,
+    ""index"": 23,
+    ""word"": ""##shi"",
+    ""start"": 73,
+    ""end"": 76
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9968785047531128,
+    ""index"": 24,
+    ""word"": ""##ge"",
+    ""start"": 76,
+    ""end"": 78
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9983813762664795,
+    ""index"": 25,
+    ""word"": ""Yan"",
+    ""start"": 79,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9921287298202515,
+    ""index"": 26,
+    ""word"": ""##agi"",
+    ""start"": 82,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9600825309753418,
+    ""index"": 27,
+    ""word"": ""##moto"",
+    ""start"": 85,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9988886713981628,
+    ""index"": 31,
+    ""word"": ""Syrian"",
+    ""start"": 108,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995303153991699,
+    ""index"": 35,
+    ""word"": ""Salem"",
+    ""start"": 137,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994150400161743,
+    ""index"": 36,
+    ""word"": ""Β"",
+    ""start"": 143,
+    ""end"": 144
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9770833253860474,
+    ""index"": 37,
+    ""word"": ""##і"",
+    ""start"": 144,
+    ""end"": 145
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9483181238174438,
+    ""index"": 38,
+    ""word"": ""##t"",
+    ""start"": 145,
+    ""end"": 146
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.905129611492157,
+    ""index"": 39,
+    ""word"": ""##а"",
+    ""start"": 146,
+    ""end"": 147
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9893091917037964,
+    ""index"": 40,
+    ""word"": ""##r"",
+    ""start"": 147,
+    ""end"": 148
+  }
+]","NER",86,"Successful"
+"[[It]] [[was]] the second [[costly]] blunder by [[Syria]] in four minutes.","[[Ιt]] [[wаs]] the second [[coѕtly]] blunder by [[Sуria]] in four minutes.",0.0,2.8278257846832275,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997512698173523,
+    ""index"": 10,
+    ""word"": ""Syria"",
+    ""start"": 36,
+    ""end"": 41
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9957225322723389,
+    ""index"": 13,
+    ""word"": ""S"",
+    ""start"": 36,
+    ""end"": 37
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9336903095245361,
+    ""index"": 14,
+    ""word"": ""##у"",
+    ""start"": 37,
+    ""end"": 38
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8984130024909973,
+    ""index"": 15,
+    ""word"": ""##ria"",
+    ""start"": 38,
+    ""end"": 41
+  }
+]","NER",86,"Successful"
+"Defender [[Hassan]] [[Abbas]] rose to [[intercept]] a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's [[goal.]]","Defender [[Hаssan]] [[Abbаs]] rose to [[intеrcept]] a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's [[goаl.]]",1.9993224143981934,7.475132465362549,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995805621147156,
+    ""index"": 3,
+    ""word"": ""Hassan"",
+    ""start"": 9,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997418522834778,
+    ""index"": 4,
+    ""word"": ""Abbas"",
+    ""start"": 16,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9271376729011536,
+    ""index"": 31,
+    ""word"": ""Bit"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9763095378875732,
+    ""index"": 32,
+    ""word"": ""##ar"",
+    ""start"": 141,
+    ""end"": 143
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993472695350647,
+    ""index"": 3,
+    ""word"": ""H"",
+    ""start"": 9,
+    ""end"": 10
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9011632800102234,
+    ""index"": 4,
+    ""word"": ""##а"",
+    ""start"": 10,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9974853992462158,
+    ""index"": 5,
+    ""word"": ""##ssa"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989621639251709,
+    ""index"": 6,
+    ""word"": ""##n"",
+    ""start"": 14,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995816349983215,
+    ""index"": 7,
+    ""word"": ""A"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9832566380500793,
+    ""index"": 8,
+    ""word"": ""##bb"",
+    ""start"": 17,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6024273037910461,
+    ""index"": 9,
+    ""word"": ""##а"",
+    ""start"": 19,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9929084777832031,
+    ""index"": 10,
+    ""word"": ""##s"",
+    ""start"": 20,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.8064459562301636,
+    ""index"": 41,
+    ""word"": ""Bit"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9657013416290283,
+    ""index"": 42,
+    ""word"": ""##ar"",
+    ""start"": 141,
+    ""end"": 143
+  }
+]","NER",86,"Successful"
+"[[Nader]] Jokhadar [[had]] given [[Syria]] the [[lead]] with a well-struck header in the seventh minute.","[[Nadеr]] Jokhadar [[haԁ]] given [[Sуria]] the [[leaԁ]] with a well-struck header in the seventh minute.",4.993921756744385,9.349924087524414,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997338652610779,
+    ""index"": 1,
+    ""word"": ""Na"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996080994606018,
+    ""index"": 2,
+    ""word"": ""##der"",
+    ""start"": 2,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996825456619263,
+    ""index"": 3,
+    ""word"": ""Jo"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9970002770423889,
+    ""index"": 4,
+    ""word"": ""##kha"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9978972673416138,
+    ""index"": 5,
+    ""word"": ""##dar"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997958540916443,
+    ""index"": 8,
+    ""word"": ""Syria"",
+    ""start"": 25,
+    ""end"": 30
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.995623767375946,
+    ""index"": 1,
+    ""word"": ""Na"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6787028312683105,
+    ""index"": 2,
+    ""word"": ""##d"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8410252332687378,
+    ""index"": 3,
+    ""word"": ""##е"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9862697720527649,
+    ""index"": 4,
+    ""word"": ""##r"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9984831213951111,
+    ""index"": 5,
+    ""word"": ""Jo"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9780842661857605,
+    ""index"": 6,
+    ""word"": ""##kha"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9924935102462769,
+    ""index"": 7,
+    ""word"": ""##dar"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.986933708190918,
+    ""index"": 10,
+    ""word"": ""S"",
+    ""start"": 25,
+    ""end"": 26
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9340613484382629,
+    ""index"": 11,
+    ""word"": ""##у"",
+    ""start"": 26,
+    ""end"": 27
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9582469463348389,
+    ""index"": 12,
+    ""word"": ""##ria"",
+    ""start"": 27,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.46459633111953735,
+    ""index"": 14,
+    ""word"": ""leaԁ"",
+    ""start"": 35,
+    ""end"": 39
+  }
+]","NER",86,"Successful"
+"[[Japan]] then laid [[siege]] to the [[Syrian]] penalty [[area]] for most of the game but rarely breached the Syrian defence.","[[Jаpan]] then laid [[siеge]] to the [[Ѕyrian]] penalty [[аrea]] for most of the game but rarely breached the Syrian defence.",0.0,2.6078941822052,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997561573982239,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9990905523300171,
+    ""index"": 7,
+    ""word"": ""Syrian"",
+    ""start"": 29,
+    ""end"": 35
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.99899822473526,
+    ""index"": 20,
+    ""word"": ""Syrian"",
+    ""start"": 94,
+    ""end"": 100
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9887746572494507,
+    ""index"": 1,
+    ""word"": ""J"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6630253195762634,
+    ""index"": 2,
+    ""word"": ""##а"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9560942053794861,
+    ""index"": 3,
+    ""word"": ""##pan"",
+    ""start"": 2,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.998833954334259,
+    ""index"": 25,
+    ""word"": ""Syrian"",
+    ""start"": 94,
+    ""end"": 100
+  }
+]","NER",86,"Successful"
+"Bitar pulled off fine saves [[whenever]] [[they]] did.","Bitar pulled off fine saves [[whenеver]] [[tһey]] did.",0.0,2.106668472290039,"[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6456218957901001,
+    ""index"": 1,
+    ""word"": ""Bit"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.944524884223938,
+    ""index"": 2,
+    ""word"": ""##ar"",
+    ""start"": 3,
+    ""end"": 5
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9565982222557068,
+    ""index"": 1,
+    ""word"": ""Bit"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.5537984371185303,
+    ""index"": 2,
+    ""word"": ""##ar"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5169327855110168,
+    ""index"": 8,
+    ""word"": ""##е"",
+    ""start"": 32,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.5962717533111572,
+    ""index"": 10,
+    ""word"": ""tһey"",
+    ""start"": 37,
+    ""end"": 41
+  }
+]","NER",86,"Successful"
+"Japan coach [[Shu]] [[Kamo]] said:'' The Syrian own goal proved lucky for us.","Japan coach [[Sһu]] [[Kаmο]] said:'' The Syrian own goal proved lucky for us.",2.9947125911712646,4.367156982421875,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997724890708923,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986935257911682,
+    ""index"": 3,
+    ""word"": ""Shu"",
+    ""start"": 12,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997281432151794,
+    ""index"": 4,
+    ""word"": ""Ka"",
+    ""start"": 16,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.996290922164917,
+    ""index"": 5,
+    ""word"": ""##mo"",
+    ""start"": 18,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.998503565788269,
+    ""index"": 11,
+    ""word"": ""Syrian"",
+    ""start"": 33,
+    ""end"": 39
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997914433479309,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9942337870597839,
+    ""index"": 3,
+    ""word"": ""Sһu"",
+    ""start"": 12,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987541437149048,
+    ""index"": 4,
+    ""word"": ""K"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7233549356460571,
+    ""index"": 5,
+    ""word"": ""##а"",
+    ""start"": 17,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6745361089706421,
+    ""index"": 6,
+    ""word"": ""##m"",
+    ""start"": 18,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9762778878211975,
+    ""index"": 7,
+    ""word"": ""##ο"",
+    ""start"": 19,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9984806180000305,
+    ""index"": 13,
+    ""word"": ""Syrian"",
+    ""start"": 33,
+    ""end"": 39
+  }
+]","NER",86,"Successful"
+"[[The]] Syrians scored early and [[then]] played defensively and [[adopted]] [[long]] balls which made it hard for us.'","[[Τhe]] Syrians scored early and [[thеn]] played defensively and [[adoрted]] [[lοng]] balls which made it hard for us.'",0.0,0.0,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9969003200531006,
+    ""index"": 2,
+    ""word"": ""Syrian"",
+    ""start"": 4,
+    ""end"": 10
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.996584415435791,
+    ""index"": 3,
+    ""word"": ""Syrian"",
+    ""start"": 4,
+    ""end"": 10
+  }
+]","NER",46,"Failed"
+"[[Japan,]] co-hosts [[of]] [[the]] World [[Cup]] in 2002 and ranked 20th in the world by FIFA, are favourites to regain their title here.","[[Jaрan,]] co-hosts [[οf]] [[tһe]] World [[Сup]] in 2002 and ranked 20th in the world by FIFA, are favourites to regain their title here.",0.0,3.8796117305755615,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998188614845276,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9795021414756775,
+    ""index"": 8,
+    ""word"": ""World"",
+    ""start"": 23,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.998658299446106,
+    ""index"": 9,
+    ""word"": ""Cup"",
+    ""start"": 29,
+    ""end"": 32
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9952713847160339,
+    ""index"": 19,
+    ""word"": ""FIFA"",
+    ""start"": 73,
+    ""end"": 77
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9863615036010742,
+    ""index"": 1,
+    ""word"": ""J"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9673978090286255,
+    ""index"": 2,
+    ""word"": ""##a"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9675531983375549,
+    ""index"": 3,
+    ""word"": ""##р"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9582991600036621,
+    ""index"": 4,
+    ""word"": ""##an"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9591221809387207,
+    ""index"": 12,
+    ""word"": ""World"",
+    ""start"": 23,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.8696161508560181,
+    ""index"": 13,
+    ""word"": ""С"",
+    ""start"": 29,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9973272085189819,
+    ""index"": 24,
+    ""word"": ""FIFA"",
+    ""start"": 73,
+    ""end"": 77
+  }
+]","NER",86,"Successful"
+"[[Hosts]] UAE [[play]] [[Kuwait]] and South Korea take on Indonesia on Saturday in Group [[A]] matches.","[[Hostѕ]] UAE [[plaу]] [[Κuwait]] and South Korea take on Indonesia on Saturday in Group [[Α]] matches.",0.0,3.23905611038208,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998242259025574,
+    ""index"": 3,
+    ""word"": ""UAE"",
+    ""start"": 6,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996933937072754,
+    ""index"": 5,
+    ""word"": ""Kuwait"",
+    ""start"": 15,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997186064720154,
+    ""index"": 7,
+    ""word"": ""South"",
+    ""start"": 26,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998072981834412,
+    ""index"": 8,
+    ""word"": ""Korea"",
+    ""start"": 32,
+    ""end"": 37
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997770190238953,
+    ""index"": 11,
+    ""word"": ""Indonesia"",
+    ""start"": 46,
+    ""end"": 55
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9990472197532654,
+    ""index"": 2,
+    ""word"": ""UAE"",
+    ""start"": 6,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9636401534080505,
+    ""index"": 6,
+    ""word"": ""Κ"",
+    ""start"": 15,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8672348260879517,
+    ""index"": 7,
+    ""word"": ""##u"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.710743248462677,
+    ""index"": 8,
+    ""word"": ""##wai"",
+    ""start"": 17,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6974378824234009,
+    ""index"": 9,
+    ""word"": ""##t"",
+    ""start"": 20,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997097849845886,
+    ""index"": 11,
+    ""word"": ""South"",
+    ""start"": 26,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997419714927673,
+    ""index"": 12,
+    ""word"": ""Korea"",
+    ""start"": 32,
+    ""end"": 37
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.999742329120636,
+    ""index"": 15,
+    ""word"": ""Indonesia"",
+    ""start"": 46,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9359277486801147,
+    ""index"": 20,
+    ""word"": ""Α"",
+    ""start"": 77,
+    ""end"": 78
+  }
+]","NER",86,"Successful"
+"All four teams are [[level]] with [[one]] point [[each]] from [[one]] game.","All four teams are [[levеl]] with [[οne]] point [[еach]] from [[οne]] game.",0.0,0.0,"[]","[]","NER",46,"Failed"
+"RUGBY UNION- [[CUTTITTA]] BACK FOR [[ITALY]] AFTER [[A]] YEAR.","RUGBY UNION- [[CUTTIΤTA]] BACK FOR [[ITΑLΥ]] AFTER [[Α]] YEAR.",0.0,2.1601405143737793,"[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9936457872390747,
+    ""index"": 1,
+    ""word"": ""R"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.8490535020828247,
+    ""index"": 2,
+    ""word"": ""##U"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9775611758232117,
+    ""index"": 3,
+    ""word"": ""##GB"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9891515970230103,
+    ""index"": 4,
+    ""word"": ""##Y"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9975639581680298,
+    ""index"": 5,
+    ""word"": ""UN"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9954337477684021,
+    ""index"": 6,
+    ""word"": ""##ION"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.451992928981781,
+    ""index"": 8,
+    ""word"": ""C"",
+    ""start"": 13,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.5722992420196533,
+    ""index"": 9,
+    ""word"": ""##UT"",
+    ""start"": 14,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.43579497933387756,
+    ""index"": 10,
+    ""word"": ""##TI"",
+    ""start"": 16,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5691877603530884,
+    ""index"": 11,
+    ""word"": ""##TT"",
+    ""start"": 18,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.7549852728843689,
+    ""index"": 12,
+    ""word"": ""##A"",
+    ""start"": 20,
+    ""end"": 21
+  }
+]","[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9960684776306152,
+    ""index"": 1,
+    ""word"": ""R"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9054157137870789,
+    ""index"": 2,
+    ""word"": ""##U"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.986064076423645,
+    ""index"": 3,
+    ""word"": ""##GB"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9923496246337891,
+    ""index"": 4,
+    ""word"": ""##Y"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.998578667640686,
+    ""index"": 5,
+    ""word"": ""UN"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9970343112945557,
+    ""index"": 6,
+    ""word"": ""##ION"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.48142150044441223,
+    ""index"": 8,
+    ""word"": ""C"",
+    ""start"": 13,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.41025444865226746,
+    ""index"": 9,
+    ""word"": ""##UT"",
+    ""start"": 14,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6181641221046448,
+    ""index"": 10,
+    ""word"": ""##TI"",
+    ""start"": 16,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.5558874011039734,
+    ""index"": 11,
+    ""word"": ""##Τ"",
+    ""start"": 18,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.5046675205230713,
+    ""index"": 12,
+    ""word"": ""##TA"",
+    ""start"": 19,
+    ""end"": 21
+  }
+]","NER",86,"Successful"
+"[[ROME]] 1996-12-06","[[RΟΜΕ]] 1996-12-06",0.0,0.0,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9967646598815918,
+    ""index"": 1,
+    ""word"": ""ROM"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9961298704147339,
+    ""index"": 2,
+    ""word"": ""##E"",
+    ""start"": 3,
+    ""end"": 4
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9949619770050049,
+    ""index"": 1,
+    ""word"": ""R"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9884295463562012,
+    ""index"": 2,
+    ""word"": ""##Ο"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9863344430923462,
+    ""index"": 3,
+    ""word"": ""##Μ"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9945036172866821,
+    ""index"": 4,
+    ""word"": ""##Ε"",
+    ""start"": 3,
+    ""end"": 4
+  }
+]","NER",46,"Failed"
+"Italy recalled [[Marcello]] [[Cuttitta]]","Italy recalled [[Mаrcеllο]] [[Сuttitta]]",4.946393013000488,9.442734718322754,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997743964195251,
+    ""index"": 1,
+    ""word"": ""Italy"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995844960212708,
+    ""index"": 3,
+    ""word"": ""Marcel"",
+    ""start"": 15,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995773434638977,
+    ""index"": 4,
+    ""word"": ""##lo"",
+    ""start"": 21,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992757439613342,
+    ""index"": 5,
+    ""word"": ""Cut"",
+    ""start"": 24,
+    ""end"": 27
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9824864864349365,
+    ""index"": 6,
+    ""word"": ""##ti"",
+    ""start"": 27,
+    ""end"": 29
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9654690027236938,
+    ""index"": 7,
+    ""word"": ""##tta"",
+    ""start"": 29,
+    ""end"": 32
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998093247413635,
+    ""index"": 1,
+    ""word"": ""Italy"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9944926500320435,
+    ""index"": 3,
+    ""word"": ""M"",
+    ""start"": 15,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9685137867927551,
+    ""index"": 4,
+    ""word"": ""##а"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9447287321090698,
+    ""index"": 5,
+    ""word"": ""##rc"",
+    ""start"": 17,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9782137870788574,
+    ""index"": 6,
+    ""word"": ""##е"",
+    ""start"": 19,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9374873638153076,
+    ""index"": 7,
+    ""word"": ""##ll"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9956686496734619,
+    ""index"": 8,
+    ""word"": ""##ο"",
+    ""start"": 22,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.997044026851654,
+    ""index"": 9,
+    ""word"": ""С"",
+    ""start"": 24,
+    ""end"": 25
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9270002841949463,
+    ""index"": 10,
+    ""word"": ""##utt"",
+    ""start"": 25,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8056531548500061,
+    ""index"": 11,
+    ""word"": ""##itt"",
+    ""start"": 28,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8939314484596252,
+    ""index"": 12,
+    ""word"": ""##a"",
+    ""start"": 31,
+    ""end"": 32
+  }
+]","NER",86,"Successful"
+"on [[Friday]] for [[their]] friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring [[following]] [[differences]] over selection.","on [[Fridaу]] for [[theіr]] friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring [[fοllowing]] [[differencеs]] over selection.",0.0,1.8657639026641846,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996564388275146,
+    ""index"": 7,
+    ""word"": ""Scotland"",
+    ""start"": 37,
+    ""end"": 45
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.996955156326294,
+    ""index"": 9,
+    ""word"": ""Murray"",
+    ""start"": 49,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9933597445487976,
+    ""index"": 10,
+    ""word"": ""##field"",
+    ""start"": 55,
+    ""end"": 60
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981967806816101,
+    ""index"": 2,
+    ""word"": ""Fr"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8675671219825745,
+    ""index"": 3,
+    ""word"": ""##ida"",
+    ""start"": 5,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996064305305481,
+    ""index"": 11,
+    ""word"": ""Scotland"",
+    ""start"": 37,
+    ""end"": 45
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9969858527183533,
+    ""index"": 13,
+    ""word"": ""Murray"",
+    ""start"": 49,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9946169257164001,
+    ""index"": 14,
+    ""word"": ""##field"",
+    ""start"": 55,
+    ""end"": 60
+  }
+]","NER",86,"Successful"
+"Cuttitta, who trainer [[George]] Coste said was certain to play on Saturday week, was [[named]] in a 21-man [[squad]] lacking only two of the team beaten 54-21 by England at Twickenham [[last]] month.","Cuttitta, who trainer [[Gеorge]] Coste said was certain to play on Saturday week, was [[namеd]] in a 21-man [[squаd]] lacking only two of the team beaten 54-21 by England at Twickenham [[lаst]] month.",5.962458610534668,8.302387237548828,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9974656105041504,
+    ""index"": 1,
+    ""word"": ""Cut"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9773381948471069,
+    ""index"": 2,
+    ""word"": ""##ti"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.99004727602005,
+    ""index"": 3,
+    ""word"": ""##tta"",
+    ""start"": 5,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993751645088196,
+    ""index"": 7,
+    ""word"": ""George"",
+    ""start"": 22,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995706677436829,
+    ""index"": 8,
+    ""word"": ""Co"",
+    ""start"": 29,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986615180969238,
+    ""index"": 9,
+    ""word"": ""##ste"",
+    ""start"": 31,
+    ""end"": 34
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997183680534363,
+    ""index"": 38,
+    ""word"": ""England"",
+    ""start"": 151,
+    ""end"": 158
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9977134466171265,
+    ""index"": 40,
+    ""word"": ""T"",
+    ""start"": 162,
+    ""end"": 163
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9942703247070312,
+    ""index"": 41,
+    ""word"": ""##wick"",
+    ""start"": 163,
+    ""end"": 167
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9952126741409302,
+    ""index"": 42,
+    ""word"": ""##enham"",
+    ""start"": 167,
+    ""end"": 172
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9978868365287781,
+    ""index"": 1,
+    ""word"": ""Cut"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9852724671363831,
+    ""index"": 2,
+    ""word"": ""##ti"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9930612444877625,
+    ""index"": 3,
+    ""word"": ""##tta"",
+    ""start"": 5,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995653033256531,
+    ""index"": 7,
+    ""word"": ""G"",
+    ""start"": 22,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8233619928359985,
+    ""index"": 8,
+    ""word"": ""##е"",
+    ""start"": 23,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.507164716720581,
+    ""index"": 9,
+    ""word"": ""##or"",
+    ""start"": 24,
+    ""end"": 26
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988301396369934,
+    ""index"": 10,
+    ""word"": ""##ge"",
+    ""start"": 26,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995207786560059,
+    ""index"": 11,
+    ""word"": ""Co"",
+    ""start"": 29,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9977231621742249,
+    ""index"": 12,
+    ""word"": ""##ste"",
+    ""start"": 31,
+    ""end"": 34
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996743202209473,
+    ""index"": 47,
+    ""word"": ""England"",
+    ""start"": 151,
+    ""end"": 158
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9962957501411438,
+    ""index"": 49,
+    ""word"": ""T"",
+    ""start"": 162,
+    ""end"": 163
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9947956204414368,
+    ""index"": 50,
+    ""word"": ""##wick"",
+    ""start"": 163,
+    ""end"": 167
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9943220615386963,
+    ""index"": 51,
+    ""word"": ""##enham"",
+    ""start"": 167,
+    ""end"": 172
+  }
+]","NER",86,"Successful"
+"[[Stefano]] Bordon is out through illness and Coste said he had dropped back row [[Corrado]] Covi, who had been recalled for the England game after five [[years]] out of the national team.","[[Stefаno]] Bordon is out through illness and Coste said he had dropped back row [[Cοrrado]] Covi, who had been recalled for the England game after five [[уearѕ]] out of the national team.",9.869058609008789,13.495298385620117,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993323683738708,
+    ""index"": 1,
+    ""word"": ""Stefano"",
+    ""start"": 0,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995278120040894,
+    ""index"": 2,
+    ""word"": ""Bo"",
+    ""start"": 8,
+    ""end"": 10
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986862540245056,
+    ""index"": 3,
+    ""word"": ""##rdon"",
+    ""start"": 10,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9957525730133057,
+    ""index"": 9,
+    ""word"": ""Co"",
+    ""start"": 42,
+    ""end"": 44
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8826857805252075,
+    ""index"": 10,
+    ""word"": ""##ste"",
+    ""start"": 44,
+    ""end"": 47
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996392726898193,
+    ""index"": 17,
+    ""word"": ""Co"",
+    ""start"": 77,
+    ""end"": 79
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9982226490974426,
+    ""index"": 18,
+    ""word"": ""##rra"",
+    ""start"": 79,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992175102233887,
+    ""index"": 19,
+    ""word"": ""##do"",
+    ""start"": 82,
+    ""end"": 84
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988105297088623,
+    ""index"": 20,
+    ""word"": ""Co"",
+    ""start"": 85,
+    ""end"": 87
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9971835017204285,
+    ""index"": 21,
+    ""word"": ""##vi"",
+    ""start"": 87,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997126460075378,
+    ""index"": 29,
+    ""word"": ""England"",
+    ""start"": 121,
+    ""end"": 128
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994032382965088,
+    ""index"": 1,
+    ""word"": ""St"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9571458697319031,
+    ""index"": 2,
+    ""word"": ""##ef"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9504537582397461,
+    ""index"": 3,
+    ""word"": ""##а"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988449811935425,
+    ""index"": 4,
+    ""word"": ""##no"",
+    ""start"": 5,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999589741230011,
+    ""index"": 5,
+    ""word"": ""Bo"",
+    ""start"": 8,
+    ""end"": 10
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981908202171326,
+    ""index"": 6,
+    ""word"": ""##rdon"",
+    ""start"": 10,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9915333390235901,
+    ""index"": 12,
+    ""word"": ""Co"",
+    ""start"": 42,
+    ""end"": 44
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6530246138572693,
+    ""index"": 13,
+    ""word"": ""##ste"",
+    ""start"": 44,
+    ""end"": 47
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994227886199951,
+    ""index"": 20,
+    ""word"": ""C"",
+    ""start"": 77,
+    ""end"": 78
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9702184796333313,
+    ""index"": 21,
+    ""word"": ""##ο"",
+    ""start"": 78,
+    ""end"": 79
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9826698303222656,
+    ""index"": 22,
+    ""word"": ""##rra"",
+    ""start"": 79,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992892742156982,
+    ""index"": 23,
+    ""word"": ""##do"",
+    ""start"": 82,
+    ""end"": 84
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989792704582214,
+    ""index"": 24,
+    ""word"": ""Co"",
+    ""start"": 85,
+    ""end"": 87
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.996531069278717,
+    ""index"": 25,
+    ""word"": ""##vi"",
+    ""start"": 87,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997655749320984,
+    ""index"": 33,
+    ""word"": ""England"",
+    ""start"": 121,
+    ""end"": 128
+  }
+]","NER",86,"Successful"
+"[[Cuttitta]] announced his retirement after the 1995 World [[Cup,]] where he took issue [[with]] being dropped from the Italy side that faced [[England]] in the pool stages.","[[Сuttitta]] announced his retirement after the 1995 World [[Cuр,]] where he took issue [[witһ]] being dropped from the Italy side that faced [[Englanԁ]] in the pool stages.",2.890524387359619,3.9292476177215576,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9967523813247681,
+    ""index"": 1,
+    ""word"": ""Cut"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9444348216056824,
+    ""index"": 2,
+    ""word"": ""##ti"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.949337363243103,
+    ""index"": 3,
+    ""word"": ""##tta"",
+    ""start"": 5,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9862729907035828,
+    ""index"": 10,
+    ""word"": ""World"",
+    ""start"": 49,
+    ""end"": 54
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.998737633228302,
+    ""index"": 11,
+    ""word"": ""Cup"",
+    ""start"": 55,
+    ""end"": 58
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996987581253052,
+    ""index"": 22,
+    ""word"": ""Italy"",
+    ""start"": 108,
+    ""end"": 113
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996806383132935,
+    ""index"": 26,
+    ""word"": ""England"",
+    ""start"": 130,
+    ""end"": 137
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9951484799385071,
+    ""index"": 1,
+    ""word"": ""С"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9891035556793213,
+    ""index"": 2,
+    ""word"": ""##utt"",
+    ""start"": 1,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9652778506278992,
+    ""index"": 3,
+    ""word"": ""##itt"",
+    ""start"": 4,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9797176718711853,
+    ""index"": 4,
+    ""word"": ""##a"",
+    ""start"": 7,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9928423166275024,
+    ""index"": 11,
+    ""word"": ""World"",
+    ""start"": 49,
+    ""end"": 54
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9941011071205139,
+    ""index"": 12,
+    ""word"": ""C"",
+    ""start"": 55,
+    ""end"": 56
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.8340479135513306,
+    ""index"": 13,
+    ""word"": ""##u"",
+    ""start"": 56,
+    ""end"": 57
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.8978675603866577,
+    ""index"": 14,
+    ""word"": ""##р"",
+    ""start"": 57,
+    ""end"": 58
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996886253356934,
+    ""index"": 25,
+    ""word"": ""Italy"",
+    ""start"": 108,
+    ""end"": 113
+  }
+]","NER",86,"Successful"
+"Coste said he had [[approached]] the player two months ago about a [[comeback.]]","Coste said he had [[аpрroаched]] the player two months ago about a [[сomeback.]]",1.988715648651123,1.9839496612548828,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988347887992859,
+    ""index"": 1,
+    ""word"": ""Co"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9898808598518372,
+    ""index"": 2,
+    ""word"": ""##ste"",
+    ""start"": 2,
+    ""end"": 5
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987609386444092,
+    ""index"": 1,
+    ""word"": ""Co"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9851887226104736,
+    ""index"": 2,
+    ""word"": ""##ste"",
+    ""start"": 2,
+    ""end"": 5
+  }
+]","NER",86,"Successful"
+""" He [[ended]] [[the]] World Cup on the wrong note,"" Coste said.",""" He [[enԁеd]] [[tһе]] World Cup on the wrong note,"" Coste said.",1.9841158390045166,1.9704382419586182,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9876983761787415,
+    ""index"": 5,
+    ""word"": ""World"",
+    ""start"": 15,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9989114999771118,
+    ""index"": 6,
+    ""word"": ""Cup"",
+    ""start"": 21,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986914992332458,
+    ""index"": 13,
+    ""word"": ""Co"",
+    ""start"": 45,
+    ""end"": 47
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9854243397712708,
+    ""index"": 14,
+    ""word"": ""##ste"",
+    ""start"": 47,
+    ""end"": 50
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.990604817867279,
+    ""index"": 5,
+    ""word"": ""World"",
+    ""start"": 15,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9990532994270325,
+    ""index"": 6,
+    ""word"": ""Cup"",
+    ""start"": 21,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986851811408997,
+    ""index"": 13,
+    ""word"": ""Co"",
+    ""start"": 45,
+    ""end"": 47
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9717530012130737,
+    ""index"": 14,
+    ""word"": ""##ste"",
+    ""start"": 47,
+    ""end"": 50
+  }
+]","NER",86,"Successful"
+""" [[I]] thought it would be [[useful]] to have him back and he said he would be [[available.]]",""" [[Ι]] thought it would be [[uѕeful]] to have him back and he said he would be [[availаblе.]]",0.0,0.30115655064582825,"[]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.30115655064582825,
+    ""index"": 2,
+    ""word"": ""Ι"",
+    ""start"": 2,
+    ""end"": 3
+  }
+]","NER",86,"Successful"
+"[[I]] [[think]] now is the right [[time]] for him to return.""","[[Ι]] [[thіnk]] now is the right [[tіme]] for him to return.""",0.0,0.0,"[]","[]","NER",46,"Failed"
+"Squad: Javier Pertile, Paolo Vaccari, Marcello Cuttitta, Ivan [[Francescato,]] Leandro Manteri, Diego Dominguez, Francesco Mazzariol, Alessandro Troncon, Orazio Arancio, Andrea Sgorlon, Massimo Giovanelli, Carlo Checchinato, Walter Cristofoletto, Franco Properzi Curti, Carlo Orlandi, Massimo [[Cuttitta,]] Giambatista [[Croci,]] Gianluca Guidi, Nicola Mazzucato, [[Alessandro]] Moscardi, Andrea Castellani.","Squad: Javier Pertile, Paolo Vaccari, Marcello Cuttitta, Ivan [[Francеscato,]] Leandro Manteri, Diego Dominguez, Francesco Mazzariol, Alessandro Troncon, Orazio Arancio, Andrea Sgorlon, Massimo Giovanelli, Carlo Checchinato, Walter Cristofoletto, Franco Properzi Curti, Carlo Orlandi, Massimo [[Сuttitta,]] Giambatista [[Crοci,]] Gianluca Guidi, Nicola Mazzucato, [[Alessаndro]] Moscardi, Andrea Castellani.",105.12704467773438,114.30770874023438,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996964931488037,
+    ""index"": 3,
+    ""word"": ""Javier"",
+    ""start"": 7,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996140599250793,
+    ""index"": 4,
+    ""word"": ""Per"",
+    ""start"": 14,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999081015586853,
+    ""index"": 5,
+    ""word"": ""##tile"",
+    ""start"": 17,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996230602264404,
+    ""index"": 7,
+    ""word"": ""Paolo"",
+    ""start"": 23,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993504881858826,
+    ""index"": 8,
+    ""word"": ""V"",
+    ""start"": 29,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9117835164070129,
+    ""index"": 9,
+    ""word"": ""##ac"",
+    ""start"": 30,
+    ""end"": 32
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9853926301002502,
+    ""index"": 10,
+    ""word"": ""##car"",
+    ""start"": 32,
+    ""end"": 35
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9941816926002502,
+    ""index"": 11,
+    ""word"": ""##i"",
+    ""start"": 35,
+    ""end"": 36
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999629020690918,
+    ""index"": 13,
+    ""word"": ""Marcel"",
+    ""start"": 38,
+    ""end"": 44
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996144771575928,
+    ""index"": 14,
+    ""word"": ""##lo"",
+    ""start"": 44,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999419093132019,
+    ""index"": 15,
+    ""word"": ""Cut"",
+    ""start"": 47,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9883246421813965,
+    ""index"": 16,
+    ""word"": ""##ti"",
+    ""start"": 50,
+    ""end"": 52
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.991333544254303,
+    ""index"": 17,
+    ""word"": ""##tta"",
+    ""start"": 52,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996664524078369,
+    ""index"": 19,
+    ""word"": ""Ivan"",
+    ""start"": 57,
+    ""end"": 61
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989718198776245,
+    ""index"": 20,
+    ""word"": ""Francesca"",
+    ""start"": 62,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986714124679565,
+    ""index"": 21,
+    ""word"": ""##to"",
+    ""start"": 71,
+    ""end"": 73
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996229410171509,
+    ""index"": 23,
+    ""word"": ""Lea"",
+    ""start"": 75,
+    ""end"": 78
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988415837287903,
+    ""index"": 24,
+    ""word"": ""##nd"",
+    ""start"": 78,
+    ""end"": 80
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999601423740387,
+    ""index"": 25,
+    ""word"": ""##ro"",
+    ""start"": 80,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995278120040894,
+    ""index"": 26,
+    ""word"": ""Man"",
+    ""start"": 83,
+    ""end"": 86
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9924210906028748,
+    ""index"": 27,
+    ""word"": ""##ter"",
+    ""start"": 86,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.995231568813324,
+    ""index"": 28,
+    ""word"": ""##i"",
+    ""start"": 89,
+    ""end"": 90
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996904134750366,
+    ""index"": 30,
+    ""word"": ""Diego"",
+    ""start"": 92,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995877146720886,
+    ""index"": 31,
+    ""word"": ""Dom"",
+    ""start"": 98,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9927955269813538,
+    ""index"": 32,
+    ""word"": ""##ing"",
+    ""start"": 101,
+    ""end"": 104
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9896314740180969,
+    ""index"": 33,
+    ""word"": ""##ue"",
+    ""start"": 104,
+    ""end"": 106
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986445307731628,
+    ""index"": 34,
+    ""word"": ""##z"",
+    ""start"": 106,
+    ""end"": 107
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996844530105591,
+    ""index"": 36,
+    ""word"": ""Francesco"",
+    ""start"": 109,
+    ""end"": 118
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993407130241394,
+    ""index"": 37,
+    ""word"": ""Ma"",
+    ""start"": 119,
+    ""end"": 121
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.996559202671051,
+    ""index"": 38,
+    ""word"": ""##zza"",
+    ""start"": 121,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9973322153091431,
+    ""index"": 39,
+    ""word"": ""##rio"",
+    ""start"": 124,
+    ""end"": 127
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9934451580047607,
+    ""index"": 40,
+    ""word"": ""##l"",
+    ""start"": 127,
+    ""end"": 128
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996217489242554,
+    ""index"": 42,
+    ""word"": ""Alessandro"",
+    ""start"": 130,
+    ""end"": 140
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995037317276001,
+    ""index"": 43,
+    ""word"": ""T"",
+    ""start"": 141,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9964826107025146,
+    ""index"": 44,
+    ""word"": ""##ron"",
+    ""start"": 142,
+    ""end"": 145
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9956195950508118,
+    ""index"": 45,
+    ""word"": ""##con"",
+    ""start"": 145,
+    ""end"": 148
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996045231819153,
+    ""index"": 47,
+    ""word"": ""Or"",
+    ""start"": 150,
+    ""end"": 152
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991458654403687,
+    ""index"": 48,
+    ""word"": ""##azi"",
+    ""start"": 152,
+    ""end"": 155
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995444416999817,
+    ""index"": 49,
+    ""word"": ""##o"",
+    ""start"": 155,
+    ""end"": 156
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991382360458374,
+    ""index"": 50,
+    ""word"": ""Ara"",
+    ""start"": 157,
+    ""end"": 160
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9902897477149963,
+    ""index"": 51,
+    ""word"": ""##nc"",
+    ""start"": 160,
+    ""end"": 162
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9961515069007874,
+    ""index"": 52,
+    ""word"": ""##io"",
+    ""start"": 162,
+    ""end"": 164
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996988773345947,
+    ""index"": 54,
+    ""word"": ""Andrea"",
+    ""start"": 166,
+    ""end"": 172
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991293549537659,
+    ""index"": 55,
+    ""word"": ""S"",
+    ""start"": 173,
+    ""end"": 174
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9982262253761292,
+    ""index"": 56,
+    ""word"": ""##gor"",
+    ""start"": 174,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9924904704093933,
+    ""index"": 57,
+    ""word"": ""##lon"",
+    ""start"": 177,
+    ""end"": 180
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996628761291504,
+    ""index"": 59,
+    ""word"": ""Mass"",
+    ""start"": 182,
+    ""end"": 186
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996169805526733,
+    ""index"": 60,
+    ""word"": ""##imo"",
+    ""start"": 186,
+    ""end"": 189
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996190071105957,
+    ""index"": 61,
+    ""word"": ""G"",
+    ""start"": 190,
+    ""end"": 191
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9825119972229004,
+    ""index"": 62,
+    ""word"": ""##io"",
+    ""start"": 191,
+    ""end"": 193
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9953031539916992,
+    ""index"": 63,
+    ""word"": ""##van"",
+    ""start"": 193,
+    ""end"": 196
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986176490783691,
+    ""index"": 64,
+    ""word"": ""##elli"",
+    ""start"": 196,
+    ""end"": 200
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996438026428223,
+    ""index"": 66,
+    ""word"": ""Carlo"",
+    ""start"": 202,
+    ""end"": 207
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992896318435669,
+    ""index"": 67,
+    ""word"": ""Ch"",
+    ""start"": 208,
+    ""end"": 210
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.985903799533844,
+    ""index"": 68,
+    ""word"": ""##ec"",
+    ""start"": 210,
+    ""end"": 212
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9637417793273926,
+    ""index"": 69,
+    ""word"": ""##china"",
+    ""start"": 212,
+    ""end"": 217
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9825053215026855,
+    ""index"": 70,
+    ""word"": ""##to"",
+    ""start"": 217,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999697208404541,
+    ""index"": 72,
+    ""word"": ""Walter"",
+    ""start"": 221,
+    ""end"": 227
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997145533561707,
+    ""index"": 73,
+    ""word"": ""C"",
+    ""start"": 228,
+    ""end"": 229
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990092515945435,
+    ""index"": 74,
+    ""word"": ""##risto"",
+    ""start"": 229,
+    ""end"": 234
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993259906768799,
+    ""index"": 75,
+    ""word"": ""##fo"",
+    ""start"": 234,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9937723278999329,
+    ""index"": 76,
+    ""word"": ""##lett"",
+    ""start"": 236,
+    ""end"": 240
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9917608499526978,
+    ""index"": 77,
+    ""word"": ""##o"",
+    ""start"": 240,
+    ""end"": 241
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995738863945007,
+    ""index"": 79,
+    ""word"": ""Franco"",
+    ""start"": 243,
+    ""end"": 249
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995710253715515,
+    ""index"": 80,
+    ""word"": ""Pro"",
+    ""start"": 250,
+    ""end"": 253
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9703391194343567,
+    ""index"": 81,
+    ""word"": ""##per"",
+    ""start"": 253,
+    ""end"": 256
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9415674209594727,
+    ""index"": 82,
+    ""word"": ""##zi"",
+    ""start"": 256,
+    ""end"": 258
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9888365268707275,
+    ""index"": 83,
+    ""word"": ""C"",
+    ""start"": 259,
+    ""end"": 260
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9629439115524292,
+    ""index"": 84,
+    ""word"": ""##urt"",
+    ""start"": 260,
+    ""end"": 263
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9831919074058533,
+    ""index"": 85,
+    ""word"": ""##i"",
+    ""start"": 263,
+    ""end"": 264
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996278285980225,
+    ""index"": 87,
+    ""word"": ""Carlo"",
+    ""start"": 266,
+    ""end"": 271
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996694326400757,
+    ""index"": 88,
+    ""word"": ""Or"",
+    ""start"": 272,
+    ""end"": 274
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.995153546333313,
+    ""index"": 89,
+    ""word"": ""##land"",
+    ""start"": 274,
+    ""end"": 278
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9934087991714478,
+    ""index"": 90,
+    ""word"": ""##i"",
+    ""start"": 278,
+    ""end"": 279
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996181726455688,
+    ""index"": 92,
+    ""word"": ""Mass"",
+    ""start"": 281,
+    ""end"": 285
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995182752609253,
+    ""index"": 93,
+    ""word"": ""##imo"",
+    ""start"": 285,
+    ""end"": 288
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994151592254639,
+    ""index"": 94,
+    ""word"": ""Cut"",
+    ""start"": 289,
+    ""end"": 292
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9772495031356812,
+    ""index"": 95,
+    ""word"": ""##ti"",
+    ""start"": 292,
+    ""end"": 294
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9870834350585938,
+    ""index"": 96,
+    ""word"": ""##tta"",
+    ""start"": 294,
+    ""end"": 297
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994408488273621,
+    ""index"": 98,
+    ""word"": ""G"",
+    ""start"": 299,
+    ""end"": 300
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9966650605201721,
+    ""index"": 99,
+    ""word"": ""##iam"",
+    ""start"": 300,
+    ""end"": 303
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9895721673965454,
+    ""index"": 100,
+    ""word"": ""##bat"",
+    ""start"": 303,
+    ""end"": 306
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9969744682312012,
+    ""index"": 101,
+    ""word"": ""##ista"",
+    ""start"": 306,
+    ""end"": 310
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995197057723999,
+    ""index"": 102,
+    ""word"": ""C"",
+    ""start"": 311,
+    ""end"": 312
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9567650556564331,
+    ""index"": 103,
+    ""word"": ""##ro"",
+    ""start"": 312,
+    ""end"": 314
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.988334059715271,
+    ""index"": 104,
+    ""word"": ""##ci"",
+    ""start"": 314,
+    ""end"": 316
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995893836021423,
+    ""index"": 106,
+    ""word"": ""G"",
+    ""start"": 318,
+    ""end"": 319
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991334080696106,
+    ""index"": 107,
+    ""word"": ""##ian"",
+    ""start"": 319,
+    ""end"": 322
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9972611665725708,
+    ""index"": 108,
+    ""word"": ""##lu"",
+    ""start"": 322,
+    ""end"": 324
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994102716445923,
+    ""index"": 109,
+    ""word"": ""##ca"",
+    ""start"": 324,
+    ""end"": 326
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994694590568542,
+    ""index"": 110,
+    ""word"": ""G"",
+    ""start"": 327,
+    ""end"": 328
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9977849721908569,
+    ""index"": 111,
+    ""word"": ""##uid"",
+    ""start"": 328,
+    ""end"": 331
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9904250502586365,
+    ""index"": 112,
+    ""word"": ""##i"",
+    ""start"": 331,
+    ""end"": 332
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999600350856781,
+    ""index"": 114,
+    ""word"": ""Nicola"",
+    ""start"": 334,
+    ""end"": 340
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.998993456363678,
+    ""index"": 115,
+    ""word"": ""Ma"",
+    ""start"": 341,
+    ""end"": 343
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9566989541053772,
+    ""index"": 116,
+    ""word"": ""##zz"",
+    ""start"": 343,
+    ""end"": 345
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9194183945655823,
+    ""index"": 117,
+    ""word"": ""##uca"",
+    ""start"": 345,
+    ""end"": 348
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9710047245025635,
+    ""index"": 118,
+    ""word"": ""##to"",
+    ""start"": 348,
+    ""end"": 350
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995644688606262,
+    ""index"": 120,
+    ""word"": ""Alessandro"",
+    ""start"": 352,
+    ""end"": 362
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999285876750946,
+    ""index"": 121,
+    ""word"": ""Mo"",
+    ""start"": 363,
+    ""end"": 365
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9202998876571655,
+    ""index"": 122,
+    ""word"": ""##sca"",
+    ""start"": 365,
+    ""end"": 368
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9943075776100159,
+    ""index"": 123,
+    ""word"": ""##rdi"",
+    ""start"": 368,
+    ""end"": 371
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996356964111328,
+    ""index"": 125,
+    ""word"": ""Andrea"",
+    ""start"": 373,
+    ""end"": 379
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996452331542969,
+    ""index"": 126,
+    ""word"": ""Cast"",
+    ""start"": 380,
+    ""end"": 384
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.996062695980072,
+    ""index"": 127,
+    ""word"": ""##ella"",
+    ""start"": 384,
+    ""end"": 388
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9947655200958252,
+    ""index"": 128,
+    ""word"": ""##ni"",
+    ""start"": 388,
+    ""end"": 390
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996895790100098,
+    ""index"": 3,
+    ""word"": ""Javier"",
+    ""start"": 7,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995651841163635,
+    ""index"": 4,
+    ""word"": ""Per"",
+    ""start"": 14,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988412261009216,
+    ""index"": 5,
+    ""word"": ""##tile"",
+    ""start"": 17,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996134638786316,
+    ""index"": 7,
+    ""word"": ""Paolo"",
+    ""start"": 23,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999182403087616,
+    ""index"": 8,
+    ""word"": ""V"",
+    ""start"": 29,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9325138330459595,
+    ""index"": 9,
+    ""word"": ""##ac"",
+    ""start"": 30,
+    ""end"": 32
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9844037294387817,
+    ""index"": 10,
+    ""word"": ""##car"",
+    ""start"": 32,
+    ""end"": 35
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9930602312088013,
+    ""index"": 11,
+    ""word"": ""##i"",
+    ""start"": 35,
+    ""end"": 36
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996045231819153,
+    ""index"": 13,
+    ""word"": ""Marcel"",
+    ""start"": 38,
+    ""end"": 44
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995763897895813,
+    ""index"": 14,
+    ""word"": ""##lo"",
+    ""start"": 44,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989107847213745,
+    ""index"": 15,
+    ""word"": ""Cut"",
+    ""start"": 47,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9898680448532104,
+    ""index"": 16,
+    ""word"": ""##ti"",
+    ""start"": 50,
+    ""end"": 52
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9921371340751648,
+    ""index"": 17,
+    ""word"": ""##tta"",
+    ""start"": 52,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996671676635742,
+    ""index"": 19,
+    ""word"": ""Ivan"",
+    ""start"": 57,
+    ""end"": 61
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994457364082336,
+    ""index"": 20,
+    ""word"": ""Fr"",
+    ""start"": 62,
+    ""end"": 64
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9959359169006348,
+    ""index"": 21,
+    ""word"": ""##an"",
+    ""start"": 64,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9968447685241699,
+    ""index"": 22,
+    ""word"": ""##c"",
+    ""start"": 66,
+    ""end"": 67
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9792426824569702,
+    ""index"": 23,
+    ""word"": ""##е"",
+    ""start"": 67,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9638475179672241,
+    ""index"": 24,
+    ""word"": ""##sca"",
+    ""start"": 68,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9911008477210999,
+    ""index"": 25,
+    ""word"": ""##to"",
+    ""start"": 71,
+    ""end"": 73
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999494194984436,
+    ""index"": 27,
+    ""word"": ""Lea"",
+    ""start"": 75,
+    ""end"": 78
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9980525970458984,
+    ""index"": 28,
+    ""word"": ""##nd"",
+    ""start"": 78,
+    ""end"": 80
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995773434638977,
+    ""index"": 29,
+    ""word"": ""##ro"",
+    ""start"": 80,
+    ""end"": 82
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995020627975464,
+    ""index"": 30,
+    ""word"": ""Man"",
+    ""start"": 83,
+    ""end"": 86
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9898192286491394,
+    ""index"": 31,
+    ""word"": ""##ter"",
+    ""start"": 86,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9903395771980286,
+    ""index"": 32,
+    ""word"": ""##i"",
+    ""start"": 89,
+    ""end"": 90
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996639490127563,
+    ""index"": 34,
+    ""word"": ""Diego"",
+    ""start"": 92,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995699524879456,
+    ""index"": 35,
+    ""word"": ""Dom"",
+    ""start"": 98,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9947527647018433,
+    ""index"": 36,
+    ""word"": ""##ing"",
+    ""start"": 101,
+    ""end"": 104
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9939722418785095,
+    ""index"": 37,
+    ""word"": ""##ue"",
+    ""start"": 104,
+    ""end"": 106
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987329840660095,
+    ""index"": 38,
+    ""word"": ""##z"",
+    ""start"": 106,
+    ""end"": 107
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996546506881714,
+    ""index"": 40,
+    ""word"": ""Francesco"",
+    ""start"": 109,
+    ""end"": 118
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991775155067444,
+    ""index"": 41,
+    ""word"": ""Ma"",
+    ""start"": 119,
+    ""end"": 121
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9958943128585815,
+    ""index"": 42,
+    ""word"": ""##zza"",
+    ""start"": 121,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9964287877082825,
+    ""index"": 43,
+    ""word"": ""##rio"",
+    ""start"": 124,
+    ""end"": 127
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9894982576370239,
+    ""index"": 44,
+    ""word"": ""##l"",
+    ""start"": 127,
+    ""end"": 128
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996455907821655,
+    ""index"": 46,
+    ""word"": ""Alessandro"",
+    ""start"": 130,
+    ""end"": 140
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994382262229919,
+    ""index"": 47,
+    ""word"": ""T"",
+    ""start"": 141,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9955698847770691,
+    ""index"": 48,
+    ""word"": ""##ron"",
+    ""start"": 142,
+    ""end"": 145
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9911825656890869,
+    ""index"": 49,
+    ""word"": ""##con"",
+    ""start"": 145,
+    ""end"": 148
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995878338813782,
+    ""index"": 51,
+    ""word"": ""Or"",
+    ""start"": 150,
+    ""end"": 152
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991629123687744,
+    ""index"": 52,
+    ""word"": ""##azi"",
+    ""start"": 152,
+    ""end"": 155
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999506950378418,
+    ""index"": 53,
+    ""word"": ""##o"",
+    ""start"": 155,
+    ""end"": 156
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991751313209534,
+    ""index"": 54,
+    ""word"": ""Ara"",
+    ""start"": 157,
+    ""end"": 160
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9929631352424622,
+    ""index"": 55,
+    ""word"": ""##nc"",
+    ""start"": 160,
+    ""end"": 162
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9968863129615784,
+    ""index"": 56,
+    ""word"": ""##io"",
+    ""start"": 162,
+    ""end"": 164
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996708631515503,
+    ""index"": 58,
+    ""word"": ""Andrea"",
+    ""start"": 166,
+    ""end"": 172
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988120794296265,
+    ""index"": 59,
+    ""word"": ""S"",
+    ""start"": 173,
+    ""end"": 174
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9969552755355835,
+    ""index"": 60,
+    ""word"": ""##gor"",
+    ""start"": 174,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9897255301475525,
+    ""index"": 61,
+    ""word"": ""##lon"",
+    ""start"": 177,
+    ""end"": 180
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996869564056396,
+    ""index"": 63,
+    ""word"": ""Mass"",
+    ""start"": 182,
+    ""end"": 186
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999546468257904,
+    ""index"": 64,
+    ""word"": ""##imo"",
+    ""start"": 186,
+    ""end"": 189
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996222257614136,
+    ""index"": 65,
+    ""word"": ""G"",
+    ""start"": 190,
+    ""end"": 191
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9828316569328308,
+    ""index"": 66,
+    ""word"": ""##io"",
+    ""start"": 191,
+    ""end"": 193
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9953355193138123,
+    ""index"": 67,
+    ""word"": ""##van"",
+    ""start"": 193,
+    ""end"": 196
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.998526930809021,
+    ""index"": 68,
+    ""word"": ""##elli"",
+    ""start"": 196,
+    ""end"": 200
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996210336685181,
+    ""index"": 70,
+    ""word"": ""Carlo"",
+    ""start"": 202,
+    ""end"": 207
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992503523826599,
+    ""index"": 71,
+    ""word"": ""Ch"",
+    ""start"": 208,
+    ""end"": 210
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9863212704658508,
+    ""index"": 72,
+    ""word"": ""##ec"",
+    ""start"": 210,
+    ""end"": 212
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9526422023773193,
+    ""index"": 73,
+    ""word"": ""##china"",
+    ""start"": 212,
+    ""end"": 217
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9817232489585876,
+    ""index"": 74,
+    ""word"": ""##to"",
+    ""start"": 217,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996669292449951,
+    ""index"": 76,
+    ""word"": ""Walter"",
+    ""start"": 221,
+    ""end"": 227
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996775388717651,
+    ""index"": 77,
+    ""word"": ""C"",
+    ""start"": 228,
+    ""end"": 229
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986590147018433,
+    ""index"": 78,
+    ""word"": ""##risto"",
+    ""start"": 229,
+    ""end"": 234
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991486072540283,
+    ""index"": 79,
+    ""word"": ""##fo"",
+    ""start"": 234,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9932178854942322,
+    ""index"": 80,
+    ""word"": ""##lett"",
+    ""start"": 236,
+    ""end"": 240
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9898636937141418,
+    ""index"": 81,
+    ""word"": ""##o"",
+    ""start"": 240,
+    ""end"": 241
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996139407157898,
+    ""index"": 83,
+    ""word"": ""Franco"",
+    ""start"": 243,
+    ""end"": 249
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995724558830261,
+    ""index"": 84,
+    ""word"": ""Pro"",
+    ""start"": 250,
+    ""end"": 253
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9788271188735962,
+    ""index"": 85,
+    ""word"": ""##per"",
+    ""start"": 253,
+    ""end"": 256
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9591671228408813,
+    ""index"": 86,
+    ""word"": ""##zi"",
+    ""start"": 256,
+    ""end"": 258
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9889271259307861,
+    ""index"": 87,
+    ""word"": ""C"",
+    ""start"": 259,
+    ""end"": 260
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9738996624946594,
+    ""index"": 88,
+    ""word"": ""##urt"",
+    ""start"": 260,
+    ""end"": 263
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9839004278182983,
+    ""index"": 89,
+    ""word"": ""##i"",
+    ""start"": 263,
+    ""end"": 264
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996021389961243,
+    ""index"": 91,
+    ""word"": ""Carlo"",
+    ""start"": 266,
+    ""end"": 271
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996289014816284,
+    ""index"": 92,
+    ""word"": ""Or"",
+    ""start"": 272,
+    ""end"": 274
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9940280914306641,
+    ""index"": 93,
+    ""word"": ""##land"",
+    ""start"": 274,
+    ""end"": 278
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9911353588104248,
+    ""index"": 94,
+    ""word"": ""##i"",
+    ""start"": 278,
+    ""end"": 279
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996494054794312,
+    ""index"": 96,
+    ""word"": ""Mass"",
+    ""start"": 281,
+    ""end"": 285
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995676875114441,
+    ""index"": 97,
+    ""word"": ""##imo"",
+    ""start"": 285,
+    ""end"": 288
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9712507128715515,
+    ""index"": 98,
+    ""word"": ""С"",
+    ""start"": 289,
+    ""end"": 290
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9556518793106079,
+    ""index"": 99,
+    ""word"": ""##utt"",
+    ""start"": 290,
+    ""end"": 293
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.918370246887207,
+    ""index"": 100,
+    ""word"": ""##itt"",
+    ""start"": 293,
+    ""end"": 296
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9684093594551086,
+    ""index"": 101,
+    ""word"": ""##a"",
+    ""start"": 296,
+    ""end"": 297
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994710087776184,
+    ""index"": 103,
+    ""word"": ""G"",
+    ""start"": 299,
+    ""end"": 300
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9973951578140259,
+    ""index"": 104,
+    ""word"": ""##iam"",
+    ""start"": 300,
+    ""end"": 303
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9896721839904785,
+    ""index"": 105,
+    ""word"": ""##bat"",
+    ""start"": 303,
+    ""end"": 306
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9974971413612366,
+    ""index"": 106,
+    ""word"": ""##ista"",
+    ""start"": 306,
+    ""end"": 310
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999448835849762,
+    ""index"": 107,
+    ""word"": ""C"",
+    ""start"": 311,
+    ""end"": 312
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7882428169250488,
+    ""index"": 108,
+    ""word"": ""##r"",
+    ""start"": 312,
+    ""end"": 313
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8820886015892029,
+    ""index"": 109,
+    ""word"": ""##ο"",
+    ""start"": 313,
+    ""end"": 314
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9667795896530151,
+    ""index"": 110,
+    ""word"": ""##ci"",
+    ""start"": 314,
+    ""end"": 316
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995763897895813,
+    ""index"": 112,
+    ""word"": ""G"",
+    ""start"": 318,
+    ""end"": 319
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991188645362854,
+    ""index"": 113,
+    ""word"": ""##ian"",
+    ""start"": 319,
+    ""end"": 322
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9966805577278137,
+    ""index"": 114,
+    ""word"": ""##lu"",
+    ""start"": 322,
+    ""end"": 324
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992986917495728,
+    ""index"": 115,
+    ""word"": ""##ca"",
+    ""start"": 324,
+    ""end"": 326
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993150234222412,
+    ""index"": 116,
+    ""word"": ""G"",
+    ""start"": 327,
+    ""end"": 328
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9967659711837769,
+    ""index"": 117,
+    ""word"": ""##uid"",
+    ""start"": 328,
+    ""end"": 331
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9870738983154297,
+    ""index"": 118,
+    ""word"": ""##i"",
+    ""start"": 331,
+    ""end"": 332
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996308088302612,
+    ""index"": 120,
+    ""word"": ""Nicola"",
+    ""start"": 334,
+    ""end"": 340
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990492463111877,
+    ""index"": 121,
+    ""word"": ""Ma"",
+    ""start"": 341,
+    ""end"": 343
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9767395853996277,
+    ""index"": 122,
+    ""word"": ""##zz"",
+    ""start"": 343,
+    ""end"": 345
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9265621304512024,
+    ""index"": 123,
+    ""word"": ""##uca"",
+    ""start"": 345,
+    ""end"": 348
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9740254282951355,
+    ""index"": 124,
+    ""word"": ""##to"",
+    ""start"": 348,
+    ""end"": 350
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995298385620117,
+    ""index"": 126,
+    ""word"": ""Al"",
+    ""start"": 352,
+    ""end"": 354
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9951336979866028,
+    ""index"": 127,
+    ""word"": ""##ess"",
+    ""start"": 354,
+    ""end"": 357
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7038496732711792,
+    ""index"": 128,
+    ""word"": ""##а"",
+    ""start"": 357,
+    ""end"": 358
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.992371678352356,
+    ""index"": 129,
+    ""word"": ""##nd"",
+    ""start"": 358,
+    ""end"": 360
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994451403617859,
+    ""index"": 130,
+    ""word"": ""##ro"",
+    ""start"": 360,
+    ""end"": 362
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992080330848694,
+    ""index"": 131,
+    ""word"": ""Mo"",
+    ""start"": 363,
+    ""end"": 365
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8979177474975586,
+    ""index"": 132,
+    ""word"": ""##sca"",
+    ""start"": 365,
+    ""end"": 368
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9921557903289795,
+    ""index"": 133,
+    ""word"": ""##rdi"",
+    ""start"": 368,
+    ""end"": 371
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996312856674194,
+    ""index"": 135,
+    ""word"": ""Andrea"",
+    ""start"": 373,
+    ""end"": 379
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995785355567932,
+    ""index"": 136,
+    ""word"": ""Cast"",
+    ""start"": 380,
+    ""end"": 384
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9903854131698608,
+    ""index"": 137,
+    ""word"": ""##ella"",
+    ""start"": 384,
+    ""end"": 388
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9920616149902344,
+    ""index"": 138,
+    ""word"": ""##ni"",
+    ""start"": 388,
+    ""end"": 390
+  }
+]","NER",86,"Successful"
+"[[SOCCER-]] LATE GOALS [[GIVE]] [[JAPAN]] WIN OVER [[SYRIA.]]","[[SOCСER-]] LATE GOALS [[GΙVE]] [[JAΡAN]] WIN OVER [[SYRΙA.]]",0.0,0.734078049659729,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9778527021408081,
+    ""index"": 13,
+    ""word"": ""J"",
+    ""start"": 24,
+    ""end"": 25
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.8654582500457764,
+    ""index"": 14,
+    ""word"": ""##AP"",
+    ""start"": 25,
+    ""end"": 27
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.8373288512229919,
+    ""index"": 15,
+    ""word"": ""##AN"",
+    ""start"": 27,
+    ""end"": 29
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.8283051252365112,
+    ""index"": 21,
+    ""word"": ""S"",
+    ""start"": 39,
+    ""end"": 40
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.6565771698951721,
+    ""index"": 22,
+    ""word"": ""##Y"",
+    ""start"": 40,
+    ""end"": 41
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.5449203252792358,
+    ""index"": 23,
+    ""word"": ""##RI"",
+    ""start"": 41,
+    ""end"": 43
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.42921745777130127,
+    ""index"": 24,
+    ""word"": ""##A"",
+    ""start"": 43,
+    ""end"": 44
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.734078049659729,
+    ""index"": 11,
+    ""word"": ""G"",
+    ""start"": 19,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.4772496223449707,
+    ""index"": 13,
+    ""word"": ""##VE"",
+    ""start"": 21,
+    ""end"": 23
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.4653087258338928,
+    ""index"": 20,
+    ""word"": ""S"",
+    ""start"": 39,
+    ""end"": 40
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6267273426055908,
+    ""index"": 21,
+    ""word"": ""##Y"",
+    ""start"": 40,
+    ""end"": 41
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.7038651704788208,
+    ""index"": 22,
+    ""word"": ""##R"",
+    ""start"": 41,
+    ""end"": 42
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.6376509666442871,
+    ""index"": 23,
+    ""word"": ""##Ι"",
+    ""start"": 42,
+    ""end"": 43
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.7868913412094116,
+    ""index"": 24,
+    ""word"": ""##A"",
+    ""start"": 43,
+    ""end"": 44
+  }
+]","NER",86,"Successful"
+"[[AL-AIN,]] [[United]] [[Arab]] [[Emirates]] 1996-12-06","[[AL-ΑIN,]] [[Unitеd]] [[Arаb]] [[Emirateѕ]] 1996-12-06",0.0,0.0,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9984487295150757,
+    ""index"": 1,
+    ""word"": ""AL"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9677125215530396,
+    ""index"": 2,
+    ""word"": ""-"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9955710768699646,
+    ""index"": 3,
+    ""word"": ""AI"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9939817786216736,
+    ""index"": 4,
+    ""word"": ""##N"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997562766075134,
+    ""index"": 6,
+    ""word"": ""United"",
+    ""start"": 8,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997227787971497,
+    ""index"": 7,
+    ""word"": ""Arab"",
+    ""start"": 15,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998668432235718,
+    ""index"": 8,
+    ""word"": ""Emirates"",
+    ""start"": 20,
+    ""end"": 28
+  }
+]","[
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9509429335594177,
+    ""index"": 1,
+    ""word"": ""AL"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.49793723225593567,
+    ""index"": 2,
+    ""word"": ""-"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9014626145362854,
+    ""index"": 3,
+    ""word"": ""Α"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9694886207580566,
+    ""index"": 4,
+    ""word"": ""##IN"",
+    ""start"": 4,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.8066703081130981,
+    ""index"": 6,
+    ""word"": ""Unit"",
+    ""start"": 8,
+    ""end"": 12
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.7659642100334167,
+    ""index"": 8,
+    ""word"": ""##d"",
+    ""start"": 13,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9520469903945923,
+    ""index"": 9,
+    ""word"": ""A"",
+    ""start"": 15,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.7959140539169312,
+    ""index"": 10,
+    ""word"": ""##r"",
+    ""start"": 16,
+    ""end"": 17
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.638687252998352,
+    ""index"": 11,
+    ""word"": ""##а"",
+    ""start"": 17,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9493257999420166,
+    ""index"": 12,
+    ""word"": ""##b"",
+    ""start"": 18,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9095768332481384,
+    ""index"": 13,
+    ""word"": ""Emirateѕ"",
+    ""start"": 20,
+    ""end"": 28
+  }
+]","NER",46,"Failed"
+"Two [[goals]] in the last [[six]] minutes gave holders Japan an [[uninspiring]] 2-1 Asian Cup victory over Syria on [[Friday.]]","Two [[goalѕ]] in the last [[sіx]] minutes gave holders Japan an [[uninsрiring]] 2-1 Asian Cup victory over Syria on [[Fridaу.]]",0.0,0.6122626662254333,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9995996356010437,
+    ""index"": 10,
+    ""word"": ""Japan"",
+    ""start"": 47,
+    ""end"": 52
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9791908860206604,
+    ""index"": 19,
+    ""word"": ""Asian"",
+    ""start"": 72,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.997996985912323,
+    ""index"": 20,
+    ""word"": ""Cup"",
+    ""start"": 78,
+    ""end"": 81
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998334646224976,
+    ""index"": 23,
+    ""word"": ""Syria"",
+    ""start"": 95,
+    ""end"": 100
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9995835423469543,
+    ""index"": 12,
+    ""word"": ""Japan"",
+    ""start"": 47,
+    ""end"": 52
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9820014834403992,
+    ""index"": 21,
+    ""word"": ""Asian"",
+    ""start"": 72,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9981672763824463,
+    ""index"": 22,
+    ""word"": ""Cup"",
+    ""start"": 78,
+    ""end"": 81
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998130202293396,
+    ""index"": 25,
+    ""word"": ""Syria"",
+    ""start"": 95,
+    ""end"": 100
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6122626662254333,
+    ""index"": 27,
+    ""word"": ""Fr"",
+    ""start"": 104,
+    ""end"": 106
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.5576125383377075,
+    ""index"": 28,
+    ""word"": ""##ida"",
+    ""start"": 106,
+    ""end"": 109
+  }
+]","NER",86,"Successful"
+"[[Takuya]] Takagi headed the winner [[in]] the 88th minute of the group C game after goalkeeper [[Salem]] Bitar spoiled a mistake-free display by allowing the ball to slip [[under]] his body.","[[Takuуa]] Takagi headed the winner [[іn]] the 88th minute of the group C game after goalkeeper [[Salеm]] Bitar spoiled a mistake-free display by allowing the ball to slip [[undеr]] his body.",8.922168731689453,11.054957389831543,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996534585952759,
+    ""index"": 1,
+    ""word"": ""Ta"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986942410469055,
+    ""index"": 2,
+    ""word"": ""##ku"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994106292724609,
+    ""index"": 3,
+    ""word"": ""##ya"",
+    ""start"": 4,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993088245391846,
+    ""index"": 4,
+    ""word"": ""Ta"",
+    ""start"": 7,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9393245577812195,
+    ""index"": 5,
+    ""word"": ""##ka"",
+    ""start"": 9,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9885053634643555,
+    ""index"": 6,
+    ""word"": ""##gi"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994662404060364,
+    ""index"": 22,
+    ""word"": ""Salem"",
+    ""start"": 88,
+    ""end"": 93
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997201561927795,
+    ""index"": 23,
+    ""word"": ""Bit"",
+    ""start"": 94,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9980846643447876,
+    ""index"": 24,
+    ""word"": ""##ar"",
+    ""start"": 97,
+    ""end"": 99
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992584586143494,
+    ""index"": 1,
+    ""word"": ""Ta"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9855228662490845,
+    ""index"": 2,
+    ""word"": ""##ku"",
+    ""start"": 2,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.4599497616291046,
+    ""index"": 3,
+    ""word"": ""##у"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9959911704063416,
+    ""index"": 4,
+    ""word"": ""##a"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991687536239624,
+    ""index"": 5,
+    ""word"": ""Ta"",
+    ""start"": 7,
+    ""end"": 9
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8323291540145874,
+    ""index"": 6,
+    ""word"": ""##ka"",
+    ""start"": 9,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.967431902885437,
+    ""index"": 7,
+    ""word"": ""##gi"",
+    ""start"": 11,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986091256141663,
+    ""index"": 24,
+    ""word"": ""Sal"",
+    ""start"": 88,
+    ""end"": 91
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8214542865753174,
+    ""index"": 25,
+    ""word"": ""##е"",
+    ""start"": 91,
+    ""end"": 92
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9984824061393738,
+    ""index"": 26,
+    ""word"": ""##m"",
+    ""start"": 92,
+    ""end"": 93
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997758269309998,
+    ""index"": 27,
+    ""word"": ""Bit"",
+    ""start"": 94,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9969837069511414,
+    ""index"": 28,
+    ""word"": ""##ar"",
+    ""start"": 97,
+    ""end"": 99
+  }
+]","NER",86,"Successful"
+"It was [[the]] second Syrian [[defensive]] blunder [[in]] four minutes.","It was [[thе]] second Syrian [[dеfensіve]] blunder [[іn]] four minutes.",0.0,0.0,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9987325072288513,
+    ""index"": 5,
+    ""word"": ""Syrian"",
+    ""start"": 18,
+    ""end"": 24
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9986434578895569,
+    ""index"": 6,
+    ""word"": ""Syrian"",
+    ""start"": 18,
+    ""end"": 24
+  }
+]","NER",46,"Failed"
+"[[Defender]] [[Hassan]] Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into [[the]] top corner of Bitar 's goal.","[[Dеfendеr]] [[Hassаn]] Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into [[tһe]] top corner of Bitar 's goal.",1.9993224143981934,7.8552680015563965,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995805621147156,
+    ""index"": 3,
+    ""word"": ""Hassan"",
+    ""start"": 9,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997418522834778,
+    ""index"": 4,
+    ""word"": ""Abbas"",
+    ""start"": 16,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9271376729011536,
+    ""index"": 31,
+    ""word"": ""Bit"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9763095378875732,
+    ""index"": 32,
+    ""word"": ""##ar"",
+    ""start"": 141,
+    ""end"": 143
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9831631779670715,
+    ""index"": 1,
+    ""word"": ""D"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.40941569209098816,
+    ""index"": 2,
+    ""word"": ""##е"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.70572429895401,
+    ""index"": 4,
+    ""word"": ""##d"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6706656217575073,
+    ""index"": 5,
+    ""word"": ""##е"",
+    ""start"": 6,
+    ""end"": 7
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7949258089065552,
+    ""index"": 6,
+    ""word"": ""##r"",
+    ""start"": 7,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991279244422913,
+    ""index"": 7,
+    ""word"": ""Has"",
+    ""start"": 9,
+    ""end"": 12
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8394688367843628,
+    ""index"": 8,
+    ""word"": ""##s"",
+    ""start"": 12,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.45571863651275635,
+    ""index"": 9,
+    ""word"": ""##а"",
+    ""start"": 13,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9973624348640442,
+    ""index"": 10,
+    ""word"": ""##n"",
+    ""start"": 14,
+    ""end"": 15
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996956586837769,
+    ""index"": 11,
+    ""word"": ""Abbas"",
+    ""start"": 16,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9785234928131104,
+    ""index"": 38,
+    ""word"": ""Bit"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-ORG"",
+    ""score"": 0.9940588474273682,
+    ""index"": 39,
+    ""word"": ""##ar"",
+    ""start"": 141,
+    ""end"": 143
+  }
+]","NER",86,"Successful"
+"[[Syria]] had taken the [[lead]] from [[their]] first serious attack in [[the]] seventh minute.","[[Sуria]] had taken the [[lеad]] from [[tһeir]] first serious attack in [[thе]] seventh minute.",0.0,2.846808433532715,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998273849487305,
+    ""index"": 1,
+    ""word"": ""Syria"",
+    ""start"": 0,
+    ""end"": 5
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9850220084190369,
+    ""index"": 1,
+    ""word"": ""S"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9359592795372009,
+    ""index"": 2,
+    ""word"": ""##у"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9258270859718323,
+    ""index"": 3,
+    ""word"": ""##ria"",
+    ""start"": 2,
+    ""end"": 5
+  }
+]","NER",86,"Successful"
+"[[Nader]] [[Jokhadar]] headed a cross from the right by Ammar Awad into [[the]] top right corner of [[Kenichi]] Shimokawa 's goal.","[[Nadеr]] [[Jokhаdar]] headed a cross from the right by Ammar Awad into [[thе]] top right corner of [[Kеnichi]] Shimokawa 's goal.",14.960029602050781,19.38810157775879,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997549653053284,
+    ""index"": 1,
+    ""word"": ""Na"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996414184570312,
+    ""index"": 2,
+    ""word"": ""##der"",
+    ""start"": 2,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996026158332825,
+    ""index"": 3,
+    ""word"": ""Jo"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9962491393089294,
+    ""index"": 4,
+    ""word"": ""##kha"",
+    ""start"": 8,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.995400607585907,
+    ""index"": 5,
+    ""word"": ""##dar"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997742772102356,
+    ""index"": 13,
+    ""word"": ""Am"",
+    ""start"": 48,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996740818023682,
+    ""index"": 14,
+    ""word"": ""##mar"",
+    ""start"": 50,
+    ""end"": 53
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995563626289368,
+    ""index"": 15,
+    ""word"": ""A"",
+    ""start"": 54,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9966679215431213,
+    ""index"": 16,
+    ""word"": ""##wa"",
+    ""start"": 55,
+    ""end"": 57
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9985665678977966,
+    ""index"": 17,
+    ""word"": ""##d"",
+    ""start"": 57,
+    ""end"": 58
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993730187416077,
+    ""index"": 24,
+    ""word"": ""Ken"",
+    ""start"": 88,
+    ""end"": 91
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999311089515686,
+    ""index"": 25,
+    ""word"": ""##ichi"",
+    ""start"": 91,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991936087608337,
+    ""index"": 26,
+    ""word"": ""Shi"",
+    ""start"": 96,
+    ""end"": 99
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9860484600067139,
+    ""index"": 27,
+    ""word"": ""##mo"",
+    ""start"": 99,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9912148714065552,
+    ""index"": 28,
+    ""word"": ""##kawa"",
+    ""start"": 101,
+    ""end"": 105
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990229606628418,
+    ""index"": 1,
+    ""word"": ""Na"",
+    ""start"": 0,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9441941380500793,
+    ""index"": 2,
+    ""word"": ""##d"",
+    ""start"": 2,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9793853759765625,
+    ""index"": 3,
+    ""word"": ""##е"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9980986714363098,
+    ""index"": 4,
+    ""word"": ""##r"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994514584541321,
+    ""index"": 5,
+    ""word"": ""Jo"",
+    ""start"": 6,
+    ""end"": 8
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9712083339691162,
+    ""index"": 6,
+    ""word"": ""##kh"",
+    ""start"": 8,
+    ""end"": 10
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7212705016136169,
+    ""index"": 7,
+    ""word"": ""##а"",
+    ""start"": 10,
+    ""end"": 11
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.993889331817627,
+    ""index"": 8,
+    ""word"": ""##dar"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997391104698181,
+    ""index"": 16,
+    ""word"": ""Am"",
+    ""start"": 48,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999630331993103,
+    ""index"": 17,
+    ""word"": ""##mar"",
+    ""start"": 50,
+    ""end"": 53
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999442994594574,
+    ""index"": 18,
+    ""word"": ""A"",
+    ""start"": 54,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9958544969558716,
+    ""index"": 19,
+    ""word"": ""##wa"",
+    ""start"": 55,
+    ""end"": 57
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9970911741256714,
+    ""index"": 20,
+    ""word"": ""##d"",
+    ""start"": 57,
+    ""end"": 58
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994599223136902,
+    ""index"": 28,
+    ""word"": ""K"",
+    ""start"": 88,
+    ""end"": 89
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.89372718334198,
+    ""index"": 29,
+    ""word"": ""##е"",
+    ""start"": 89,
+    ""end"": 90
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9546420574188232,
+    ""index"": 30,
+    ""word"": ""##nic"",
+    ""start"": 90,
+    ""end"": 93
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9972003698348999,
+    ""index"": 31,
+    ""word"": ""##hi"",
+    ""start"": 93,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993031024932861,
+    ""index"": 32,
+    ""word"": ""Shi"",
+    ""start"": 96,
+    ""end"": 99
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9711208343505859,
+    ""index"": 33,
+    ""word"": ""##mo"",
+    ""start"": 99,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9743669629096985,
+    ""index"": 34,
+    ""word"": ""##kawa"",
+    ""start"": 101,
+    ""end"": 105
+  }
+]","NER",86,"Successful"
+"[[Japan]] then laid [[siege]] to the [[Syrian]] [[penalty]] area and had a goal disallowed for offside in the 16th minute.","[[Jаpan]] then laid [[siegе]] to the [[Syriаn]] [[pеnalty]] area and had a goal disallowed for offside in the 16th minute.",0.0,2.7541539669036865,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997771382331848,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9989694356918335,
+    ""index"": 7,
+    ""word"": ""Syrian"",
+    ""start"": 29,
+    ""end"": 35
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9880295395851135,
+    ""index"": 1,
+    ""word"": ""J"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8132646083831787,
+    ""index"": 2,
+    ""word"": ""##а"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9528599381446838,
+    ""index"": 3,
+    ""word"": ""##pan"",
+    ""start"": 2,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9567953944206238,
+    ""index"": 11,
+    ""word"": ""S"",
+    ""start"": 29,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.6313890218734741,
+    ""index"": 12,
+    ""word"": ""##yr"",
+    ""start"": 30,
+    ""end"": 32
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.555720329284668,
+    ""index"": 13,
+    ""word"": ""##i"",
+    ""start"": 32,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9090454578399658,
+    ""index"": 14,
+    ""word"": ""##а"",
+    ""start"": 33,
+    ""end"": 34
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9745945334434509,
+    ""index"": 15,
+    ""word"": ""##n"",
+    ""start"": 34,
+    ""end"": 35
+  }
+]","NER",86,"Successful"
+"A minute later, Bitar produced a good [[double]] save, first from [[Kazuyoshi]] Miura 's header and then blocked a Takagi follow-up shot.","A minute later, Bitar produced a good [[dοuble]] save, first from [[Kаzuyoshі]] Miura 's header and then blocked a Takagi follow-up shot.",9.536040306091309,12.09492301940918,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9978117346763611,
+    ""index"": 5,
+    ""word"": ""Bit"",
+    ""start"": 16,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9487304091453552,
+    ""index"": 6,
+    ""word"": ""##ar"",
+    ""start"": 19,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995996356010437,
+    ""index"": 15,
+    ""word"": ""Ka"",
+    ""start"": 62,
+    ""end"": 64
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989113807678223,
+    ""index"": 16,
+    ""word"": ""##zu"",
+    ""start"": 64,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993367791175842,
+    ""index"": 17,
+    ""word"": ""##yoshi"",
+    ""start"": 66,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996258020401001,
+    ""index"": 18,
+    ""word"": ""Mi"",
+    ""start"": 72,
+    ""end"": 74
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981768131256104,
+    ""index"": 19,
+    ""word"": ""##ura"",
+    ""start"": 74,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981369972229004,
+    ""index"": 27,
+    ""word"": ""Ta"",
+    ""start"": 107,
+    ""end"": 109
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8029030561447144,
+    ""index"": 28,
+    ""word"": ""##ka"",
+    ""start"": 109,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7928085327148438,
+    ""index"": 29,
+    ""word"": ""##gi"",
+    ""start"": 111,
+    ""end"": 113
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9982892870903015,
+    ""index"": 5,
+    ""word"": ""Bit"",
+    ""start"": 16,
+    ""end"": 19
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9648039937019348,
+    ""index"": 6,
+    ""word"": ""##ar"",
+    ""start"": 19,
+    ""end"": 21
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.998534083366394,
+    ""index"": 18,
+    ""word"": ""K"",
+    ""start"": 62,
+    ""end"": 63
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9033440351486206,
+    ""index"": 19,
+    ""word"": ""##а"",
+    ""start"": 63,
+    ""end"": 64
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9680435061454773,
+    ""index"": 20,
+    ""word"": ""##zu"",
+    ""start"": 64,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9889847040176392,
+    ""index"": 21,
+    ""word"": ""##yo"",
+    ""start"": 66,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8522964715957642,
+    ""index"": 22,
+    ""word"": ""##sh"",
+    ""start"": 68,
+    ""end"": 70
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9881835579872131,
+    ""index"": 23,
+    ""word"": ""##і"",
+    ""start"": 70,
+    ""end"": 71
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993125200271606,
+    ""index"": 24,
+    ""word"": ""Mi"",
+    ""start"": 72,
+    ""end"": 74
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9921586513519287,
+    ""index"": 25,
+    ""word"": ""##ura"",
+    ""start"": 74,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.994963526725769,
+    ""index"": 33,
+    ""word"": ""Ta"",
+    ""start"": 107,
+    ""end"": 109
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7757436633110046,
+    ""index"": 34,
+    ""word"": ""##ka"",
+    ""start"": 109,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6702649593353271,
+    ""index"": 35,
+    ""word"": ""##gi"",
+    ""start"": 111,
+    ""end"": 113
+  }
+]","NER",86,"Successful"
+"[[Bitar]] saved well again from [[Miura]] in the 37th minute, parrying away his header from [[a]] corner.","[[Βitаr]] saved well again from [[Mіura]] in the 37th minute, parrying away his header from [[а]] corner.",3.9838337898254395,6.770661354064941,"[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991716146469116,
+    ""index"": 1,
+    ""word"": ""Bit"",
+    ""start"": 0,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9916093945503235,
+    ""index"": 2,
+    ""word"": ""##ar"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989662170410156,
+    ""index"": 7,
+    ""word"": ""Mi"",
+    ""start"": 28,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.994086503982544,
+    ""index"": 8,
+    ""word"": ""##ura"",
+    ""start"": 30,
+    ""end"": 33
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9933805465698242,
+    ""index"": 1,
+    ""word"": ""Β"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9785543084144592,
+    ""index"": 2,
+    ""word"": ""##it"",
+    ""start"": 1,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8912145495414734,
+    ""index"": 3,
+    ""word"": ""##а"",
+    ""start"": 3,
+    ""end"": 4
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.969730794429779,
+    ""index"": 4,
+    ""word"": ""##r"",
+    ""start"": 4,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9974207878112793,
+    ""index"": 9,
+    ""word"": ""M"",
+    ""start"": 28,
+    ""end"": 29
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9558106064796448,
+    ""index"": 10,
+    ""word"": ""##і"",
+    ""start"": 29,
+    ""end"": 30
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9845495223999023,
+    ""index"": 11,
+    ""word"": ""##ura"",
+    ""start"": 30,
+    ""end"": 33
+  }
+]","NER",86,"Successful"
+"[[Japan]] started the [[second]] half brightly but Bitar denied them an [[equaliser]] when he dived to his right to save Naoki Soma 's low drive in the 53rd minute.","[[Jаpan]] started the [[ѕecond]] half brightly but Bitar denied them an [[еqualіser]] when he dived to his right to save Naoki Soma 's low drive in the 53rd minute.",5.985889434814453,8.706727981567383,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9997782111167908,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994288086891174,
+    ""index"": 8,
+    ""word"": ""Bit"",
+    ""start"": 43,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9941551089286804,
+    ""index"": 9,
+    ""word"": ""##ar"",
+    ""start"": 46,
+    ""end"": 48
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997256398200989,
+    ""index"": 24,
+    ""word"": ""Na"",
+    ""start"": 109,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996331930160522,
+    ""index"": 25,
+    ""word"": ""##oki"",
+    ""start"": 111,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992892742156982,
+    ""index"": 26,
+    ""word"": ""So"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9936571717262268,
+    ""index"": 27,
+    ""word"": ""##ma"",
+    ""start"": 117,
+    ""end"": 119
+  }
+]","[
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9904423356056213,
+    ""index"": 1,
+    ""word"": ""J"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7730962038040161,
+    ""index"": 2,
+    ""word"": ""##а"",
+    ""start"": 1,
+    ""end"": 2
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9673590660095215,
+    ""index"": 3,
+    ""word"": ""##pan"",
+    ""start"": 2,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993389248847961,
+    ""index"": 10,
+    ""word"": ""Bit"",
+    ""start"": 43,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9904112815856934,
+    ""index"": 11,
+    ""word"": ""##ar"",
+    ""start"": 46,
+    ""end"": 48
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996563196182251,
+    ""index"": 29,
+    ""word"": ""Na"",
+    ""start"": 109,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995430707931519,
+    ""index"": 30,
+    ""word"": ""##oki"",
+    ""start"": 111,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993153810501099,
+    ""index"": 31,
+    ""word"": ""So"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.987565815448761,
+    ""index"": 32,
+    ""word"": ""##ma"",
+    ""start"": 117,
+    ""end"": 119
+  }
+]","NER",86,"Successful"
+"Japan: 19- Kenichi Shimokawa, 2- Hiroshige Yanagimoto, 3- Naoki Soma, 4- Masami Ihara, 5- [[Norio]] Omura, 6- [[Motohiro]] Yamaguchi, 8- Masakiyo Maezono( 7- Yasuto Honda 71), 9- Takuya Takagi, 10- Hiroshi Nanami, 11- [[Kazuyoshi]] Miura, 15- Hiroaki Morishima( 14- Masayuki [[Okano]] 75).","Japan: 19- Kenichi Shimokawa, 2- Hiroshige Yanagimoto, 3- Naoki Soma, 4- Masami Ihara, 5- [[Nοrio]] Omura, 6- [[Motohіro]] Yamaguchi, 8- Masakiyo Maezono( 7- Yasuto Honda 71), 9- Takuya Takagi, 10- Hiroshi Nanami, 11- [[Kazuyοshi]] Miura, 15- Hiroaki Morishima( 14- Masayuki [[Οkano]] 75).",67.82029724121094,73.4583511352539,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996349811553955,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999658465385437,
+    ""index"": 5,
+    ""word"": ""Ken"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996161460876465,
+    ""index"": 6,
+    ""word"": ""##ichi"",
+    ""start"": 14,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994058609008789,
+    ""index"": 7,
+    ""word"": ""Shi"",
+    ""start"": 19,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9958828687667847,
+    ""index"": 8,
+    ""word"": ""##mo"",
+    ""start"": 22,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9975000023841858,
+    ""index"": 9,
+    ""word"": ""##kawa"",
+    ""start"": 24,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997122883796692,
+    ""index"": 13,
+    ""word"": ""Hi"",
+    ""start"": 33,
+    ""end"": 35
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992836117744446,
+    ""index"": 14,
+    ""word"": ""##ros"",
+    ""start"": 35,
+    ""end"": 38
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988471269607544,
+    ""index"": 15,
+    ""word"": ""##hi"",
+    ""start"": 38,
+    ""end"": 40
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994394183158875,
+    ""index"": 16,
+    ""word"": ""##ge"",
+    ""start"": 40,
+    ""end"": 42
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992772936820984,
+    ""index"": 17,
+    ""word"": ""Yan"",
+    ""start"": 43,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9975647926330566,
+    ""index"": 18,
+    ""word"": ""##agi"",
+    ""start"": 46,
+    ""end"": 49
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9971185922622681,
+    ""index"": 19,
+    ""word"": ""##moto"",
+    ""start"": 49,
+    ""end"": 53
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997319579124451,
+    ""index"": 23,
+    ""word"": ""Na"",
+    ""start"": 58,
+    ""end"": 60
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996477365493774,
+    ""index"": 24,
+    ""word"": ""##oki"",
+    ""start"": 60,
+    ""end"": 63
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9990782737731934,
+    ""index"": 25,
+    ""word"": ""So"",
+    ""start"": 64,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9900555610656738,
+    ""index"": 26,
+    ""word"": ""##ma"",
+    ""start"": 66,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997168183326721,
+    ""index"": 30,
+    ""word"": ""Ma"",
+    ""start"": 73,
+    ""end"": 75
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992552399635315,
+    ""index"": 31,
+    ""word"": ""##sa"",
+    ""start"": 75,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995810389518738,
+    ""index"": 32,
+    ""word"": ""##mi"",
+    ""start"": 77,
+    ""end"": 79
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999167799949646,
+    ""index"": 33,
+    ""word"": ""I"",
+    ""start"": 80,
+    ""end"": 81
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991864562034607,
+    ""index"": 34,
+    ""word"": ""##hara"",
+    ""start"": 81,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999610960483551,
+    ""index"": 38,
+    ""word"": ""Nor"",
+    ""start"": 90,
+    ""end"": 93
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996117949485779,
+    ""index"": 39,
+    ""word"": ""##io"",
+    ""start"": 93,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995750784873962,
+    ""index"": 40,
+    ""word"": ""O"",
+    ""start"": 96,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994218349456787,
+    ""index"": 41,
+    ""word"": ""##mura"",
+    ""start"": 97,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997488856315613,
+    ""index"": 45,
+    ""word"": ""Mo"",
+    ""start"": 106,
+    ""end"": 108
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993540644645691,
+    ""index"": 46,
+    ""word"": ""##to"",
+    ""start"": 108,
+    ""end"": 110
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996492862701416,
+    ""index"": 47,
+    ""word"": ""##hiro"",
+    ""start"": 110,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995105266571045,
+    ""index"": 48,
+    ""word"": ""Ya"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9531168341636658,
+    ""index"": 49,
+    ""word"": ""##ma"",
+    ""start"": 117,
+    ""end"": 119
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9952548742294312,
+    ""index"": 50,
+    ""word"": ""##guchi"",
+    ""start"": 119,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997466206550598,
+    ""index"": 54,
+    ""word"": ""Ma"",
+    ""start"": 129,
+    ""end"": 131
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994372725486755,
+    ""index"": 55,
+    ""word"": ""##saki"",
+    ""start"": 131,
+    ""end"": 135
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995676875114441,
+    ""index"": 56,
+    ""word"": ""##yo"",
+    ""start"": 135,
+    ""end"": 137
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993032217025757,
+    ""index"": 57,
+    ""word"": ""Mae"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9917935729026794,
+    ""index"": 58,
+    ""word"": ""##zon"",
+    ""start"": 141,
+    ""end"": 144
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9868017435073853,
+    ""index"": 59,
+    ""word"": ""##o"",
+    ""start"": 144,
+    ""end"": 145
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996719360351562,
+    ""index"": 63,
+    ""word"": ""Ya"",
+    ""start"": 150,
+    ""end"": 152
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9978171586990356,
+    ""index"": 64,
+    ""word"": ""##su"",
+    ""start"": 152,
+    ""end"": 154
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994930028915405,
+    ""index"": 65,
+    ""word"": ""##to"",
+    ""start"": 154,
+    ""end"": 156
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999742329120636,
+    ""index"": 66,
+    ""word"": ""Honda"",
+    ""start"": 157,
+    ""end"": 162
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996935129165649,
+    ""index"": 72,
+    ""word"": ""Ta"",
+    ""start"": 171,
+    ""end"": 173
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991866946220398,
+    ""index"": 73,
+    ""word"": ""##ku"",
+    ""start"": 173,
+    ""end"": 175
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995021820068359,
+    ""index"": 74,
+    ""word"": ""##ya"",
+    ""start"": 175,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999470055103302,
+    ""index"": 75,
+    ""word"": ""Ta"",
+    ""start"": 178,
+    ""end"": 180
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9817726016044617,
+    ""index"": 76,
+    ""word"": ""##ka"",
+    ""start"": 180,
+    ""end"": 182
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.991031289100647,
+    ""index"": 77,
+    ""word"": ""##gi"",
+    ""start"": 182,
+    ""end"": 184
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996851682662964,
+    ""index"": 81,
+    ""word"": ""Hi"",
+    ""start"": 190,
+    ""end"": 192
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9982028007507324,
+    ""index"": 82,
+    ""word"": ""##ros"",
+    ""start"": 192,
+    ""end"": 195
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994865655899048,
+    ""index"": 83,
+    ""word"": ""##hi"",
+    ""start"": 195,
+    ""end"": 197
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991668462753296,
+    ""index"": 84,
+    ""word"": ""Nana"",
+    ""start"": 198,
+    ""end"": 202
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9943504929542542,
+    ""index"": 85,
+    ""word"": ""##mi"",
+    ""start"": 202,
+    ""end"": 204
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996711015701294,
+    ""index"": 89,
+    ""word"": ""Ka"",
+    ""start"": 210,
+    ""end"": 212
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992406368255615,
+    ""index"": 90,
+    ""word"": ""##zu"",
+    ""start"": 212,
+    ""end"": 214
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996232986450195,
+    ""index"": 91,
+    ""word"": ""##yoshi"",
+    ""start"": 214,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996040463447571,
+    ""index"": 92,
+    ""word"": ""Mi"",
+    ""start"": 220,
+    ""end"": 222
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9982282519340515,
+    ""index"": 93,
+    ""word"": ""##ura"",
+    ""start"": 222,
+    ""end"": 225
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997078776359558,
+    ""index"": 97,
+    ""word"": ""Hi"",
+    ""start"": 231,
+    ""end"": 233
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994365572929382,
+    ""index"": 98,
+    ""word"": ""##roa"",
+    ""start"": 233,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995219707489014,
+    ""index"": 99,
+    ""word"": ""##ki"",
+    ""start"": 236,
+    ""end"": 238
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996476173400879,
+    ""index"": 100,
+    ""word"": ""Mo"",
+    ""start"": 239,
+    ""end"": 241
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9905904531478882,
+    ""index"": 101,
+    ""word"": ""##ris"",
+    ""start"": 241,
+    ""end"": 244
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9968733191490173,
+    ""index"": 102,
+    ""word"": ""##hima"",
+    ""start"": 244,
+    ""end"": 248
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999675989151001,
+    ""index"": 106,
+    ""word"": ""Ma"",
+    ""start"": 254,
+    ""end"": 256
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9952123165130615,
+    ""index"": 107,
+    ""word"": ""##say"",
+    ""start"": 256,
+    ""end"": 259
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995075464248657,
+    ""index"": 108,
+    ""word"": ""##uki"",
+    ""start"": 259,
+    ""end"": 262
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994310736656189,
+    ""index"": 109,
+    ""word"": ""Ok"",
+    ""start"": 263,
+    ""end"": 265
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9958338737487793,
+    ""index"": 110,
+    ""word"": ""##ano"",
+    ""start"": 265,
+    ""end"": 268
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9996116757392883,
+    ""index"": 1,
+    ""word"": ""Japan"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996715784072876,
+    ""index"": 5,
+    ""word"": ""Ken"",
+    ""start"": 11,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996167421340942,
+    ""index"": 6,
+    ""word"": ""##ichi"",
+    ""start"": 14,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994720816612244,
+    ""index"": 7,
+    ""word"": ""Shi"",
+    ""start"": 19,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9958741068840027,
+    ""index"": 8,
+    ""word"": ""##mo"",
+    ""start"": 22,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9973975419998169,
+    ""index"": 9,
+    ""word"": ""##kawa"",
+    ""start"": 24,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997132420539856,
+    ""index"": 13,
+    ""word"": ""Hi"",
+    ""start"": 33,
+    ""end"": 35
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992318153381348,
+    ""index"": 14,
+    ""word"": ""##ros"",
+    ""start"": 35,
+    ""end"": 38
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9988874793052673,
+    ""index"": 15,
+    ""word"": ""##hi"",
+    ""start"": 38,
+    ""end"": 40
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994207620620728,
+    ""index"": 16,
+    ""word"": ""##ge"",
+    ""start"": 40,
+    ""end"": 42
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999363362789154,
+    ""index"": 17,
+    ""word"": ""Yan"",
+    ""start"": 43,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9980332255363464,
+    ""index"": 18,
+    ""word"": ""##agi"",
+    ""start"": 46,
+    ""end"": 49
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9973360896110535,
+    ""index"": 19,
+    ""word"": ""##moto"",
+    ""start"": 49,
+    ""end"": 53
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997308850288391,
+    ""index"": 23,
+    ""word"": ""Na"",
+    ""start"": 58,
+    ""end"": 60
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996393918991089,
+    ""index"": 24,
+    ""word"": ""##oki"",
+    ""start"": 60,
+    ""end"": 63
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991686344146729,
+    ""index"": 25,
+    ""word"": ""So"",
+    ""start"": 64,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9892353415489197,
+    ""index"": 26,
+    ""word"": ""##ma"",
+    ""start"": 66,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997296929359436,
+    ""index"": 30,
+    ""word"": ""Ma"",
+    ""start"": 73,
+    ""end"": 75
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999222993850708,
+    ""index"": 31,
+    ""word"": ""##sa"",
+    ""start"": 75,
+    ""end"": 77
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995753169059753,
+    ""index"": 32,
+    ""word"": ""##mi"",
+    ""start"": 77,
+    ""end"": 79
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992801547050476,
+    ""index"": 33,
+    ""word"": ""I"",
+    ""start"": 80,
+    ""end"": 81
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992192983627319,
+    ""index"": 34,
+    ""word"": ""##hara"",
+    ""start"": 81,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989398121833801,
+    ""index"": 38,
+    ""word"": ""N"",
+    ""start"": 90,
+    ""end"": 91
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.971051037311554,
+    ""index"": 39,
+    ""word"": ""##ο"",
+    ""start"": 91,
+    ""end"": 92
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993821382522583,
+    ""index"": 40,
+    ""word"": ""##rio"",
+    ""start"": 92,
+    ""end"": 95
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995940327644348,
+    ""index"": 41,
+    ""word"": ""O"",
+    ""start"": 96,
+    ""end"": 97
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989338517189026,
+    ""index"": 42,
+    ""word"": ""##mura"",
+    ""start"": 97,
+    ""end"": 101
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996503591537476,
+    ""index"": 46,
+    ""word"": ""Mo"",
+    ""start"": 106,
+    ""end"": 108
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9985806941986084,
+    ""index"": 47,
+    ""word"": ""##to"",
+    ""start"": 108,
+    ""end"": 110
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9801663756370544,
+    ""index"": 48,
+    ""word"": ""##h"",
+    ""start"": 110,
+    ""end"": 111
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8809018135070801,
+    ""index"": 49,
+    ""word"": ""##і"",
+    ""start"": 111,
+    ""end"": 112
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993805885314941,
+    ""index"": 50,
+    ""word"": ""##ro"",
+    ""start"": 112,
+    ""end"": 114
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994997978210449,
+    ""index"": 51,
+    ""word"": ""Ya"",
+    ""start"": 115,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8904990553855896,
+    ""index"": 52,
+    ""word"": ""##ma"",
+    ""start"": 117,
+    ""end"": 119
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.987837553024292,
+    ""index"": 53,
+    ""word"": ""##guchi"",
+    ""start"": 119,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997546076774597,
+    ""index"": 57,
+    ""word"": ""Ma"",
+    ""start"": 129,
+    ""end"": 131
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.99937903881073,
+    ""index"": 58,
+    ""word"": ""##saki"",
+    ""start"": 131,
+    ""end"": 135
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996078610420227,
+    ""index"": 59,
+    ""word"": ""##yo"",
+    ""start"": 135,
+    ""end"": 137
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993138313293457,
+    ""index"": 60,
+    ""word"": ""Mae"",
+    ""start"": 138,
+    ""end"": 141
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9898287057876587,
+    ""index"": 61,
+    ""word"": ""##zon"",
+    ""start"": 141,
+    ""end"": 144
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.990642249584198,
+    ""index"": 62,
+    ""word"": ""##o"",
+    ""start"": 144,
+    ""end"": 145
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996358156204224,
+    ""index"": 66,
+    ""word"": ""Ya"",
+    ""start"": 150,
+    ""end"": 152
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9967881441116333,
+    ""index"": 67,
+    ""word"": ""##su"",
+    ""start"": 152,
+    ""end"": 154
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995262622833252,
+    ""index"": 68,
+    ""word"": ""##to"",
+    ""start"": 154,
+    ""end"": 156
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999579131603241,
+    ""index"": 69,
+    ""word"": ""Honda"",
+    ""start"": 157,
+    ""end"": 162
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997287392616272,
+    ""index"": 75,
+    ""word"": ""Ta"",
+    ""start"": 171,
+    ""end"": 173
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999220609664917,
+    ""index"": 76,
+    ""word"": ""##ku"",
+    ""start"": 173,
+    ""end"": 175
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995511174201965,
+    ""index"": 77,
+    ""word"": ""##ya"",
+    ""start"": 175,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995191097259521,
+    ""index"": 78,
+    ""word"": ""Ta"",
+    ""start"": 178,
+    ""end"": 180
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9723143577575684,
+    ""index"": 79,
+    ""word"": ""##ka"",
+    ""start"": 180,
+    ""end"": 182
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9902163743972778,
+    ""index"": 80,
+    ""word"": ""##gi"",
+    ""start"": 182,
+    ""end"": 184
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999693751335144,
+    ""index"": 84,
+    ""word"": ""Hi"",
+    ""start"": 190,
+    ""end"": 192
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9983914494514465,
+    ""index"": 85,
+    ""word"": ""##ros"",
+    ""start"": 192,
+    ""end"": 195
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995403289794922,
+    ""index"": 86,
+    ""word"": ""##hi"",
+    ""start"": 195,
+    ""end"": 197
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993510842323303,
+    ""index"": 87,
+    ""word"": ""Nana"",
+    ""start"": 198,
+    ""end"": 202
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9959195852279663,
+    ""index"": 88,
+    ""word"": ""##mi"",
+    ""start"": 202,
+    ""end"": 204
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996601343154907,
+    ""index"": 92,
+    ""word"": ""Ka"",
+    ""start"": 210,
+    ""end"": 212
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9984468817710876,
+    ""index"": 93,
+    ""word"": ""##zu"",
+    ""start"": 212,
+    ""end"": 214
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9808938503265381,
+    ""index"": 94,
+    ""word"": ""##y"",
+    ""start"": 214,
+    ""end"": 215
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.971538245677948,
+    ""index"": 95,
+    ""word"": ""##ο"",
+    ""start"": 215,
+    ""end"": 216
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993346333503723,
+    ""index"": 96,
+    ""word"": ""##shi"",
+    ""start"": 216,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996296167373657,
+    ""index"": 97,
+    ""word"": ""Mi"",
+    ""start"": 220,
+    ""end"": 222
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9965484738349915,
+    ""index"": 98,
+    ""word"": ""##ura"",
+    ""start"": 222,
+    ""end"": 225
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997270703315735,
+    ""index"": 102,
+    ""word"": ""Hi"",
+    ""start"": 231,
+    ""end"": 233
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994901418685913,
+    ""index"": 103,
+    ""word"": ""##roa"",
+    ""start"": 233,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995450377464294,
+    ""index"": 104,
+    ""word"": ""##ki"",
+    ""start"": 236,
+    ""end"": 238
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997361302375793,
+    ""index"": 105,
+    ""word"": ""Mo"",
+    ""start"": 239,
+    ""end"": 241
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9951329827308655,
+    ""index"": 106,
+    ""word"": ""##ris"",
+    ""start"": 241,
+    ""end"": 244
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981960654258728,
+    ""index"": 107,
+    ""word"": ""##hima"",
+    ""start"": 244,
+    ""end"": 248
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996848106384277,
+    ""index"": 111,
+    ""word"": ""Ma"",
+    ""start"": 254,
+    ""end"": 256
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9962342381477356,
+    ""index"": 112,
+    ""word"": ""##say"",
+    ""start"": 256,
+    ""end"": 259
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996034502983093,
+    ""index"": 113,
+    ""word"": ""##uki"",
+    ""start"": 259,
+    ""end"": 262
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9948638081550598,
+    ""index"": 114,
+    ""word"": ""Ο"",
+    ""start"": 263,
+    ""end"": 264
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9551796317100525,
+    ""index"": 115,
+    ""word"": ""##kan"",
+    ""start"": 264,
+    ""end"": 267
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9741743803024292,
+    ""index"": 116,
+    ""word"": ""##o"",
+    ""start"": 267,
+    ""end"": 268
+  }
+]","NER",86,"Successful"
+"Syria: 24- Salem Bitar, 3- Bachar Srour; 4- [[Hassan]] [[Abbas,]] 5- Tarek Jabban, 6- Ammar Awad( 9- Louay Taleb 69), 8- [[Nihad]] [[al-Boushi,]] 10- Mohammed Afash, 12- Ali Dib, 13- Abdul Latif Helou( 17- Ammar Rihawiy 46), 14- Khaled Zaher; 16- Nader Jokhadar.","Syria: 24- Salem Bitar, 3- Bachar Srour; 4- [[Hаssan]] [[Abbаs,]] 5- Tarek Jabban, 6- Ammar Awad( 9- Louay Taleb 69), 8- [[Nihаd]] [[al-Bοushi,]] 10- Mohammed Afash, 12- Ali Dib, 13- Abdul Latif Helou( 17- Ammar Rihawiy 46), 14- Khaled Zaher; 16- Nader Jokhadar.",60.33243179321289,67.65203857421875,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9995672106742859,
+    ""index"": 1,
+    ""word"": ""Syria"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996833801269531,
+    ""index"": 5,
+    ""word"": ""Salem"",
+    ""start"": 11,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997788071632385,
+    ""index"": 6,
+    ""word"": ""Bit"",
+    ""start"": 17,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9965484738349915,
+    ""index"": 7,
+    ""word"": ""##ar"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999782383441925,
+    ""index"": 11,
+    ""word"": ""Bach"",
+    ""start"": 27,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995062351226807,
+    ""index"": 12,
+    ""word"": ""##ar"",
+    ""start"": 31,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996801614761353,
+    ""index"": 13,
+    ""word"": ""Sr"",
+    ""start"": 34,
+    ""end"": 36
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9909510612487793,
+    ""index"": 14,
+    ""word"": ""##our"",
+    ""start"": 36,
+    ""end"": 39
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997112154960632,
+    ""index"": 18,
+    ""word"": ""Hassan"",
+    ""start"": 44,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997701048851013,
+    ""index"": 19,
+    ""word"": ""Abbas"",
+    ""start"": 51,
+    ""end"": 56
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997705817222595,
+    ""index"": 23,
+    ""word"": ""Ta"",
+    ""start"": 61,
+    ""end"": 63
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996232986450195,
+    ""index"": 24,
+    ""word"": ""##rek"",
+    ""start"": 63,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999670147895813,
+    ""index"": 25,
+    ""word"": ""J"",
+    ""start"": 67,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9969024062156677,
+    ""index"": 26,
+    ""word"": ""##ab"",
+    ""start"": 68,
+    ""end"": 70
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989194869995117,
+    ""index"": 27,
+    ""word"": ""##ban"",
+    ""start"": 70,
+    ""end"": 73
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997723698616028,
+    ""index"": 31,
+    ""word"": ""Am"",
+    ""start"": 78,
+    ""end"": 80
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996979236602783,
+    ""index"": 32,
+    ""word"": ""##mar"",
+    ""start"": 80,
+    ""end"": 83
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996125102043152,
+    ""index"": 33,
+    ""word"": ""A"",
+    ""start"": 84,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987266659736633,
+    ""index"": 34,
+    ""word"": ""##wa"",
+    ""start"": 85,
+    ""end"": 87
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9987290501594543,
+    ""index"": 35,
+    ""word"": ""##d"",
+    ""start"": 87,
+    ""end"": 88
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993212223052979,
+    ""index"": 39,
+    ""word"": ""Lou"",
+    ""start"": 93,
+    ""end"": 96
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994484782218933,
+    ""index"": 40,
+    ""word"": ""##ay"",
+    ""start"": 96,
+    ""end"": 98
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995980858802795,
+    ""index"": 41,
+    ""word"": ""Tale"",
+    ""start"": 99,
+    ""end"": 103
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986849427223206,
+    ""index"": 42,
+    ""word"": ""##b"",
+    ""start"": 103,
+    ""end"": 104
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999679446220398,
+    ""index"": 48,
+    ""word"": ""Ni"",
+    ""start"": 113,
+    ""end"": 115
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995423555374146,
+    ""index"": 49,
+    ""word"": ""##had"",
+    ""start"": 115,
+    ""end"": 118
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996788501739502,
+    ""index"": 50,
+    ""word"": ""al"",
+    ""start"": 119,
+    ""end"": 121
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.646833598613739,
+    ""index"": 51,
+    ""word"": ""-"",
+    ""start"": 121,
+    ""end"": 122
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996525049209595,
+    ""index"": 52,
+    ""word"": ""Bo"",
+    ""start"": 122,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9882135391235352,
+    ""index"": 53,
+    ""word"": ""##ush"",
+    ""start"": 124,
+    ""end"": 127
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9444242715835571,
+    ""index"": 54,
+    ""word"": ""##i"",
+    ""start"": 127,
+    ""end"": 128
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997319579124451,
+    ""index"": 58,
+    ""word"": ""Mohammed"",
+    ""start"": 134,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996415376663208,
+    ""index"": 59,
+    ""word"": ""A"",
+    ""start"": 143,
+    ""end"": 144
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986658096313477,
+    ""index"": 60,
+    ""word"": ""##fa"",
+    ""start"": 144,
+    ""end"": 146
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9981790781021118,
+    ""index"": 61,
+    ""word"": ""##sh"",
+    ""start"": 146,
+    ""end"": 148
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997274279594421,
+    ""index"": 65,
+    ""word"": ""Ali"",
+    ""start"": 154,
+    ""end"": 157
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996874332427979,
+    ""index"": 66,
+    ""word"": ""Di"",
+    ""start"": 158,
+    ""end"": 160
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9991994500160217,
+    ""index"": 67,
+    ""word"": ""##b"",
+    ""start"": 160,
+    ""end"": 161
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997392296791077,
+    ""index"": 71,
+    ""word"": ""Abdul"",
+    ""start"": 167,
+    ""end"": 172
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999593198299408,
+    ""index"": 72,
+    ""word"": ""La"",
+    ""start"": 173,
+    ""end"": 175
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9940434098243713,
+    ""index"": 73,
+    ""word"": ""##ti"",
+    ""start"": 175,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995538592338562,
+    ""index"": 74,
+    ""word"": ""##f"",
+    ""start"": 177,
+    ""end"": 178
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997096657752991,
+    ""index"": 75,
+    ""word"": ""He"",
+    ""start"": 179,
+    ""end"": 181
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9992079138755798,
+    ""index"": 76,
+    ""word"": ""##lou"",
+    ""start"": 181,
+    ""end"": 184
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997252821922302,
+    ""index"": 80,
+    ""word"": ""Am"",
+    ""start"": 190,
+    ""end"": 192
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996395111083984,
+    ""index"": 81,
+    ""word"": ""##mar"",
+    ""start"": 192,
+    ""end"": 195
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996644258499146,
+    ""index"": 82,
+    ""word"": ""R"",
+    ""start"": 196,
+    ""end"": 197
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9880189299583435,
+    ""index"": 83,
+    ""word"": ""##ih"",
+    ""start"": 197,
+    ""end"": 199
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9887963533401489,
+    ""index"": 84,
+    ""word"": ""##aw"",
+    ""start"": 199,
+    ""end"": 201
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9625852704048157,
+    ""index"": 85,
+    ""word"": ""##i"",
+    ""start"": 201,
+    ""end"": 202
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8806847929954529,
+    ""index"": 86,
+    ""word"": ""##y"",
+    ""start"": 202,
+    ""end"": 203
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997754693031311,
+    ""index"": 92,
+    ""word"": ""K"",
+    ""start"": 213,
+    ""end"": 214
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993871450424194,
+    ""index"": 93,
+    ""word"": ""##hale"",
+    ""start"": 214,
+    ""end"": 218
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996509552001953,
+    ""index"": 94,
+    ""word"": ""##d"",
+    ""start"": 218,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996706247329712,
+    ""index"": 95,
+    ""word"": ""Z"",
+    ""start"": 220,
+    ""end"": 221
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9954291582107544,
+    ""index"": 96,
+    ""word"": ""##ah"",
+    ""start"": 221,
+    ""end"": 223
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9956426620483398,
+    ""index"": 97,
+    ""word"": ""##er"",
+    ""start"": 223,
+    ""end"": 225
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997398257255554,
+    ""index"": 101,
+    ""word"": ""Na"",
+    ""start"": 231,
+    ""end"": 233
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996198415756226,
+    ""index"": 102,
+    ""word"": ""##der"",
+    ""start"": 233,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996100068092346,
+    ""index"": 103,
+    ""word"": ""Jo"",
+    ""start"": 237,
+    ""end"": 239
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9938206076622009,
+    ""index"": 104,
+    ""word"": ""##kha"",
+    ""start"": 239,
+    ""end"": 242
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9923727512359619,
+    ""index"": 105,
+    ""word"": ""##dar"",
+    ""start"": 242,
+    ""end"": 245
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9994933605194092,
+    ""index"": 1,
+    ""word"": ""Syria"",
+    ""start"": 0,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996801614761353,
+    ""index"": 5,
+    ""word"": ""Salem"",
+    ""start"": 11,
+    ""end"": 16
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997925162315369,
+    ""index"": 6,
+    ""word"": ""Bit"",
+    ""start"": 17,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9966380596160889,
+    ""index"": 7,
+    ""word"": ""##ar"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999768078327179,
+    ""index"": 11,
+    ""word"": ""Bach"",
+    ""start"": 27,
+    ""end"": 31
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993822574615479,
+    ""index"": 12,
+    ""word"": ""##ar"",
+    ""start"": 31,
+    ""end"": 33
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999659538269043,
+    ""index"": 13,
+    ""word"": ""Sr"",
+    ""start"": 34,
+    ""end"": 36
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9899563789367676,
+    ""index"": 14,
+    ""word"": ""##our"",
+    ""start"": 36,
+    ""end"": 39
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995439648628235,
+    ""index"": 18,
+    ""word"": ""H"",
+    ""start"": 44,
+    ""end"": 45
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.896946907043457,
+    ""index"": 19,
+    ""word"": ""##а"",
+    ""start"": 45,
+    ""end"": 46
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.998441755771637,
+    ""index"": 20,
+    ""word"": ""##ssa"",
+    ""start"": 46,
+    ""end"": 49
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995005130767822,
+    ""index"": 21,
+    ""word"": ""##n"",
+    ""start"": 49,
+    ""end"": 50
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997292160987854,
+    ""index"": 22,
+    ""word"": ""A"",
+    ""start"": 51,
+    ""end"": 52
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9940677881240845,
+    ""index"": 23,
+    ""word"": ""##bb"",
+    ""start"": 52,
+    ""end"": 54
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.40329065918922424,
+    ""index"": 24,
+    ""word"": ""##а"",
+    ""start"": 54,
+    ""end"": 55
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9970768690109253,
+    ""index"": 25,
+    ""word"": ""##s"",
+    ""start"": 55,
+    ""end"": 56
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997721314430237,
+    ""index"": 29,
+    ""word"": ""Ta"",
+    ""start"": 61,
+    ""end"": 63
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995725750923157,
+    ""index"": 30,
+    ""word"": ""##rek"",
+    ""start"": 63,
+    ""end"": 66
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996826648712158,
+    ""index"": 31,
+    ""word"": ""J"",
+    ""start"": 67,
+    ""end"": 68
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9943264126777649,
+    ""index"": 32,
+    ""word"": ""##ab"",
+    ""start"": 68,
+    ""end"": 70
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9975128173828125,
+    ""index"": 33,
+    ""word"": ""##ban"",
+    ""start"": 70,
+    ""end"": 73
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997703433036804,
+    ""index"": 37,
+    ""word"": ""Am"",
+    ""start"": 78,
+    ""end"": 80
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996893405914307,
+    ""index"": 38,
+    ""word"": ""##mar"",
+    ""start"": 80,
+    ""end"": 83
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996490478515625,
+    ""index"": 39,
+    ""word"": ""A"",
+    ""start"": 84,
+    ""end"": 85
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.998837411403656,
+    ""index"": 40,
+    ""word"": ""##wa"",
+    ""start"": 85,
+    ""end"": 87
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9983514547348022,
+    ""index"": 41,
+    ""word"": ""##d"",
+    ""start"": 87,
+    ""end"": 88
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993298053741455,
+    ""index"": 45,
+    ""word"": ""Lou"",
+    ""start"": 93,
+    ""end"": 96
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9993818998336792,
+    ""index"": 46,
+    ""word"": ""##ay"",
+    ""start"": 96,
+    ""end"": 98
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999636173248291,
+    ""index"": 47,
+    ""word"": ""Tale"",
+    ""start"": 99,
+    ""end"": 103
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9960119724273682,
+    ""index"": 48,
+    ""word"": ""##b"",
+    ""start"": 103,
+    ""end"": 104
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999725878238678,
+    ""index"": 54,
+    ""word"": ""Ni"",
+    ""start"": 113,
+    ""end"": 115
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.958164632320404,
+    ""index"": 55,
+    ""word"": ""##h"",
+    ""start"": 115,
+    ""end"": 116
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8569542765617371,
+    ""index"": 56,
+    ""word"": ""##а"",
+    ""start"": 116,
+    ""end"": 117
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994286894798279,
+    ""index"": 57,
+    ""word"": ""##d"",
+    ""start"": 117,
+    ""end"": 118
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996325969696045,
+    ""index"": 58,
+    ""word"": ""al"",
+    ""start"": 119,
+    ""end"": 121
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6100369095802307,
+    ""index"": 59,
+    ""word"": ""-"",
+    ""start"": 121,
+    ""end"": 122
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9989656209945679,
+    ""index"": 60,
+    ""word"": ""B"",
+    ""start"": 122,
+    ""end"": 123
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6045470833778381,
+    ""index"": 61,
+    ""word"": ""##ο"",
+    ""start"": 123,
+    ""end"": 124
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.6831236481666565,
+    ""index"": 62,
+    ""word"": ""##ush"",
+    ""start"": 124,
+    ""end"": 127
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.8545717597007751,
+    ""index"": 63,
+    ""word"": ""##i"",
+    ""start"": 127,
+    ""end"": 128
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997362494468689,
+    ""index"": 67,
+    ""word"": ""Mohammed"",
+    ""start"": 134,
+    ""end"": 142
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996911287307739,
+    ""index"": 68,
+    ""word"": ""A"",
+    ""start"": 143,
+    ""end"": 144
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9985936284065247,
+    ""index"": 69,
+    ""word"": ""##fa"",
+    ""start"": 144,
+    ""end"": 146
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9978746175765991,
+    ""index"": 70,
+    ""word"": ""##sh"",
+    ""start"": 146,
+    ""end"": 148
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997280240058899,
+    ""index"": 74,
+    ""word"": ""Ali"",
+    ""start"": 154,
+    ""end"": 157
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997090697288513,
+    ""index"": 75,
+    ""word"": ""Di"",
+    ""start"": 158,
+    ""end"": 160
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999189555644989,
+    ""index"": 76,
+    ""word"": ""##b"",
+    ""start"": 160,
+    ""end"": 161
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997411370277405,
+    ""index"": 80,
+    ""word"": ""Abdul"",
+    ""start"": 167,
+    ""end"": 172
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995871186256409,
+    ""index"": 81,
+    ""word"": ""La"",
+    ""start"": 173,
+    ""end"": 175
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9867478609085083,
+    ""index"": 82,
+    ""word"": ""##ti"",
+    ""start"": 175,
+    ""end"": 177
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9994457364082336,
+    ""index"": 83,
+    ""word"": ""##f"",
+    ""start"": 177,
+    ""end"": 178
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997237324714661,
+    ""index"": 84,
+    ""word"": ""He"",
+    ""start"": 179,
+    ""end"": 181
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9986085295677185,
+    ""index"": 85,
+    ""word"": ""##lou"",
+    ""start"": 181,
+    ""end"": 184
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997610449790955,
+    ""index"": 89,
+    ""word"": ""Am"",
+    ""start"": 190,
+    ""end"": 192
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996473789215088,
+    ""index"": 90,
+    ""word"": ""##mar"",
+    ""start"": 192,
+    ""end"": 195
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999664306640625,
+    ""index"": 91,
+    ""word"": ""R"",
+    ""start"": 196,
+    ""end"": 197
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9926602244377136,
+    ""index"": 92,
+    ""word"": ""##ih"",
+    ""start"": 197,
+    ""end"": 199
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9923720359802246,
+    ""index"": 93,
+    ""word"": ""##aw"",
+    ""start"": 199,
+    ""end"": 201
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9756265878677368,
+    ""index"": 94,
+    ""word"": ""##i"",
+    ""start"": 201,
+    ""end"": 202
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9162946343421936,
+    ""index"": 95,
+    ""word"": ""##y"",
+    ""start"": 202,
+    ""end"": 203
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997788071632385,
+    ""index"": 101,
+    ""word"": ""K"",
+    ""start"": 213,
+    ""end"": 214
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.999028205871582,
+    ""index"": 102,
+    ""word"": ""##hale"",
+    ""start"": 214,
+    ""end"": 218
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9995816349983215,
+    ""index"": 103,
+    ""word"": ""##d"",
+    ""start"": 218,
+    ""end"": 219
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997044205665588,
+    ""index"": 104,
+    ""word"": ""Z"",
+    ""start"": 220,
+    ""end"": 221
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9970310926437378,
+    ""index"": 105,
+    ""word"": ""##ah"",
+    ""start"": 221,
+    ""end"": 223
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9953692555427551,
+    ""index"": 106,
+    ""word"": ""##er"",
+    ""start"": 223,
+    ""end"": 225
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9997468590736389,
+    ""index"": 110,
+    ""word"": ""Na"",
+    ""start"": 231,
+    ""end"": 233
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996196031570435,
+    ""index"": 111,
+    ""word"": ""##der"",
+    ""start"": 233,
+    ""end"": 236
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9996254444122314,
+    ""index"": 112,
+    ""word"": ""Jo"",
+    ""start"": 237,
+    ""end"": 239
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9953483939170837,
+    ""index"": 113,
+    ""word"": ""##kha"",
+    ""start"": 239,
+    ""end"": 242
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.9926436543464661,
+    ""index"": 114,
+    ""word"": ""##dar"",
+    ""start"": 242,
+    ""end"": 245
+  }
+]","NER",86,"Successful"
+"[[FREESTYLE]] SKIING-WORLD [[CUP]] [[MOGUL]] RESULTS.","[[FREESTΥLE]] SKIING-WORLD [[СUP]] [[ΜΟGUL]] RESULTS.",0.0,1.0482401847839355,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.4834917485713959,
+    ""index"": 3,
+    ""word"": ""##ES"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9903475046157837,
+    ""index"": 10,
+    ""word"": ""W"",
+    ""start"": 17,
+    ""end"": 18
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9628664255142212,
+    ""index"": 11,
+    ""word"": ""##OR"",
+    ""start"": 18,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9974441528320312,
+    ""index"": 12,
+    ""word"": ""##LD"",
+    ""start"": 20,
+    ""end"": 22
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9873130917549133,
+    ""index"": 13,
+    ""word"": ""C"",
+    ""start"": 23,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9930379986763,
+    ""index"": 14,
+    ""word"": ""##UP"",
+    ""start"": 24,
+    ""end"": 26
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9448611736297607,
+    ""index"": 9,
+    ""word"": ""С"",
+    ""start"": 23,
+    ""end"": 24
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.7417528033256531,
+    ""index"": 11,
+    ""word"": ""Μ"",
+    ""start"": 27,
+    ""end"": 28
+  },
+  {
+    ""entity"": ""I-PER"",
+    ""score"": 0.3064873516559601,
+    ""index"": 13,
+    ""word"": ""##G"",
+    ""start"": 29,
+    ""end"": 30
+  }
+]","NER",86,"Successful"
+"[[TIGNES,]] [[France]] 1996-12-06","[[ΤIGNΕЅ,]] [[Franсe]] 1996-12-06",0.0,0.0,"[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9973868727684021,
+    ""index"": 1,
+    ""word"": ""T"",
+    ""start"": 0,
+    ""end"": 1
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9769414067268372,
+    ""index"": 2,
+    ""word"": ""##IG"",
+    ""start"": 1,
+    ""end"": 3
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9897879362106323,
+    ""index"": 3,
+    ""word"": ""##NE"",
+    ""start"": 3,
+    ""end"": 5
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9958646297454834,
+    ""index"": 4,
+    ""word"": ""##S"",
+    ""start"": 5,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9998363256454468,
+    ""index"": 6,
+    ""word"": ""France"",
+    ""start"": 8,
+    ""end"": 14
+  }
+]","[
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9937297105789185,
+    ""index"": 1,
+    ""word"": ""ΤIGNΕЅ"",
+    ""start"": 0,
+    ""end"": 6
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9944774508476257,
+    ""index"": 3,
+    ""word"": ""Fr"",
+    ""start"": 8,
+    ""end"": 10
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9076808094978333,
+    ""index"": 4,
+    ""word"": ""##an"",
+    ""start"": 10,
+    ""end"": 12
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.9611496925354004,
+    ""index"": 5,
+    ""word"": ""##с"",
+    ""start"": 12,
+    ""end"": 13
+  },
+  {
+    ""entity"": ""I-LOC"",
+    ""score"": 0.983410656452179,
+    ""index"": 6,
+    ""word"": ""##e"",
+    ""start"": 13,
+    ""end"": 14
+  }
+]","NER",46,"Failed"
+"[[Results]] of [[the]] [[World]] Cup","[[Rеsults]] of [[thе]] [[Worlԁ]] Cup",0.0,0.0,"[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9672091603279114,
+    ""index"": 4,
+    ""word"": ""World"",
+    ""start"": 15,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9988264441490173,
+    ""index"": 5,
+    ""word"": ""Cup"",
+    ""start"": 21,
+    ""end"": 24
+  }
+]","[
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.5063672065734863,
+    ""index"": 7,
+    ""word"": ""##е"",
+    ""start"": 13,
+    ""end"": 14
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9722394943237305,
+    ""index"": 8,
+    ""word"": ""Worlԁ"",
+    ""start"": 15,
+    ""end"": 20
+  },
+  {
+    ""entity"": ""I-MISC"",
+    ""score"": 0.9908603429794312,
+    ""index"": 9,
+    ""word"": ""Cup"",
+    ""start"": 21,
+    ""end"": 24
+  }
+]","NER",46,"Failed"
