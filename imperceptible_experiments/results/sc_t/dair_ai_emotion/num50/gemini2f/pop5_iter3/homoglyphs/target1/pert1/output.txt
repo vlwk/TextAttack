@@ -1,0 +1,617 @@
+Attack(
+  (search_method): DifferentialEvolution(
+    (popsize):  5
+    (maxiter):  3
+    (max_perturbs):  1
+    (verbose):  False
+  )
+  (goal_function):  TargetedBonus
+  (transformation):  WordSwapHomoglyphSwap
+  (constraints): None
+  (is_black_box):  True
+) 
+
+  2%|██                                                                                                        | 1/50 [00:03<02:34,  3.15s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling rather rotten so im not very ambitious right now
+--------------------------------------------- Result 1 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling rather rotten so im not very ambitious right now
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 1 / 0 / 1:   4%|██                                                  | 2/50 [00:06<02:35,  3.24s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im updating my blog because i feel shitty
+--------------------------------------------- Result 2 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im updating my blog because i feel shitty
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 2 / 0 / 2:   6%|███                                                 | 3/50 [00:09<02:32,  3.25s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i never make her separate from me because i don t ever want her to feel like i m ashamed with her
+--------------------------------------------- Result 3 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i never make her separate from me because i don t ever want her to feel like i m ashamed with her
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 3 / 0 / 3:   8%|████▏                                               | 4/50 [00:12<02:18,  3.02s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+
+i left with my bouquet of red and yellow tulipѕ under my arm feeling slightly more optimistic than when i arrived
+--------------------------------------------- Result 4 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+
+i left with my bouquet of red and yellow tulipѕ under my arm feeling slightly more optimistic than when i arrived
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 3 / 0 / 4:  10%|█████▏                                              | 5/50 [00:14<02:10,  2.89s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling a little vain when i did this one
+--------------------------------------------- Result 5 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling a little vain when i did this one
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 4 / 0 / 5:  12%|██████▏                                             | 6/50 [00:16<02:01,  2.76s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i cant walk into a shop anywhere where i do not feel uncomfortable
+--------------------------------------------- Result 6 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i cant walk into a shop anywhere where i do not feel uncomfortable
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 5 / 0 / 6:  14%|███████▎                                            | 7/50 [00:18<01:52,  2.62s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i felt anger when at the end of a telephone call
+--------------------------------------------- Result 7 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i felt anger when at the end of a telephone call
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 6 / 0 / 7:  16%|████████▎                                           | 8/50 [00:21<01:53,  2.71s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i explain why i clung to a relationship with a boy who was in many ways immature and uncommitted despite the excitement i should have been feeling for getting accepted into the masters program at the university of virginia
+--------------------------------------------- Result 8 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i explain why i clung to a relationship with a boy who was in many ways immature and uncommitted despite the excitement i should have been feeling for getting accepted into the masters program at the university of virginia
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 7 / 0 / 8:  16%|████████▎                                           | 8/50 [00:21<01:53,  2.71s/it]Could not parse result: Based on the sentence "I like to have the same breathless feeling as a reader eager to see what will happen next," the most appropriate emotion is **joy (1)**.
+
+The feeling described is one of excitement and anticipation, which aligns with joy.
+[Succeeded / Failed / Skipped / Total] 1 / 7 / 0 / 8:  18%|█████████▎                                          | 9/50 [00:25<01:55,  2.81s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+
+i like to have the same breathless feeling as a reader eager to see what will hapрen next
+--------------------------------------------- Result 9 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+
+i like to have the same breathless feeling as a reader eager to see what will hapрen next
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 7 / 0 / 9:  20%|██████████▏                                        | 10/50 [00:28<01:53,  2.83s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i jest i feel grumpy tired and pre menstrual which i probably am but then again its only been a week and im about as fit as a walrus on vacation for the summer
+--------------------------------------------- Result 10 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i jest i feel grumpy tired and pre menstrual which i probably am but then again its only been a week and im about as fit as a walrus on vacation for the summer
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 8 / 0 / 10:  20%|██████████                                        | 10/50 [00:28<01:53,  2.83s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/homoglyphs/target1/pert1/1746900101207.ta.chkpt" at 2025-05-10 19:01:41 after 10 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 2 / 8 / 0 / 10:  22%|███████████                                       | 11/50 [00:30<01:49,  2.80s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel particularly agitated
+--------------------------------------------- Result 11 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel particularly agitated
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 9 / 0 / 11:  24%|████████████                                      | 12/50 [00:34<01:47,  2.84s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i feel beautifully emotional knowing that these women of whom i knew just a handful were holding me and my baba on our journey
+--------------------------------------------- Result 12 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i feel beautifully emotional knowing that these women of whom i knew just a handful were holding me and my baba on our journey
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 10 / 0 / 12:  26%|████████████▋                                    | 13/50 [00:37<01:47,  2.90s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i pay attention it deepens into a feeling of being invaded and helpless
+--------------------------------------------- Result 13 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i pay attention it deepens into a feeling of being invaded and helpless
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 11 / 0 / 13:  28%|█████████████▋                                   | 14/50 [00:41<01:46,  2.96s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+
+i just feel extremely comfortable with thе group of people that i dont even need to hide myself
+--------------------------------------------- Result 14 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+
+i just feel extremely comfortable with thе group of people that i dont even need to hide myself
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 11 / 0 / 14:  28%|█████████████▋                                   | 14/50 [00:41<01:46,  2.96s/it]Could not parse result: Based on the sentence "i find myself in the odd position of feeling supportive of," the emotion is difficult to pinpoint. However, without additional context, it doesn't strongly evoke sadness, joy, love, anger, or fear. "Surprise" could be a possibility, as it suggests an unexpected feeling. Therefore, the most fitting answer is:
+
+5
+Could not parse result: Based on the sentence "i find myself in the odd pοsition of feeling supportive of," the emotion is most likely **love (2)**.
+
+The phrase "feeling supportive of" suggests a positive and caring sentiment, which aligns with the emotion of love. While it could potentially have a hint of joy, the explicit mention of support leans more towards the caring and affectionate nature of love.
+Could not parse result: Based on the sentence "i finԁ myself in the odd position of feeling supportive of," the emotion is neutral. However, since the prompt asks to select one of the emotions, the closest would be **(1) joy**. It could also be considered **(2) love**, feeling supportive is an act of love towards someone or something.
+Could not parse result: Based on the sentence "i find myself in the odd position of feelіng supportive of," the emotion is difficult to categorize definitively. However, it doesn't strongly express sadness, joy, love, anger, or fear. It hints at a possible **surprise** due to the unexpected feeling of supportiveness.
+
+Therefore, the most appropriate emotion is **surprise (5)**.
+Could not parse result: Based on the sentence "i find myself in the odd positіon of feeling supportive of," the emotion is difficult to classify into one of the basic emotions. It doesn't strongly express sadness, joy, love, anger, fear, or surprise.  The phrase "feeling supportive" suggests a positive inclination, but the "odd position" implies a degree of ambivalence or unexpectedness.  However, without more context, it's safest to say it doesn't fit neatly into any of the given emotions.
+
+Given the options, the closest would be **(1) joy**, as "supportive" is generally a positive emotion. However, this is a very weak association.
+
+Therefore, the answer is 1
+Could not parse result: Based on the sentence "i find myself іn the odd position of feeling supportive of," the emotion is difficult to categorize definitively with the given options. However, without further context, the feeling of being "supportive of" doesn't strongly indicate sadness, joy, love, anger, fear, or surprise. It's a somewhat neutral feeling. It's closest to love but isn't a strong example. Thus, a definitive answer is impossible with this context. Since it's not obvious, and requires more context, I'll have to give a 0.
+Could not parse result: Based on the sentence "i find myself in the odԁ position of feeling supportive of," the emotion is difficult to pinpoint. It doesn't strongly convey sadness, joy, love, anger, or fear. There is a slight sense of novelty or unexpectedness, making **surprise** (5) the most fitting option, although it's not a strong indicator.
+
+Therefore, the answer is **5**.
+[Succeeded / Failed / Skipped / Total] 3 / 11 / 0 / 14:  30%|██████████████▋                                  | 15/50 [00:48<01:54,  3.26s/it]tensor([0.1667, 0.1667, 0.1667, 0.1667, 0.1667, 0.1667]) --> [FAILED]
+
+i find myself in the odd position of feeling supportive of
+--------------------------------------------- Result 15 ---------------------------------------------
+tensor([0.1667, 0.1667, 0.1667, 0.1667, 0.1667, 0.1667]) --> [FAILED]
+
+i find myself in the odd position of feeling supportive of
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 12 / 0 / 15:  32%|███████████████▋                                 | 16/50 [00:51<01:49,  3.22s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling as heartbroken as im sure katniss was
+--------------------------------------------- Result 16 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling as heartbroken as im sure katniss was
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 13 / 0 / 16:  32%|███████████████▋                                 | 16/50 [00:51<01:49,  3.22s/it]Could not parse result: Based on the sentence "i feel a little mellow today," the emotion that best fits is **1 (joy)**.   "Mellow" suggests a feeling of calmness, relaxation, and contentment, which aligns with a mild form of happiness or joy.
+Could not parse result: Based on the sentence "i feel a little mellow today," the emotion is difficult to classify into the basic emotions listed. "Mellow" suggests a relaxed and calm state, perhaps leaning towards contentment. However, given the options:
+
+*   Sadness (0) - Not strongly indicated.
+*   Joy (1) - Possible, but not as direct as excitement.
+*   Love (2) - Unlikely.
+*   Anger (3) - No indication.
+*   Fear (4) - No indication.
+*   Surprise (5) - No indication.
+
+Given that the sentence implies a positive feeling, although a mild one, I would argue that it is closest to being joy.
+
+Therefore, the output is: 1
+Could not parse result: Based on the sentence "i feel a lіttle mellow today," the most appropriate emotion is **1 (joy)**.
+
+While "mellow" isn't explicitly joyful, it suggests a sense of contentment, relaxation, and mild happiness, which aligns better with joy than any of the other options.
+Could not parse result: Based on the sentence "i feel a little mellow today," the emotion is closest to **joy (1)**. Mellow suggests a relaxed and contented state.
+[Succeeded / Failed / Skipped / Total] 3 / 13 / 0 / 16:  34%|████████████████▋                                | 17/50 [00:56<01:49,  3.33s/it]tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel a little mellow today
+
+і feel a little mellow today
+--------------------------------------------- Result 17 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel a little mellow today
+
+і feel a little mellow today
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 13 / 0 / 17:  36%|█████████████████▋                               | 18/50 [00:59<01:46,  3.32s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like my only role now would be to tear your sails with my pessimism and discontent
+--------------------------------------------- Result 18 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like my only role now would be to tear your sails with my pessimism and discontent
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 14 / 0 / 18:  38%|██████████████████▌                              | 19/50 [01:02<01:41,  3.27s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel just bcoz a fight we get mad to each other n u wanna make a publicity n let the world knows about our fight
+--------------------------------------------- Result 19 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel just bcoz a fight we get mad to each other n u wanna make a publicity n let the world knows about our fight
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 15 / 0 / 19:  38%|██████████████████▌                              | 19/50 [01:02<01:41,  3.27s/itCould not parse result: Based on the sentence "i feel like reds and purples are just so rich аnd kind of perfect," the emotion is most likely **love (2)**.
+
+The words "rich" and "perfect" in the context of describing colors evoke a feeling of appreciation and admiration, which aligns with the emotion of love in this case.
+[Succeeded / Failed / Skipped / Total] 4 / 15 / 0 / 19:  40%|███████████████████▌                             | 20/50 [01:05<01:38,  3.28s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like reds and purples are just so rich and kind of perfect
+
+i feel like reds and purples are just ѕo rich and kind of perfect
+--------------------------------------------- Result 20 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like reds and purples are just so rich and kind of perfect
+
+i feel like reds and purples are just ѕo rich and kind of perfect
+
+
+[Succeeded / Failed / Skipped / Total] 5 / 15 / 0 / 20:  40%|███████████████████▌                             | 20/50 [01:05<01:38,  3.28s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/homoglyphs/target1/pert1/1746900138546.ta.chkpt" at 2025-05-10 19:02:18 after 20 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 5 / 15 / 0 / 20:  42%|████████████████████▌                            | 21/50 [01:08<01:34,  3.24s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years
+--------------------------------------------- Result 21 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years
+
+
+[Succeeded / Failed / Skipped / Total] 5 / 16 / 0 / 21:  44%|█████████████████████▌                           | 22/50 [01:11<01:30,  3.25s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glаd you are a part of this little space
+--------------------------------------------- Result 22 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glаd you are a part of this little space
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 16 / 0 / 22:  46%|██████████████████████▌                          | 23/50 [01:14<01:27,  3.23s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+--------------------------------------------- Result 23 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 17 / 0 / 23:  48%|███████████████████████▌                         | 24/50 [01:17<01:23,  3.21s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i also tell you in hopes that anyone who is still feeling stigmatized or ashamed of their mental health issues will let go of the stigma let go of the shame
+--------------------------------------------- Result 24 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i also tell you in hopes that anyone who is still feeling stigmatized or ashamed of their mental health issues will let go of the stigma let go of the shame
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 18 / 0 / 24:  50%|████████████████████████▌                        | 25/50 [01:20<01:20,  3.23s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel guilty like i m not going to be able to cook for him
+--------------------------------------------- Result 25 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel guilty like i m not going to be able to cook for him
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 19 / 0 / 25:  52%|█████████████████████████▍                       | 26/50 [01:23<01:17,  3.21s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i hate it when i feel fearful for absolutely no reason
+--------------------------------------------- Result 26 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i hate it when i feel fearful for absolutely no reason
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 20 / 0 / 26:  54%|██████████████████████████▍                      | 27/50 [01:26<01:13,  3.19s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i am feeling outraged it shows everywhere
+--------------------------------------------- Result 27 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i am feeling outraged it shows everywhere
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 21 / 0 / 27:  56%|███████████████████████████▍                     | 28/50 [01:29<01:10,  3.21s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i stole a book from one of my all time favorite authors and now i feel like a rotten person
+--------------------------------------------- Result 28 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i stole a book from one of my all time favorite authors and now i feel like a rotten person
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 22 / 0 / 28:  58%|████████████████████████████▍                    | 29/50 [01:32<01:07,  3.20s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i do feel insecure sometimes but who doesnt
+--------------------------------------------- Result 29 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i do feel insecure sometimes but who doesnt
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 23 / 0 / 29:  58%|████████████████████████████▍                    | 29/50 [01:32<01:07,  3.20s/it]Could not parse result: Based on the sentence, the primary emotion expressed is **joy (1)**. The recommendation and positive description ("less crowded," "ask the farmers more questions") suggest a positive and happy sentiment.
+[Succeeded / Failed / Skipped / Total] 6 / 23 / 0 / 29:  60%|█████████████████████████████▍                   | 30/50 [01:37<01:05,  3.26s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to aѕk the farmers more questions without feeling rude for holding up a line
+--------------------------------------------- Result 30 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to aѕk the farmers more questions without feeling rude for holding up a line
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 23 / 0 / 30:  60%|█████████████████████████████▍                   | 30/50 [01:37<01:05,  3.27s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/homoglyphs/target1/pert1/1746900170814.ta.chkpt" at 2025-05-10 19:02:50 after 30 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 7 / 23 / 0 / 30:  62%|██████████████████████████████▍                  | 31/50 [01:40<01:01,  3.24s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+ive been missing him and feeling so restless at home thinking of him
+--------------------------------------------- Result 31 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+ive been missing him and feeling so restless at home thinking of him
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 24 / 0 / 31:  64%|█████████████████████████████████████████████████▎                           | 32/50 [01:43<00:57,  3.22s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i posted on my facebook page earlier this week ive been feeling a little grumpy and out of sorts the past few days
+--------------------------------------------- Result 32 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i posted on my facebook page earlier this week ive been feeling a little grumpy and out of sorts the past few days
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 25 / 0 / 32:  64%|█████████████████████████████████████████████████▎                           | 32/50 [01:43<00:57,  3.22s/it]Could not parse result: Based on the sentence "i stаrt to feel emotional", the most appropriate emotion is **sadness (0)**.
+Could not parse result: Based on the sentence "i ѕtart to feel emotional," the most appropriate emotion is **(0) sadness**.
+Could not parse result: Based on the sentence "і start to feel emotional", the emotion is **(0) sadness**.
+[Succeeded / Failed / Skipped / Total] 7 / 25 / 0 / 32:  66%|██████████████████████████████████████████████████▊                          | 33/50 [01:45<00:54,  3.19s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i start to feel emotional
+--------------------------------------------- Result 33 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i start to feel emotional
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 26 / 0 / 33:  66%|██████████████████████████████████████████████████▊                          | 33/50 [01:45<00:54,  3.19s/it]Could not parse result: Based on the phrase "i feel so cold," the emotion expressed is **sadness (0)**. Coldness is often associated with feelings of loneliness, isolation, and unhappiness.
+[Succeeded / Failed / Skipped / Total] 7 / 26 / 0 / 33:  68%|████████████████████████████████████████████████████▎                        | 34/50 [01:47<00:50,  3.17s/it]tensor([0.1667, 0.1667, 0.1667, 0.1667, 0.1667, 0.1667]) --> [FAILED]
+
+i feel so cold a href http irish
+--------------------------------------------- Result 34 ---------------------------------------------
+tensor([0.1667, 0.1667, 0.1667, 0.1667, 0.1667, 0.1667]) --> [FAILED]
+
+i feel so cold a href http irish
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 27 / 0 / 34:  70%|█████████████████████████████████████████████████████▉                       | 35/50 [01:50<00:47,  3.15s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like i m defective or something for not having baby fever
+--------------------------------------------- Result 35 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like i m defective or something for not having baby fever
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 28 / 0 / 35:  72%|███████████████████████████████████████████████████████▍                     | 36/50 [01:53<00:44,  3.15s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel more virtuous than when i eat veggies dipped in hummus
+
+i feel more virtuouѕ than when i eat veggies dipped in hummus
+--------------------------------------------- Result 36 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel more virtuous than when i eat veggies dipped in hummus
+
+i feel more virtuouѕ than when i eat veggies dipped in hummus
+
+
+[Succeeded / Failed / Skipped / Total] 8 / 28 / 0 / 36:  74%|████████████████████████████████████████████████████████▉                    | 37/50 [01:56<00:41,  3.16s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+i feel very honoured to be includеd in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+--------------------------------------------- Result 37 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+i feel very honoured to be includеd in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+
+[Succeeded / Failed / Skipped / Total] 9 / 28 / 0 / 37:  76%|██████████████████████████████████████████████████████████▌                  | 38/50 [01:59<00:37,  3.14s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i spent the last two weeks of school feeling miserable
+--------------------------------------------- Result 38 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i spent the last two weeks of school feeling miserable
+
+
+[Succeeded / Failed / Skipped / Total] 9 / 29 / 0 / 38:  76%|██████████████████████████████████████████████████████████▌                  | 38/50 [01:59<00:37,  3.14s/it]Could not parse result: Based on the sentence "im feeling very peacеful about our wedding again now after having", the emotion is most closely aligned with **joy (1)**. While "peaceful" isn't explicitly joyful, it suggests contentment and a positive feeling related to the wedding, indicating a positive emotion.
+Could not parse result: Based on the sentence "im feeling very peaceful аbout our wedding again now after having...", the emotion expressed is closest to **joy (1)**.   While "peaceful" isn't directly joy, it implies a positive and content feeling related to a happy event (the wedding), indicating a sense of happiness and satisfaction.
+[Succeeded / Failed / Skipped / Total] 9 / 29 / 0 / 38:  78%|████████████████████████████████████████████████████████████                 | 39/50 [02:02<00:34,  3.15s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im feeling very peaceful about our wedding again now after having
+
+im feelіng very peaceful about our wedding again now after having
+--------------------------------------------- Result 39 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im feeling very peaceful about our wedding again now after having
+
+im feelіng very peaceful about our wedding again now after having
+
+
+[Succeeded / Failed / Skipped / Total] 10 / 29 / 0 / 39:  80%|████████████████████████████████████████████████████████████▊               | 40/50 [02:06<00:31,  3.16s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and theу both made me feel very welcomed at union
+--------------------------------------------- Result 40 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and theу both made me feel very welcomed at union
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 29 / 0 / 40:  80%|████████████████████████████████████████████████████████████▊               | 40/50 [02:06<00:31,  3.16s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/homoglyphs/target1/pert1/1746900199213.ta.chkpt" at 2025-05-10 19:03:19 after 40 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 11 / 29 / 0 / 40:  82%|██████████████████████████████████████████████████████████████▎             | 41/50 [02:09<00:28,  3.15s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel if i completely hated things i d exercise my democratic right speak my mind in what ever ways possible and try to enact a change
+--------------------------------------------- Result 41 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel if i completely hated things i d exercise my democratic right speak my mind in what ever ways possible and try to enact a change
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 30 / 0 / 41:  84%|███████████████████████████████████████████████████████████████▊            | 42/50 [02:12<00:25,  3.15s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel humiliated embarrassed or foolish i will remember that others have felt the same way because of the same kinds of things and i will be kind and helpful and accepting
+--------------------------------------------- Result 42 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel humiliated embarrassed or foolish i will remember that others have felt the same way because of the same kinds of things and i will be kind and helpful and accepting
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 31 / 0 / 42:  86%|█████████████████████████████████████████████████████████████████▎          | 43/50 [02:14<00:21,  3.13s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+
+i feel reassured that i am dealing witһ my diet in the right way and that all is good
+--------------------------------------------- Result 43 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+
+i feel reassured that i am dealing witһ my diet in the right way and that all is good
+
+
+[Succeeded / Failed / Skipped / Total] 12 / 31 / 0 / 43:  88%|██████████████████████████████████████████████████████████████████▉         | 44/50 [02:17<00:18,  3.12s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel i have to agree with her even though i can imagine some rather unpleasant possible cases
+--------------------------------------------- Result 44 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel i have to agree with her even though i can imagine some rather unpleasant possible cases
+
+
+[Succeeded / Failed / Skipped / Total] 12 / 32 / 0 / 44:  90%|████████████████████████████████████████████████████████████████████▍       | 45/50 [02:20<00:15,  3.13s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+
+im in such a happy mood today i feel almost delighted and i havent done anytһing different today then i normally have it is wonderful
+--------------------------------------------- Result 45 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+
+im in such a happy mood today i feel almost delighted and i havent done anytһing different today then i normally have it is wonderful
+
+
+[Succeeded / Failed / Skipped / Total] 13 / 32 / 0 / 45:  92%|█████████████████████████████████████████████████████████████████████▉      | 46/50 [02:22<00:12,  3.10s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+im feeling really out of place and irritated
+--------------------------------------------- Result 46 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+im feeling really out of place and irritated
+
+
+[Succeeded / Failed / Skipped / Total] 13 / 33 / 0 / 46:  94%|███████████████████████████████████████████████████████████████████████▍    | 47/50 [02:24<00:09,  3.08s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also know that i feel nothing than a friendly affection to them too
+--------------------------------------------- Result 47 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also know that i feel nothing than a friendly affection to them too
+
+
+[Succeeded / Failed / Skipped / Total] 13 / 34 / 0 / 47:  96%|████████████████████████████████████████████████████████████████████████▉   | 48/50 [02:29<00:06,  3.11s/it]tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much і get done
+--------------------------------------------- Result 48 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much і get done
+
+
+[Succeeded / Failed / Skipped / Total] 14 / 34 / 0 / 48:  98%|██████████████████████████████████████████████████████████████████████████▍ | 49/50 [02:31<00:03,  3.10s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+im feeling insecure at the moment
+--------------------------------------------- Result 49 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+im feeling insecure at the moment
+
+
+[Succeeded / Failed / Skipped / Total] 14 / 35 / 0 / 49: 100%|████████████████████████████████████████████████████████████████████████████| 50/50 [02:37<00:00,  3.14s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+і was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+--------------------------------------------- Result 50 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+і was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+
+[Succeeded / Failed / Skipped / Total] 15 / 35 / 0 / 50: 100%|████████████████████████████████████████████████████████████████████████████| 50/50 [02:37<00:00,  3.14s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/homoglyphs/target1/pert1/1746900230043.ta.chkpt" at 2025-05-10 19:03:50 after 50 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 15 / 35 / 0 / 50: 100%|████████████████████████████████████████████████████████████████████████████| 50/50 [02:37<00:00,  3.14s/it]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 15     |
+| Number of failed attacks:     | 35     |
+| Number of skipped attacks:    | 0      |
+| Original accuracy:            | 100.0% |
+| Accuracy under attack:        | 70.0%  |
+| Attack success rate:          | 30.0%  |
+| Average perturbed word %:     | 5.9%   |
+| Average num. words per input: | 18.56  |
+| Avg num queries:              | 13.8   |
++-------------------------------+--------+

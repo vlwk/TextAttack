@@ -1,0 +1,5 @@
+File: results/sentiment_classification/dair_ai_emotion/num50/bhadresh_distilbert_base_uncased_emotion/pop5_iter3/homoglyphs/target1/pert3/log.csv
+Examples: 50
+Total successful:          48
+Total failed:              2
+Original == target class:  16 / 50 (32.00% of inputs)

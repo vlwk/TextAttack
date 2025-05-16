@@ -1,0 +1,12 @@
+=== REORDERINGS ===
+Perturbation 1: 0.5800 (116 / 200)
+Perturbation 2: 0.5650 (113 / 200)
+Perturbation 3: 0.5250 (105 / 200)
+Perturbation 4: 0.5500 (110 / 200)
+Perturbation 5: 0.5400 (108 / 200)
+Perturbation 6: 0.6350 (127 / 200)
+Perturbation 7: 0.5500 (110 / 200)
+Perturbation 8: 0.5400 (108 / 200)
+Perturbation 9: 0.5350 (107 / 200)
+Perturbation 10: 0.6750 (135 / 200)
+TOTAL ACCURACY: 0.5695 (1139 / 2000)

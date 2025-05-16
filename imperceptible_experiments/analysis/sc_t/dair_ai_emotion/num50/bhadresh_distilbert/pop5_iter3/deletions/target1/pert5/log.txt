@@ -1,0 +1,5 @@
+File: results/sc_t/dair_ai_emotion/num50/bhadresh_distilbert/pop5_iter3/deletions/target1/pert5/log.csv
+Examples: 50
+Total successful:          50
+Total failed:              0
+Original == target class:  16 / 50 (32.00% of inputs)

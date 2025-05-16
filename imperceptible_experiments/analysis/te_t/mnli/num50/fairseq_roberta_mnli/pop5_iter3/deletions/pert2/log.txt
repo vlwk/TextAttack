@@ -1,0 +1,5 @@
+File: results/te_t/mnli/num50/fairseq_roberta_mnli/pop5_iter3/deletions/pert2/log.csv
+Examples: 50
+Total successful:          27
+Total failed:              23
+Original == target class:  19 / 50 (38.00% of inputs)

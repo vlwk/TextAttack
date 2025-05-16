@@ -1,0 +1,5 @@
+File: results/tc_t/wikipedia_detox/num50/ibm_maxtoxic/pop5_iter3/reorderings/pert2/log.csv
+Examples: 50
+Total successful:          25
+Total failed:              25
+Original == target class:  45 / 50 (90.00% of inputs)

@@ -1,0 +1,5 @@
+File: results/sc_t/dair_ai_emotion/num50/gpt4o/pop5_iter3/homoglyphs/target1/pert1/log.csv
+Examples: 50
+Total successful:          15
+Total failed:              35
+Original == target class:  13 / 50 (26.00% of inputs)

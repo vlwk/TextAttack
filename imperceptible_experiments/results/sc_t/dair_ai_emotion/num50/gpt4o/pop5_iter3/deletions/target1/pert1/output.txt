@@ -1,0 +1,576 @@
+Attack(
+  (search_method): DifferentialEvolution(
+    (popsize):  5
+    (maxiter):  3
+    (max_perturbs):  1
+    (verbose):  False
+  )
+  (goal_function):  TargetedBonus
+  (transformation):  WordSwapDeletions
+  (constraints): None
+  (is_black_box):  True
+) 
+
+  2%|██                                                                                                        | 1/50 [00:10<08:50, 10.82s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling rather rotten so im not very ambitious right now
+--------------------------------------------- Result 1 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling rather rotten so im not very ambitious right now
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 1 / 0 / 1:   4%|██                                                  | 2/50 [00:21<08:31, 10.65s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im updating my blog because i feel shitty
+--------------------------------------------- Result 2 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im updating my blog because i feel shitty
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 2 / 0 / 2:   6%|███                                                 | 3/50 [00:31<08:06, 10.36s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i never make her separate from me because i don t ever want her to feel like i m ashamed with her
+--------------------------------------------- Result 3 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i never make her separate from me because i don t ever want her to feel like i m ashamed with her
+
+
+[Succeeded / Failed / Skipped / Total] 0 / 3 / 0 / 3:   8%|████▏                                               | 4/50 [00:40<07:44, 10.10s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+--------------------------------------------- Result 4 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+
+i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived
+
+
+[Succeeded / Failed / Skipped / Total] 1 / 3 / 0 / 4:  10%|█████▏                                              | 5/50 [00:49<07:24,  9.87s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling a little vain when i did this one
+
+i was feeling a little vain when i did this one
+--------------------------------------------- Result 5 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling a little vain when i did this one
+
+i was feeling a little vain when i did this one
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 3 / 0 / 5:  12%|██████▏                                             | 6/50 [00:58<07:06,  9.68s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i cant walk into a shop anywhere where i do not feel uncomfortable
+--------------------------------------------- Result 6 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i cant walk into a shop anywhere where i do not feel uncomfortable
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 4 / 0 / 6:  14%|███████▎                                            | 7/50 [01:07<06:52,  9.58s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i felt anger when at the end of a telephone call
+--------------------------------------------- Result 7 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i felt anger when at the end of a telephone call
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 5 / 0 / 7:  14%|███████▎                                            | 7/50 [01:07<06:52,  9.59s/it]Could not parse result: The emotion expressed in the sentence is sadness (0).
+Could not parse result: The emotion expressed in the sentence is sadness (0).
+Could not parse result: The emotion expressed in the sentence is sadness (0).
+Could not parse result: The emotion expressed in the sentence is sadness (0).
+[Succeeded / Failed / Skipped / Total] 2 / 5 / 0 / 7:  16%|████████▎                                           | 8/50 [01:26<07:34, 10.81s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i explain why i clung to a relationship with a boy who was in many ways immature and uncommitted despite the excitement i should have been feeling for getting accepted into the masters program at the university of virginia
+--------------------------------------------- Result 8 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i explain why i clung to a relationship with a boy who was in many ways immature and uncommitted despite the excitement i should have been feeling for getting accepted into the masters program at the university of virginia
+
+
+[Succeeded / Failed / Skipped / Total] 2 / 6 / 0 / 8:  18%|█████████▎                                          | 9/50 [01:35<07:15, 10.62s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+--------------------------------------------- Result 9 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+
+i like to have the same breathless feeling as a reader eager to see what will happen next
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 6 / 0 / 9:  20%|██████████▏                                        | 10/50 [01:45<07:00, 10.52s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i jest i feel grumpy tired and pre menstrual which i probably am but then again its only been a week and im about as fit as a walrus on vacation for the summer
+--------------------------------------------- Result 10 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i jest i feel grumpy tired and pre menstrual which i probably am but then again its only been a week and im about as fit as a walrus on vacation for the summer
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 7 / 0 / 10:  20%|██████████                                        | 10/50 [01:45<07:00, 10.52s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gpt4/pop5_iter3/deletions/target1/pert1/1746898921470.ta.chkpt" at 2025-05-10 18:42:01 after 10 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 3 / 7 / 0 / 10:  22%|███████████                                       | 11/50 [01:55<06:49, 10.51s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel particularly agitated
+--------------------------------------------- Result 11 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel particularly agitated
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 8 / 0 / 11:  24%|████████████                                      | 12/50 [02:04<06:33, 10.36s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i feel beautifully emotional knowing that these women of whom i knew just a handful were holding me and my baba on our journey
+--------------------------------------------- Result 12 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i feel beautifully emotional knowing that these women of whom i knew just a handful were holding me and my baba on our journey
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 9 / 0 / 12:  26%|█████████████                                     | 13/50 [02:14<06:21, 10.32s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i pay attention it deepens into a feeling of being invaded and helpless
+--------------------------------------------- Result 13 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i pay attention it deepens into a feeling of being invaded and helpless
+
+
+[Succeeded / Failed / Skipped / Total] 3 / 10 / 0 / 13:  28%|█████████████▋                                   | 14/50 [02:32<06:32, 10.90s/it]tensor([0., 0., 1., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+--------------------------------------------- Result 14 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+
+i just feel extremely comfortable with the group of people that i dont even need to hide myself
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 10 / 0 / 14:  30%|██████████████▋                                  | 15/50 [02:42<06:19, 10.84s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i find myself in the odd position of feeling supportive of
+--------------------------------------------- Result 15 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i find myself in the odd position of feeling supportive of
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 11 / 0 / 15:  32%|███████████████▋                                 | 16/50 [02:52<06:06, 10.78s/ittensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling as heartbroken as im sure katniss was
+--------------------------------------------- Result 16 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i was feeling as heartbroken as im sure katniss was
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 12 / 0 / 16:  34%|████████████████▋                                | 17/50 [03:01<05:52, 10.68s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel a little mellow today
+--------------------------------------------- Result 17 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel a little mellow today
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 13 / 0 / 17:  36%|█████████████████▋                               | 18/50 [03:11<05:40, 10.63s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel like my only role now would be to tear your sails with my pessimism and discontent
+--------------------------------------------- Result 18 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel like my only role now would be to tear your sails with my pessimism and discontent
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 14 / 0 / 18:  38%|██████████████████▌                              | 19/50 [03:20<05:27, 10.57s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel just bcoz a fight we get mad to each other n u wanna make a publicity n let the world knows about our fight
+--------------------------------------------- Result 19 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel just bcoz a fight we get mad to each other n u wanna make a publicity n let the world knows about our fight
+
+
+[Succeeded / Failed / Skipped / Total] 4 / 15 / 0 / 19:  40%|███████████████████▌                             | 20/50 [03:30<05:15, 10.50s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like reds and purples are just so rich and kind of perfect
+
+i feel like reds and purples are just so rich and kind of perfect
+--------------------------------------------- Result 20 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like reds and purples are just so rich and kind of perfect
+
+i feel like reds and purples are just so rich and kind of perfect
+
+
+[Succeeded / Failed / Skipped / Total] 5 / 15 / 0 / 20:  40%|███████████████████▌                             | 20/50 [03:30<05:15, 10.51s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gpt4/pop5_iter3/deletions/target1/pert1/1746899026420.ta.chkpt" at 2025-05-10 18:43:46 after 20 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 5 / 15 / 0 / 20:  42%|████████████████████▌                            | 21/50 [03:40<05:05, 10.52s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years
+--------------------------------------------- Result 21 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im not sure the feeling of loss will ever go away but it may dull to a sweet feeling of nostalgia at what i shared in this life with my dad and the luck i had to have a dad for years
+
+
+[Succeeded / Failed / Skipped / Total] 5 / 16 / 0 / 21:  44%|█████████████████████▌                           | 22/50 [03:49<04:52, 10.45s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+--------------------------------------------- Result 22 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+
+i feel like ive gotten to know many of you through comments and emails and for that im appreciative and glad you are a part of this little space
+
+
+[Succeeded / Failed / Skipped / Total] 6 / 16 / 0 / 22:  46%|██████████████████████▌                          | 23/50 [04:07<04:51, 10.78s/it]tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+--------------------------------------------- Result 23 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+
+i survey my own posts over the last few years and only feel pleased with vague snippets of a few of them only feel that little bits of them capture what its like to be me or someone like me in dublin in the st century
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 16 / 0 / 23:  48%|███████████████████████▌                         | 24/50 [04:18<04:39, 10.75s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also tell you in hopes that anyone who is still feeling stigmatized or ashamed of their mental health issues will let go of the stigma let go of the shame
+--------------------------------------------- Result 24 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also tell you in hopes that anyone who is still feeling stigmatized or ashamed of their mental health issues will let go of the stigma let go of the shame
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 17 / 0 / 24:  50%|████████████████████████▌                        | 25/50 [04:28<04:28, 10.74s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel guilty like i m not going to be able to cook for him
+--------------------------------------------- Result 25 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i don t feel guilty like i m not going to be able to cook for him
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 18 / 0 / 25:  52%|█████████████████████████▍                       | 26/50 [04:38<04:16, 10.69s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i hate it when i feel fearful for absolutely no reason
+--------------------------------------------- Result 26 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i hate it when i feel fearful for absolutely no reason
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 19 / 0 / 26:  54%|██████████████████████████▍                      | 27/50 [04:47<04:04, 10.64s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i am feeling outraged it shows everywhere
+--------------------------------------------- Result 27 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i am feeling outraged it shows everywhere
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 20 / 0 / 27:  56%|███████████████████████████▍                     | 28/50 [04:56<03:53, 10.59s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i stole a book from one of my all time favorite authors and now i feel like a rotten person
+--------------------------------------------- Result 28 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i stole a book from one of my all time favorite authors and now i feel like a rotten person
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 21 / 0 / 28:  58%|████████████████████████████▍                    | 29/50 [05:06<03:41, 10.56s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i do feel insecure sometimes but who doesnt
+--------------------------------------------- Result 29 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i do feel insecure sometimes but who doesnt
+
+
+[Succeeded / Failed / Skipped / Total] 7 / 22 / 0 / 29:  60%|█████████████████████████████▍                   | 30/50 [05:16<03:30, 10.54s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+--------------------------------------------- Result 30 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+
+i highly recommend visiting on a wednesday if youre able because its less crowded so you get to ask the farmers more questions without feeling rude for holding up a line
+
+
+[Succeeded / Failed / Skipped / Total] 8 / 22 / 0 / 30:  60%|█████████████████████████████▍                   | 30/50 [05:16<03:30, 10.54s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gpt4/pop5_iter3/deletions/target1/pert1/1746899132627.ta.chkpt" at 2025-05-10 18:45:32 after 30 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 8 / 22 / 0 / 30:  62%|██████████████████████████████▍                  | 31/50 [05:25<03:19, 10.50s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+ive been missing him and feeling so restless at home thinking of him
+--------------------------------------------- Result 31 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+ive been missing him and feeling so restless at home thinking of him
+
+
+[Succeeded / Failed / Skipped / Total] 8 / 23 / 0 / 31:  64%|███████████████████████████████▎                 | 32/50 [05:34<03:08, 10.47s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i posted on my facebook page earlier this week ive been feeling a little grumpy and out of sorts the past few days
+--------------------------------------------- Result 32 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i posted on my facebook page earlier this week ive been feeling a little grumpy and out of sorts the past few days
+
+
+[Succeeded / Failed / Skipped / Total] 8 / 24 / 0 / 32:  66%|████████████████████████████████▎                | 33/50 [05:51<03:01, 10.66s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i start to feel emotional
+
+i start to feel emotional
+--------------------------------------------- Result 33 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i start to feel emotional
+
+i start to feel emotional
+
+
+[Succeeded / Failed / Skipped / Total] 9 / 24 / 0 / 33:  68%|█████████████████████████████████▎               | 34/50 [06:00<02:49, 10.60s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel so cold a href http irish
+--------------------------------------------- Result 34 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel so cold a href http irish
+
+
+[Succeeded / Failed / Skipped / Total] 9 / 25 / 0 / 34:  70%|██████████████████████████████████▎              | 35/50 [06:10<02:38, 10.60s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like i m defective or something for not having baby fever
+--------------------------------------------- Result 35 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel like i m defective or something for not having baby fever
+
+
+[Succeeded / Failed / Skipped / Total] 9 / 26 / 0 / 35:  72%|███████████████████████████████████▎             | 36/50 [06:20<02:28, 10.58s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel more virtuous than when i eat veggies dipped in hummus
+
+i feel more virtuous than when i eat veggies dipped in hummus
+--------------------------------------------- Result 36 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel more virtuous than when i eat veggies dipped in hummus
+
+i feel more virtuous than when i eat veggies dipped in hummus
+
+
+[Succeeded / Failed / Skipped / Total] 10 / 26 / 0 / 36:  74%|███████████████████████████████████▌            | 37/50 [06:29<02:17, 10.54s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+--------------------------------------------- Result 37 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+i feel very honoured to be included in a magzine which prioritises health and clean living so highly im curious do any of you read magazines concerned with health and clean lifestyles such as the green parent
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 26 / 0 / 37:  76%|████████████████████████████████████▍           | 38/50 [06:41<02:06, 10.57s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i spent the last two weeks of school feeling miserable
+--------------------------------------------- Result 38 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i spent the last two weeks of school feeling miserable
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 27 / 0 / 38:  78%|█████████████████████████████████████▍          | 39/50 [06:50<01:55, 10.54s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+im feeling very peaceful about our wedding again now after having
+--------------------------------------------- Result 39 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+im feeling very peaceful about our wedding again now after having
+
+
+[Succeeded / Failed / Skipped / Total] 11 / 28 / 0 / 39:  80%|██████████████████████████████████████▍         | 40/50 [07:10<01:47, 10.77s/it]tensor([0., 0., 1., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+--------------------------------------------- Result 40 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+
+i had been talking to coach claudia barcomb and coach ali boe for a long time and they both made me feel very welcomed at union
+
+
+[Succeeded / Failed / Skipped / Total] 12 / 28 / 0 / 40:  80%|██████████████████████████████████████▍         | 40/50 [07:10<01:47, 10.77s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gpt4/pop5_iter3/deletions/target1/pert1/1746899247115.ta.chkpt" at 2025-05-10 18:47:27 after 40 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 12 / 28 / 0 / 40:  82%|███████████████████████████████████████▎        | 41/50 [07:21<01:36, 10.76s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel if i completely hated things i d exercise my democratic right speak my mind in what ever ways possible and try to enact a change
+--------------------------------------------- Result 41 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+i feel if i completely hated things i d exercise my democratic right speak my mind in what ever ways possible and try to enact a change
+
+
+[Succeeded / Failed / Skipped / Total] 12 / 29 / 0 / 41:  84%|████████████████████████████████████████▎       | 42/50 [07:30<01:25, 10.73s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel humiliated embarrassed or foolish i will remember that others have felt the same way because of the same kinds of things and i will be kind and helpful and accepting
+--------------------------------------------- Result 42 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+i feel humiliated embarrassed or foolish i will remember that others have felt the same way because of the same kinds of things and i will be kind and helpful and accepting
+
+
+[Succeeded / Failed / Skipped / Total] 12 / 30 / 0 / 42:  86%|█████████████████████████████████████████▎      | 43/50 [07:41<01:15, 10.74s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+--------------------------------------------- Result 43 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+
+i feel reassured that i am dealing with my diet in the right way and that all is good
+
+
+[Succeeded / Failed / Skipped / Total] 13 / 30 / 0 / 43:  88%|██████████████████████████████████████████▏     | 44/50 [07:52<01:04, 10.74s/it]tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i feel i have to agree with her even though i can imagine some rather unpleasant possible cases
+--------------------------------------------- Result 44 ---------------------------------------------
+tensor([0., 0., 0., 0., 1., 0.]) --> [FAILED]
+
+i feel i have to agree with her even though i can imagine some rather unpleasant possible cases
+
+
+[Succeeded / Failed / Skipped / Total] 13 / 31 / 0 / 44:  90%|███████████████████████████████████████████▏    | 45/50 [08:01<00:53, 10.69s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+--------------------------------------------- Result 45 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+
+im in such a happy mood today i feel almost delighted and i havent done anything different today then i normally have it is wonderful
+
+
+[Succeeded / Failed / Skipped / Total] 14 / 31 / 0 / 45:  92%|████████████████████████████████████████████▏   | 46/50 [08:10<00:42, 10.67s/it]tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+im feeling really out of place and irritated
+--------------------------------------------- Result 46 ---------------------------------------------
+tensor([0., 0., 0., 1., 0., 0.]) --> [FAILED]
+
+im feeling really out of place and irritated
+
+
+[Succeeded / Failed / Skipped / Total] 14 / 32 / 0 / 46:  94%|█████████████████████████████████████████████   | 47/50 [08:19<00:31, 10.63s/it]tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also know that i feel nothing than a friendly affection to them too
+--------------------------------------------- Result 47 ---------------------------------------------
+tensor([0., 0., 1., 0., 0., 0.]) --> [FAILED]
+
+i also know that i feel nothing than a friendly affection to them too
+
+
+[Succeeded / Failed / Skipped / Total] 14 / 33 / 0 / 47:  96%|██████████████████████████████████████████████  | 48/50 [08:29<00:21, 10.61s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+--------------------------------------------- Result 48 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+
+i feel like i had a rather productive weekend and i cant always say that no matter how much i get done
+
+
+[Succeeded / Failed / Skipped / Total] 15 / 33 / 0 / 48:  98%|███████████████████████████████████████████████ | 49/50 [08:37<00:10, 10.57s/it]tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling insecure at the moment
+--------------------------------------------- Result 49 ---------------------------------------------
+tensor([1., 0., 0., 0., 0., 0.]) --> [FAILED]
+
+im feeling insecure at the moment
+
+
+[Succeeded / Failed / Skipped / Total] 15 / 34 / 0 / 49: 100%|████████████████████████████████████████████████| 50/50 [08:47<00:00, 10.54s/it]tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+--------------------------------------------- Result 50 ---------------------------------------------
+tensor([0., 1., 0., 0., 0., 0.]) --> tensor([0., 1., 0., 0., 0., 0.])
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+i was feeling pretty anxious all day but my first day at work was a very good day and that helped a lot
+
+
+[Succeeded / Failed / Skipped / Total] 16 / 34 / 0 / 50: 100%|████████████████████████████████████████████████| 50/50 [08:47<00:00, 10.54s/it]
+
+=============================================================================================================================
+textattack: Saving checkpoint under "results/sentiment_classification/dair_ai_emotion/num50/gpt4/pop5_iter3/deletions/target1/pert1/1746899343383.ta.chkpt" at 2025-05-10 18:49:03 after 50 attacks.
+=============================================================================================================================
+
+[Succeeded / Failed / Skipped / Total] 16 / 34 / 0 / 50: 100%|████████████████████████████████████████████████| 50/50 [08:47<00:00, 10.54s/it]
+
++-------------------------------+--------+
+| Attack Results                |        |
++-------------------------------+--------+
+| Number of successful attacks: | 16     |
+| Number of failed attacks:     | 34     |
+| Number of skipped attacks:    | 0      |
+| Original accuracy:            | 100.0% |
+| Accuracy under attack:        | 68.0%  |
+| Attack success rate:          | 32.0%  |
+| Average perturbed word %:     | 5.87%  |
+| Average num. words per input: | 18.56  |
+| Avg num queries:              | 26.0   |
++-------------------------------+--------+

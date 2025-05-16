@@ -1,0 +1,12 @@
+=== DELETIONS ===
+Perturbation 1: 0.9000 (180 / 200)
+Perturbation 2: 0.8500 (170 / 200)
+Perturbation 3: 0.7950 (159 / 200)
+Perturbation 4: 0.8250 (165 / 200)
+Perturbation 5: 0.8000 (160 / 200)
+Perturbation 6: 0.7400 (148 / 200)
+Perturbation 7: 0.7250 (145 / 200)
+Perturbation 8: 0.7250 (145 / 200)
+Perturbation 9: 0.6600 (132 / 200)
+Perturbation 10: 0.6750 (135 / 200)
+TOTAL ACCURACY: 0.7695 (1539 / 2000)

@@ -1,0 +1,5 @@
+File: results/sc_t/dair_ai_emotion/num50/gemini2f/pop5_iter3/deletions/target1/pert5/log.csv
+Examples: 50
+Total successful:          20
+Total failed:              30
+Original == target class:  14 / 50 (28.00% of inputs)

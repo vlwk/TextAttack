@@ -1,0 +1,5 @@
+File: results/sentiment_classification/dair_ai_emotion/num50/gemini2f/pop5_iter3/invisible/target1/pert5/log.csv
+Examples: 50
+Total successful:          17
+Total failed:              33
+Original == target class:  13 / 50 (26.00% of inputs)

@@ -1,0 +1,4 @@
+File: results/mt_u/wmt14enfr/num50/fairseq_en_fr/pop5_iter3/invisible/pert1/log.csv
+Examples: 50
+Average original score:  45.7200
+Average perturbed score: 76.1800

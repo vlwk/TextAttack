@@ -1,0 +1,4 @@
+File: results/machine_translation/newstest2014_en_fr/num50/fairseq_en_fr/pop5_iter3/reorderings/pert5/log.csv
+Examples: 50
+Average original score:  45.7200
+Average perturbed score: 449.9400

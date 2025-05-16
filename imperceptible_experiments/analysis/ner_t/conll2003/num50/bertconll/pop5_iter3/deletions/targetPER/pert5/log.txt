@@ -1,0 +1,5 @@
+File: results/ner_t/conll2003/num50/bertconll/pop5_iter3/deletions/targetPER/pert5/log.csv
+Examples: 50
+Total successful:          47
+Total failed:              3
+Total original:            22

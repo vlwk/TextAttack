@@ -1,0 +1,4 @@
+File: results/mt_u/wmt14enfr/num50/gemini2f/pop5_iter3/homoglyphs/pert1/log.csv
+Examples: 50
+Average original score:  46.2400
+Average perturbed score: 54.8800

@@ -24,7 +24,9 @@ class CSVLogger(Logger):
         self.df = pd.DataFrame()
 
     def log_attack_result(self, result):
-        original_text, perturbed_text = result.diff_color(self.color_method)
+        # Skip diff coloring and just get raw text
+        original_text = result.original_result.attacked_text.text
+        perturbed_text = result.perturbed_result.attacked_text.text
         original_text = original_text.replace("\n", AttackedText.SPLIT_TOKEN)
         perturbed_text = perturbed_text.replace("\n", AttackedText.SPLIT_TOKEN)
         result_type = result.__class__.__name__.replace("AttackResult", "")

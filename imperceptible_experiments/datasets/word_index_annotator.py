@@ -60,7 +60,7 @@ class WordIndexAnnotator:
         self._print_token_debug_info(text, tokens, input_ids, word_ids)
 
     def _print_token_debug_info(self, text: str, tokens: List[str], input_ids: List[int], word_ids: List[int]):
-        print(f"\n📌 Full token sequence for: \"{text}\"\n")
+        print(f"\nFull token sequence for: \"{text}\"\n")
         for i, (token, tid, wid) in enumerate(zip(tokens, input_ids, word_ids)):
             label = f"word {wid}" if wid is not None else "SPECIAL"
             print(f"[{i:2}] {token:<12} (id: {tid}) ← {label}")

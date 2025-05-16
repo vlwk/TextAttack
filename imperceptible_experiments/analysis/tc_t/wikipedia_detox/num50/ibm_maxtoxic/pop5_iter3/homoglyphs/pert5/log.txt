@@ -1,0 +1,5 @@
+File: results/tc_t/wikipedia_detox/num50/ibm_maxtoxic/pop5_iter3/homoglyphs/pert5/log.csv
+Examples: 50
+Total successful:          38
+Total failed:              12
+Original == target class:  45 / 50 (90.00% of inputs)

@@ -1,0 +1,4 @@
+File: results/machine_translation/newstest2014_en_fr/num50/gpt4o/pop5_iter3/homoglyphs/pert5/log.csv
+Examples: 50
+Average original score:  -105.8200
+Average perturbed score: -103.9400

@@ -1,0 +1,12 @@
+=== INVISIBLE ===
+Perturbation 1: 0.8950 (179 / 200)
+Perturbation 2: 0.8850 (177 / 200)
+Perturbation 3: 0.8200 (164 / 200)
+Perturbation 4: 0.8400 (168 / 200)
+Perturbation 5: 0.8300 (166 / 200)
+Perturbation 6: 0.8100 (162 / 200)
+Perturbation 7: 0.8000 (160 / 200)
+Perturbation 8: 0.7950 (159 / 200)
+Perturbation 9: 0.7050 (141 / 200)
+Perturbation 10: 0.7350 (147 / 200)
+TOTAL ACCURACY: 0.8115 (1623 / 2000)

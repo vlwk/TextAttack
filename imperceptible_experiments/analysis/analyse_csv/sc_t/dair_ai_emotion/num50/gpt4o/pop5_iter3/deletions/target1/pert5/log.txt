@@ -1,0 +1,5 @@
+File: results/sentiment_classification/dair_ai_emotion/num50/gpt4o/pop5_iter3/deletions/target1/pert5/log.csv
+Examples: 50
+Total successful:          17
+Total failed:              33
+Original == target class:  14 / 50 (28.00% of inputs)

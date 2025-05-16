@@ -167,7 +167,9 @@ class Attacker:
             try:
                 result = self.attack.attack(example, ground_truth_output)
             except Exception as e:
-                raise e
+                # raise e
+                continue
+
             if (
                 isinstance(result, SkippedAttackResult) and self.attack_args.attack_n
             ) or (

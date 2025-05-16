@@ -1,0 +1,5 @@
+File: results/textual_entailment/multinli/num50/fairseq_mnli/pop5_iter3/reorderings/pert2/log.csv
+Examples: 50
+Total successful:          34
+Total failed:              16
+Original == target class:  19 / 50 (38.00% of inputs)

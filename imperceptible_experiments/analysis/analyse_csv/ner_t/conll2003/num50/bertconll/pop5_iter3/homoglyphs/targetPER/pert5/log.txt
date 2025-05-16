@@ -1,0 +1,5 @@
+File: results/named_entity_recognition/conll2003/num50/dbmdz/pop5_iter3/homoglyphs/targetPER/pert5/log.csv
+Examples: 50
+Total successful:          37
+Total failed:              13
+Total original:            22

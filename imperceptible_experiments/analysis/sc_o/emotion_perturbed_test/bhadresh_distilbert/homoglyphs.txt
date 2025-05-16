@@ -1,0 +1,12 @@
+=== HOMOGLYPHS ===
+Perturbation 1: 0.8700 (174 / 200)
+Perturbation 2: 0.8400 (168 / 200)
+Perturbation 3: 0.8100 (162 / 200)
+Perturbation 4: 0.7850 (157 / 200)
+Perturbation 5: 0.6950 (139 / 200)
+Perturbation 6: 0.7400 (148 / 200)
+Perturbation 7: 0.7150 (143 / 200)
+Perturbation 8: 0.7000 (140 / 200)
+Perturbation 9: 0.6400 (128 / 200)
+Perturbation 10: 0.6250 (125 / 200)
+TOTAL ACCURACY: 0.7420 (1484 / 2000)
